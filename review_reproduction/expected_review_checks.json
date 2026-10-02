@@ -1,0 +1,59 @@
+{
+  "scope": "Retrospective fixed-source checks; intervals supporting 95%, not adjusted primary evidence",
+  "pooled": {
+    "mean": -9.977777777777778,
+    "interval": [
+      -11.14722222222222,
+      -8.837499999999999
+    ],
+    "n": 720,
+    "cells": 36,
+    "level": 0.95
+  },
+  "without_phi4": {
+    "mean": -9.534999999999998,
+    "interval": [
+      -10.745,
+      -8.323333333333334
+    ],
+    "n": 600,
+    "cells": 30,
+    "level": 0.95
+  },
+  "car_t": {
+    "mean": -0.24166666666666667,
+    "interval": [
+      -0.6000000000000001,
+      0.11666666666666667
+    ],
+    "n": 120,
+    "cells": 6,
+    "level": 0.95
+  },
+  "published_b640": {
+    "mean": -11.925,
+    "interval": [
+      -13.298333333333332,
+      -10.558333333333334
+    ],
+    "n": 600,
+    "cells": 30,
+    "level": 0.95
+  },
+  "recovery": {
+    "affected_adaptive_trajectories": 162,
+    "recovered_initializations": 3,
+    "lower": -17.695833333333333,
+    "upper": 57.84722222222221,
+    "interpretation": "Finite-pool outer bounds on arbitrary continuation after first incomplete LLM TRUE/NN adaptive proposal, holding realized shared initialization and uniform-hit path fixed. No claim of attainability by the NN executor, confidence coverage, or recovery-free model performance."
+  },
+  "published_minus_car_t": {
+    "mean": -11.683333333333334,
+    "interval": [
+      -13.14,
+      -10.270000000000007
+    ],
+    "level": 0.95,
+    "interpretation": "Descriptive difference confounded by source, prevalence, feature geometry and initialization; public CAR-T labels do not establish unexposed data."
+  }
+}

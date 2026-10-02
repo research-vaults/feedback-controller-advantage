@@ -1,0 +1,721 @@
+model,screen,source,start,llm_true,llm_permuted,llm_withheld,uniform_true
+llama31_8b,Carnevale22_Adenosine,Carnevale,5001,75,74,45,71
+llama31_8b,Carnevale22_Adenosine,Carnevale,5002,49,63,48,74
+llama31_8b,Carnevale22_Adenosine,Carnevale,5003,75,59,60,64
+llama31_8b,Carnevale22_Adenosine,Carnevale,5004,77,67,71,65
+llama31_8b,Carnevale22_Adenosine,Carnevale,5005,72,67,47,70
+llama31_8b,Carnevale22_Adenosine,Carnevale,5006,72,45,38,70
+llama31_8b,Carnevale22_Adenosine,Carnevale,5007,68,67,76,70
+llama31_8b,Carnevale22_Adenosine,Carnevale,5008,75,64,66,72
+llama31_8b,Carnevale22_Adenosine,Carnevale,5009,68,64,62,71
+llama31_8b,Carnevale22_Adenosine,Carnevale,5010,64,44,45,60
+llama31_8b,Carnevale22_Adenosine,Carnevale,5011,69,55,58,70
+llama31_8b,Carnevale22_Adenosine,Carnevale,5012,70,71,42,68
+llama31_8b,Carnevale22_Adenosine,Carnevale,5013,70,44,46,67
+llama31_8b,Carnevale22_Adenosine,Carnevale,5014,71,72,68,68
+llama31_8b,Carnevale22_Adenosine,Carnevale,5015,70,71,66,76
+llama31_8b,Carnevale22_Adenosine,Carnevale,5016,56,47,45,67
+llama31_8b,Carnevale22_Adenosine,Carnevale,5017,73,75,58,74
+llama31_8b,Carnevale22_Adenosine,Carnevale,5018,58,57,64,63
+llama31_8b,Carnevale22_Adenosine,Carnevale,5019,70,61,62,70
+llama31_8b,Carnevale22_Adenosine,Carnevale,5020,56,46,54,75
+llama31_8b,Sanchez21,Sanchez,5001,50,44,55,63
+llama31_8b,Sanchez21,Sanchez,5002,41,47,40,53
+llama31_8b,Sanchez21,Sanchez,5003,48,61,41,69
+llama31_8b,Sanchez21,Sanchez,5004,31,47,41,34
+llama31_8b,Sanchez21,Sanchez,5005,44,51,59,59
+llama31_8b,Sanchez21,Sanchez,5006,38,43,36,46
+llama31_8b,Sanchez21,Sanchez,5007,48,56,27,52
+llama31_8b,Sanchez21,Sanchez,5008,46,41,40,45
+llama31_8b,Sanchez21,Sanchez,5009,44,49,54,55
+llama31_8b,Sanchez21,Sanchez,5010,55,41,46,56
+llama31_8b,Sanchez21,Sanchez,5011,37,39,37,36
+llama31_8b,Sanchez21,Sanchez,5012,56,44,36,54
+llama31_8b,Sanchez21,Sanchez,5013,53,47,49,67
+llama31_8b,Sanchez21,Sanchez,5014,50,33,40,56
+llama31_8b,Sanchez21,Sanchez,5015,34,56,53,36
+llama31_8b,Sanchez21,Sanchez,5016,48,47,46,44
+llama31_8b,Sanchez21,Sanchez,5017,57,64,48,67
+llama31_8b,Sanchez21,Sanchez,5018,41,44,37,52
+llama31_8b,Sanchez21,Sanchez,5019,38,29,29,20
+llama31_8b,Sanchez21,Sanchez,5020,43,44,59,41
+llama31_8b,IL2,Schmidt,5001,155,63,96,177
+llama31_8b,IL2,Schmidt,5002,183,188,94,176
+llama31_8b,IL2,Schmidt,5003,179,140,90,183
+llama31_8b,IL2,Schmidt,5004,108,100,84,176
+llama31_8b,IL2,Schmidt,5005,159,91,89,171
+llama31_8b,IL2,Schmidt,5006,157,146,85,172
+llama31_8b,IL2,Schmidt,5007,146,122,92,135
+llama31_8b,IL2,Schmidt,5008,187,191,89,182
+llama31_8b,IL2,Schmidt,5009,155,45,52,168
+llama31_8b,IL2,Schmidt,5010,178,169,79,177
+llama31_8b,IL2,Schmidt,5011,142,97,92,172
+llama31_8b,IL2,Schmidt,5012,159,59,102,168
+llama31_8b,IL2,Schmidt,5013,181,121,54,175
+llama31_8b,IL2,Schmidt,5014,180,167,85,181
+llama31_8b,IL2,Schmidt,5015,182,136,78,178
+llama31_8b,IL2,Schmidt,5016,181,110,93,168
+llama31_8b,IL2,Schmidt,5017,166,95,17,168
+llama31_8b,IL2,Schmidt,5018,22,48,64,56
+llama31_8b,IL2,Schmidt,5019,170,167,115,187
+llama31_8b,IL2,Schmidt,5020,155,104,66,175
+llama31_8b,IFNG,Schmidt,5001,75,76,28,82
+llama31_8b,IFNG,Schmidt,5002,96,106,31,105
+llama31_8b,IFNG,Schmidt,5003,87,101,41,125
+llama31_8b,IFNG,Schmidt,5004,87,81,58,78
+llama31_8b,IFNG,Schmidt,5005,84,55,60,89
+llama31_8b,IFNG,Schmidt,5006,115,97,54,121
+llama31_8b,IFNG,Schmidt,5007,114,105,50,103
+llama31_8b,IFNG,Schmidt,5008,122,104,50,108
+llama31_8b,IFNG,Schmidt,5009,95,57,50,95
+llama31_8b,IFNG,Schmidt,5010,93,71,48,108
+llama31_8b,IFNG,Schmidt,5011,123,80,85,116
+llama31_8b,IFNG,Schmidt,5012,121,116,54,109
+llama31_8b,IFNG,Schmidt,5013,117,83,53,108
+llama31_8b,IFNG,Schmidt,5014,107,50,73,117
+llama31_8b,IFNG,Schmidt,5015,103,91,53,121
+llama31_8b,IFNG,Schmidt,5016,104,84,59,114
+llama31_8b,IFNG,Schmidt,5017,116,99,60,123
+llama31_8b,IFNG,Schmidt,5018,125,84,69,114
+llama31_8b,IFNG,Schmidt,5019,48,116,41,100
+llama31_8b,IFNG,Schmidt,5020,75,66,45,107
+llama31_8b,Sanchez21_down,Sanchez,5001,37,27,36,34
+llama31_8b,Sanchez21_down,Sanchez,5002,41,60,44,51
+llama31_8b,Sanchez21_down,Sanchez,5003,52,44,26,41
+llama31_8b,Sanchez21_down,Sanchez,5004,52,50,38,53
+llama31_8b,Sanchez21_down,Sanchez,5005,43,32,40,39
+llama31_8b,Sanchez21_down,Sanchez,5006,44,41,37,42
+llama31_8b,Sanchez21_down,Sanchez,5007,56,50,47,41
+llama31_8b,Sanchez21_down,Sanchez,5008,38,35,44,28
+llama31_8b,Sanchez21_down,Sanchez,5009,46,49,41,52
+llama31_8b,Sanchez21_down,Sanchez,5010,31,34,42,46
+llama31_8b,Sanchez21_down,Sanchez,5011,48,44,41,55
+llama31_8b,Sanchez21_down,Sanchez,5012,52,48,41,54
+llama31_8b,Sanchez21_down,Sanchez,5013,49,43,22,37
+llama31_8b,Sanchez21_down,Sanchez,5014,49,47,23,30
+llama31_8b,Sanchez21_down,Sanchez,5015,47,41,32,39
+llama31_8b,Sanchez21_down,Sanchez,5016,39,46,37,16
+llama31_8b,Sanchez21_down,Sanchez,5017,44,50,54,53
+llama31_8b,Sanchez21_down,Sanchez,5018,45,41,29,42
+llama31_8b,Sanchez21_down,Sanchez,5019,46,49,48,45
+llama31_8b,Sanchez21_down,Sanchez,5020,50,46,38,33
+llama31_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5001,5,9,12,8
+llama31_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5002,5,11,4,5
+llama31_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5003,6,6,6,7
+llama31_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5004,8,8,4,9
+llama31_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5005,6,8,9,9
+llama31_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5006,8,7,8,9
+llama31_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5007,8,9,7,9
+llama31_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5008,6,5,6,5
+llama31_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5009,6,4,7,4
+llama31_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5010,5,6,7,7
+llama31_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5011,4,9,8,5
+llama31_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5012,5,4,7,5
+llama31_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5013,5,5,5,6
+llama31_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5014,7,5,7,7
+llama31_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5015,5,5,8,9
+llama31_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5016,7,6,8,5
+llama31_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5017,3,6,8,8
+llama31_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5018,4,9,6,6
+llama31_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5019,7,9,6,7
+llama31_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5020,5,7,7,8
+qwen25_7b,Carnevale22_Adenosine,Carnevale,5001,69,70,35,67
+qwen25_7b,Carnevale22_Adenosine,Carnevale,5002,31,40,39,33
+qwen25_7b,Carnevale22_Adenosine,Carnevale,5003,68,69,38,72
+qwen25_7b,Carnevale22_Adenosine,Carnevale,5004,69,58,56,67
+qwen25_7b,Carnevale22_Adenosine,Carnevale,5005,65,30,42,63
+qwen25_7b,Carnevale22_Adenosine,Carnevale,5006,75,59,66,72
+qwen25_7b,Carnevale22_Adenosine,Carnevale,5007,70,66,37,63
+qwen25_7b,Carnevale22_Adenosine,Carnevale,5008,63,40,38,55
+qwen25_7b,Carnevale22_Adenosine,Carnevale,5009,72,65,38,69
+qwen25_7b,Carnevale22_Adenosine,Carnevale,5010,72,75,35,66
+qwen25_7b,Carnevale22_Adenosine,Carnevale,5011,63,70,39,64
+qwen25_7b,Carnevale22_Adenosine,Carnevale,5012,65,59,49,63
+qwen25_7b,Carnevale22_Adenosine,Carnevale,5013,65,68,55,55
+qwen25_7b,Carnevale22_Adenosine,Carnevale,5014,71,72,46,69
+qwen25_7b,Carnevale22_Adenosine,Carnevale,5015,63,34,58,64
+qwen25_7b,Carnevale22_Adenosine,Carnevale,5016,72,68,57,69
+qwen25_7b,Carnevale22_Adenosine,Carnevale,5017,69,55,37,73
+qwen25_7b,Carnevale22_Adenosine,Carnevale,5018,65,78,46,69
+qwen25_7b,Carnevale22_Adenosine,Carnevale,5019,71,65,75,71
+qwen25_7b,Carnevale22_Adenosine,Carnevale,5020,67,66,47,67
+qwen25_7b,Sanchez21,Sanchez,5001,57,59,50,60
+qwen25_7b,Sanchez21,Sanchez,5002,60,58,61,63
+qwen25_7b,Sanchez21,Sanchez,5003,58,55,37,39
+qwen25_7b,Sanchez21,Sanchez,5004,45,61,37,47
+qwen25_7b,Sanchez21,Sanchez,5005,64,59,67,67
+qwen25_7b,Sanchez21,Sanchez,5006,48,54,45,45
+qwen25_7b,Sanchez21,Sanchez,5007,52,75,54,62
+qwen25_7b,Sanchez21,Sanchez,5008,37,59,42,41
+qwen25_7b,Sanchez21,Sanchez,5009,51,35,49,58
+qwen25_7b,Sanchez21,Sanchez,5010,53,40,40,15
+qwen25_7b,Sanchez21,Sanchez,5011,49,45,45,43
+qwen25_7b,Sanchez21,Sanchez,5012,54,42,42,55
+qwen25_7b,Sanchez21,Sanchez,5013,64,59,57,63
+qwen25_7b,Sanchez21,Sanchez,5014,54,43,54,58
+qwen25_7b,Sanchez21,Sanchez,5015,39,34,41,55
+qwen25_7b,Sanchez21,Sanchez,5016,62,67,52,61
+qwen25_7b,Sanchez21,Sanchez,5017,40,54,43,52
+qwen25_7b,Sanchez21,Sanchez,5018,61,55,61,61
+qwen25_7b,Sanchez21,Sanchez,5019,65,60,54,58
+qwen25_7b,Sanchez21,Sanchez,5020,61,58,54,52
+qwen25_7b,IL2,Schmidt,5001,148,155,65,171
+qwen25_7b,IL2,Schmidt,5002,169,171,98,181
+qwen25_7b,IL2,Schmidt,5003,141,143,66,171
+qwen25_7b,IL2,Schmidt,5004,112,147,93,180
+qwen25_7b,IL2,Schmidt,5005,95,89,85,172
+qwen25_7b,IL2,Schmidt,5006,130,134,56,173
+qwen25_7b,IL2,Schmidt,5007,132,108,68,142
+qwen25_7b,IL2,Schmidt,5008,126,65,103,171
+qwen25_7b,IL2,Schmidt,5009,164,161,86,183
+qwen25_7b,IL2,Schmidt,5010,120,111,91,160
+qwen25_7b,IL2,Schmidt,5011,81,31,97,168
+qwen25_7b,IL2,Schmidt,5012,169,98,41,175
+qwen25_7b,IL2,Schmidt,5013,125,80,76,121
+qwen25_7b,IL2,Schmidt,5014,150,56,42,161
+qwen25_7b,IL2,Schmidt,5015,160,159,89,181
+qwen25_7b,IL2,Schmidt,5016,137,167,76,184
+qwen25_7b,IL2,Schmidt,5017,150,100,66,139
+qwen25_7b,IL2,Schmidt,5018,98,41,68,126
+qwen25_7b,IL2,Schmidt,5019,62,116,86,149
+qwen25_7b,IL2,Schmidt,5020,144,148,69,177
+qwen25_7b,IFNG,Schmidt,5001,77,74,49,95
+qwen25_7b,IFNG,Schmidt,5002,55,66,52,117
+qwen25_7b,IFNG,Schmidt,5003,71,39,36,88
+qwen25_7b,IFNG,Schmidt,5004,104,45,42,96
+qwen25_7b,IFNG,Schmidt,5005,58,69,49,82
+qwen25_7b,IFNG,Schmidt,5006,56,56,45,90
+qwen25_7b,IFNG,Schmidt,5007,79,112,50,120
+qwen25_7b,IFNG,Schmidt,5008,51,64,60,99
+qwen25_7b,IFNG,Schmidt,5009,95,41,60,112
+qwen25_7b,IFNG,Schmidt,5010,45,48,49,105
+qwen25_7b,IFNG,Schmidt,5011,55,47,47,97
+qwen25_7b,IFNG,Schmidt,5012,103,113,45,120
+qwen25_7b,IFNG,Schmidt,5013,63,63,39,115
+qwen25_7b,IFNG,Schmidt,5014,103,70,42,107
+qwen25_7b,IFNG,Schmidt,5015,100,47,38,83
+qwen25_7b,IFNG,Schmidt,5016,49,63,39,92
+qwen25_7b,IFNG,Schmidt,5017,71,60,49,102
+qwen25_7b,IFNG,Schmidt,5018,52,100,47,110
+qwen25_7b,IFNG,Schmidt,5019,82,41,52,106
+qwen25_7b,IFNG,Schmidt,5020,94,113,48,95
+qwen25_7b,Sanchez21_down,Sanchez,5001,42,38,40,49
+qwen25_7b,Sanchez21_down,Sanchez,5002,38,47,47,51
+qwen25_7b,Sanchez21_down,Sanchez,5003,45,44,44,45
+qwen25_7b,Sanchez21_down,Sanchez,5004,49,48,45,49
+qwen25_7b,Sanchez21_down,Sanchez,5005,40,38,44,36
+qwen25_7b,Sanchez21_down,Sanchez,5006,40,41,46,45
+qwen25_7b,Sanchez21_down,Sanchez,5007,55,57,43,42
+qwen25_7b,Sanchez21_down,Sanchez,5008,40,39,44,34
+qwen25_7b,Sanchez21_down,Sanchez,5009,42,46,41,22
+qwen25_7b,Sanchez21_down,Sanchez,5010,47,55,49,54
+qwen25_7b,Sanchez21_down,Sanchez,5011,48,41,39,36
+qwen25_7b,Sanchez21_down,Sanchez,5012,40,51,45,36
+qwen25_7b,Sanchez21_down,Sanchez,5013,42,48,46,35
+qwen25_7b,Sanchez21_down,Sanchez,5014,41,28,41,43
+qwen25_7b,Sanchez21_down,Sanchez,5015,44,48,39,40
+qwen25_7b,Sanchez21_down,Sanchez,5016,49,40,48,47
+qwen25_7b,Sanchez21_down,Sanchez,5017,49,40,39,35
+qwen25_7b,Sanchez21_down,Sanchez,5018,39,41,42,49
+qwen25_7b,Sanchez21_down,Sanchez,5019,53,55,46,50
+qwen25_7b,Sanchez21_down,Sanchez,5020,38,41,36,45
+qwen25_7b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5001,6,7,8,6
+qwen25_7b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5002,9,8,11,9
+qwen25_7b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5003,10,6,7,7
+qwen25_7b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5004,8,7,14,8
+qwen25_7b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5005,8,8,6,7
+qwen25_7b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5006,9,8,7,7
+qwen25_7b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5007,9,8,8,7
+qwen25_7b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5008,10,7,8,5
+qwen25_7b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5009,7,8,7,8
+qwen25_7b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5010,10,8,7,7
+qwen25_7b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5011,6,5,9,7
+qwen25_7b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5012,8,7,4,8
+qwen25_7b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5013,5,6,5,4
+qwen25_7b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5014,9,7,6,9
+qwen25_7b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5015,8,10,10,10
+qwen25_7b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5016,8,7,8,7
+qwen25_7b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5017,6,5,3,6
+qwen25_7b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5018,6,5,8,3
+qwen25_7b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5019,7,6,9,8
+qwen25_7b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5020,8,7,8,5
+gemma3_4b,Carnevale22_Adenosine,Carnevale,5001,27,37,45,40
+gemma3_4b,Carnevale22_Adenosine,Carnevale,5002,71,57,43,72
+gemma3_4b,Carnevale22_Adenosine,Carnevale,5003,56,46,52,57
+gemma3_4b,Carnevale22_Adenosine,Carnevale,5004,51,42,46,64
+gemma3_4b,Carnevale22_Adenosine,Carnevale,5005,68,60,45,69
+gemma3_4b,Carnevale22_Adenosine,Carnevale,5006,38,37,41,59
+gemma3_4b,Carnevale22_Adenosine,Carnevale,5007,57,44,43,61
+gemma3_4b,Carnevale22_Adenosine,Carnevale,5008,40,41,41,57
+gemma3_4b,Carnevale22_Adenosine,Carnevale,5009,62,53,43,54
+gemma3_4b,Carnevale22_Adenosine,Carnevale,5010,52,33,44,67
+gemma3_4b,Carnevale22_Adenosine,Carnevale,5011,42,27,42,30
+gemma3_4b,Carnevale22_Adenosine,Carnevale,5012,53,54,54,61
+gemma3_4b,Carnevale22_Adenosine,Carnevale,5013,37,54,38,59
+gemma3_4b,Carnevale22_Adenosine,Carnevale,5014,77,62,57,72
+gemma3_4b,Carnevale22_Adenosine,Carnevale,5015,45,37,38,60
+gemma3_4b,Carnevale22_Adenosine,Carnevale,5016,55,50,49,76
+gemma3_4b,Carnevale22_Adenosine,Carnevale,5017,53,60,48,45
+gemma3_4b,Carnevale22_Adenosine,Carnevale,5018,49,44,52,65
+gemma3_4b,Carnevale22_Adenosine,Carnevale,5019,58,54,31,67
+gemma3_4b,Carnevale22_Adenosine,Carnevale,5020,57,35,36,71
+gemma3_4b,Sanchez21,Sanchez,5001,62,54,61,65
+gemma3_4b,Sanchez21,Sanchez,5002,61,64,53,62
+gemma3_4b,Sanchez21,Sanchez,5003,52,53,54,65
+gemma3_4b,Sanchez21,Sanchez,5004,54,49,68,65
+gemma3_4b,Sanchez21,Sanchez,5005,64,37,54,64
+gemma3_4b,Sanchez21,Sanchez,5006,34,58,45,57
+gemma3_4b,Sanchez21,Sanchez,5007,53,53,53,67
+gemma3_4b,Sanchez21,Sanchez,5008,55,43,50,61
+gemma3_4b,Sanchez21,Sanchez,5009,51,52,57,53
+gemma3_4b,Sanchez21,Sanchez,5010,60,59,52,67
+gemma3_4b,Sanchez21,Sanchez,5011,54,49,51,58
+gemma3_4b,Sanchez21,Sanchez,5012,55,66,67,66
+gemma3_4b,Sanchez21,Sanchez,5013,52,64,68,55
+gemma3_4b,Sanchez21,Sanchez,5014,63,62,47,66
+gemma3_4b,Sanchez21,Sanchez,5015,59,64,59,66
+gemma3_4b,Sanchez21,Sanchez,5016,51,40,47,29
+gemma3_4b,Sanchez21,Sanchez,5017,56,54,53,50
+gemma3_4b,Sanchez21,Sanchez,5018,59,61,59,66
+gemma3_4b,Sanchez21,Sanchez,5019,58,60,60,46
+gemma3_4b,Sanchez21,Sanchez,5020,58,43,54,59
+gemma3_4b,IL2,Schmidt,5001,54,122,44,114
+gemma3_4b,IL2,Schmidt,5002,137,46,46,161
+gemma3_4b,IL2,Schmidt,5003,57,46,41,147
+gemma3_4b,IL2,Schmidt,5004,174,48,42,171
+gemma3_4b,IL2,Schmidt,5005,94,15,15,157
+gemma3_4b,IL2,Schmidt,5006,156,97,61,161
+gemma3_4b,IL2,Schmidt,5007,53,41,51,176
+gemma3_4b,IL2,Schmidt,5008,90,29,48,163
+gemma3_4b,IL2,Schmidt,5009,32,14,23,77
+gemma3_4b,IL2,Schmidt,5010,102,139,22,169
+gemma3_4b,IL2,Schmidt,5011,99,130,59,159
+gemma3_4b,IL2,Schmidt,5012,162,100,97,170
+gemma3_4b,IL2,Schmidt,5013,123,47,43,168
+gemma3_4b,IL2,Schmidt,5014,121,36,51,177
+gemma3_4b,IL2,Schmidt,5015,116,94,88,176
+gemma3_4b,IL2,Schmidt,5016,161,72,39,177
+gemma3_4b,IL2,Schmidt,5017,88,74,77,165
+gemma3_4b,IL2,Schmidt,5018,170,114,67,177
+gemma3_4b,IL2,Schmidt,5019,163,131,33,184
+gemma3_4b,IL2,Schmidt,5020,138,105,45,166
+gemma3_4b,IFNG,Schmidt,5001,63,26,38,84
+gemma3_4b,IFNG,Schmidt,5002,29,39,41,66
+gemma3_4b,IFNG,Schmidt,5003,66,45,38,88
+gemma3_4b,IFNG,Schmidt,5004,44,28,40,113
+gemma3_4b,IFNG,Schmidt,5005,53,34,43,86
+gemma3_4b,IFNG,Schmidt,5006,28,39,41,47
+gemma3_4b,IFNG,Schmidt,5007,54,50,37,103
+gemma3_4b,IFNG,Schmidt,5008,61,44,32,82
+gemma3_4b,IFNG,Schmidt,5009,22,25,27,22
+gemma3_4b,IFNG,Schmidt,5010,41,76,44,95
+gemma3_4b,IFNG,Schmidt,5011,92,54,35,85
+gemma3_4b,IFNG,Schmidt,5012,49,44,29,109
+gemma3_4b,IFNG,Schmidt,5013,96,62,34,101
+gemma3_4b,IFNG,Schmidt,5014,62,58,38,101
+gemma3_4b,IFNG,Schmidt,5015,64,42,45,102
+gemma3_4b,IFNG,Schmidt,5016,39,39,31,98
+gemma3_4b,IFNG,Schmidt,5017,75,84,50,114
+gemma3_4b,IFNG,Schmidt,5018,56,31,40,77
+gemma3_4b,IFNG,Schmidt,5019,65,55,42,111
+gemma3_4b,IFNG,Schmidt,5020,80,34,36,102
+gemma3_4b,Sanchez21_down,Sanchez,5001,41,36,50,49
+gemma3_4b,Sanchez21_down,Sanchez,5002,47,41,46,49
+gemma3_4b,Sanchez21_down,Sanchez,5003,48,39,40,43
+gemma3_4b,Sanchez21_down,Sanchez,5004,41,43,42,36
+gemma3_4b,Sanchez21_down,Sanchez,5005,41,39,48,46
+gemma3_4b,Sanchez21_down,Sanchez,5006,50,49,36,40
+gemma3_4b,Sanchez21_down,Sanchez,5007,37,55,41,47
+gemma3_4b,Sanchez21_down,Sanchez,5008,53,47,34,48
+gemma3_4b,Sanchez21_down,Sanchez,5009,40,35,41,44
+gemma3_4b,Sanchez21_down,Sanchez,5010,45,36,33,45
+gemma3_4b,Sanchez21_down,Sanchez,5011,47,48,32,48
+gemma3_4b,Sanchez21_down,Sanchez,5012,41,43,48,48
+gemma3_4b,Sanchez21_down,Sanchez,5013,46,48,42,57
+gemma3_4b,Sanchez21_down,Sanchez,5014,49,23,30,43
+gemma3_4b,Sanchez21_down,Sanchez,5015,45,51,43,48
+gemma3_4b,Sanchez21_down,Sanchez,5016,36,47,41,43
+gemma3_4b,Sanchez21_down,Sanchez,5017,39,49,42,52
+gemma3_4b,Sanchez21_down,Sanchez,5018,45,38,48,49
+gemma3_4b,Sanchez21_down,Sanchez,5019,40,34,42,45
+gemma3_4b,Sanchez21_down,Sanchez,5020,35,41,44,48
+gemma3_4b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5001,5,7,6,8
+gemma3_4b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5002,5,5,9,4
+gemma3_4b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5003,8,8,7,6
+gemma3_4b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5004,5,8,8,4
+gemma3_4b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5005,5,5,9,5
+gemma3_4b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5006,4,6,5,8
+gemma3_4b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5007,4,4,5,3
+gemma3_4b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5008,4,8,4,10
+gemma3_4b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5009,6,9,6,6
+gemma3_4b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5010,7,7,6,5
+gemma3_4b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5011,7,5,7,8
+gemma3_4b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5012,6,11,8,8
+gemma3_4b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5013,8,8,9,9
+gemma3_4b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5014,6,8,4,7
+gemma3_4b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5015,7,7,7,5
+gemma3_4b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5016,8,6,5,5
+gemma3_4b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5017,7,3,4,7
+gemma3_4b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5018,4,6,9,8
+gemma3_4b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5019,8,7,7,5
+gemma3_4b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5020,5,7,5,6
+ministral8b,Carnevale22_Adenosine,Carnevale,5001,63,50,36,67
+ministral8b,Carnevale22_Adenosine,Carnevale,5002,57,63,35,52
+ministral8b,Carnevale22_Adenosine,Carnevale,5003,48,61,39,64
+ministral8b,Carnevale22_Adenosine,Carnevale,5004,58,51,53,69
+ministral8b,Carnevale22_Adenosine,Carnevale,5005,66,57,42,72
+ministral8b,Carnevale22_Adenosine,Carnevale,5006,38,29,41,44
+ministral8b,Carnevale22_Adenosine,Carnevale,5007,52,61,50,60
+ministral8b,Carnevale22_Adenosine,Carnevale,5008,51,55,45,67
+ministral8b,Carnevale22_Adenosine,Carnevale,5009,55,37,47,47
+ministral8b,Carnevale22_Adenosine,Carnevale,5010,64,60,53,74
+ministral8b,Carnevale22_Adenosine,Carnevale,5011,70,36,51,67
+ministral8b,Carnevale22_Adenosine,Carnevale,5012,56,41,52,70
+ministral8b,Carnevale22_Adenosine,Carnevale,5013,50,53,45,68
+ministral8b,Carnevale22_Adenosine,Carnevale,5014,50,59,36,69
+ministral8b,Carnevale22_Adenosine,Carnevale,5015,49,49,39,31
+ministral8b,Carnevale22_Adenosine,Carnevale,5016,54,47,59,72
+ministral8b,Carnevale22_Adenosine,Carnevale,5017,60,56,42,66
+ministral8b,Carnevale22_Adenosine,Carnevale,5018,59,65,51,74
+ministral8b,Carnevale22_Adenosine,Carnevale,5019,56,53,37,60
+ministral8b,Carnevale22_Adenosine,Carnevale,5020,57,54,48,69
+ministral8b,Sanchez21,Sanchez,5001,54,53,48,67
+ministral8b,Sanchez21,Sanchez,5002,57,41,57,67
+ministral8b,Sanchez21,Sanchez,5003,52,38,51,53
+ministral8b,Sanchez21,Sanchez,5004,46,50,52,60
+ministral8b,Sanchez21,Sanchez,5005,58,48,58,40
+ministral8b,Sanchez21,Sanchez,5006,54,46,49,63
+ministral8b,Sanchez21,Sanchez,5007,46,37,37,64
+ministral8b,Sanchez21,Sanchez,5008,40,53,44,61
+ministral8b,Sanchez21,Sanchez,5009,49,47,42,50
+ministral8b,Sanchez21,Sanchez,5010,42,47,56,62
+ministral8b,Sanchez21,Sanchez,5011,57,41,54,64
+ministral8b,Sanchez21,Sanchez,5012,39,51,63,31
+ministral8b,Sanchez21,Sanchez,5013,49,42,46,58
+ministral8b,Sanchez21,Sanchez,5014,43,39,51,58
+ministral8b,Sanchez21,Sanchez,5015,41,55,49,60
+ministral8b,Sanchez21,Sanchez,5016,50,53,59,33
+ministral8b,Sanchez21,Sanchez,5017,49,55,58,66
+ministral8b,Sanchez21,Sanchez,5018,47,39,57,57
+ministral8b,Sanchez21,Sanchez,5019,49,54,51,69
+ministral8b,Sanchez21,Sanchez,5020,32,33,60,48
+ministral8b,IL2,Schmidt,5001,149,171,97,182
+ministral8b,IL2,Schmidt,5002,140,93,93,163
+ministral8b,IL2,Schmidt,5003,97,128,73,176
+ministral8b,IL2,Schmidt,5004,146,147,78,185
+ministral8b,IL2,Schmidt,5005,103,115,90,180
+ministral8b,IL2,Schmidt,5006,107,132,84,169
+ministral8b,IL2,Schmidt,5007,183,114,101,186
+ministral8b,IL2,Schmidt,5008,144,136,104,170
+ministral8b,IL2,Schmidt,5009,92,155,88,183
+ministral8b,IL2,Schmidt,5010,122,116,79,185
+ministral8b,IL2,Schmidt,5011,71,66,96,166
+ministral8b,IL2,Schmidt,5012,175,139,91,186
+ministral8b,IL2,Schmidt,5013,149,119,88,184
+ministral8b,IL2,Schmidt,5014,161,86,71,171
+ministral8b,IL2,Schmidt,5015,173,107,127,187
+ministral8b,IL2,Schmidt,5016,134,108,114,160
+ministral8b,IL2,Schmidt,5017,124,141,116,182
+ministral8b,IL2,Schmidt,5018,89,137,90,173
+ministral8b,IL2,Schmidt,5019,123,101,99,173
+ministral8b,IL2,Schmidt,5020,131,118,87,160
+ministral8b,IFNG,Schmidt,5001,70,76,60,109
+ministral8b,IFNG,Schmidt,5002,113,71,67,132
+ministral8b,IFNG,Schmidt,5003,66,53,58,95
+ministral8b,IFNG,Schmidt,5004,82,64,73,118
+ministral8b,IFNG,Schmidt,5005,63,60,47,89
+ministral8b,IFNG,Schmidt,5006,112,82,59,100
+ministral8b,IFNG,Schmidt,5007,63,62,72,108
+ministral8b,IFNG,Schmidt,5008,85,75,70,105
+ministral8b,IFNG,Schmidt,5009,75,70,62,108
+ministral8b,IFNG,Schmidt,5010,112,87,73,129
+ministral8b,IFNG,Schmidt,5011,63,62,59,92
+ministral8b,IFNG,Schmidt,5012,114,101,74,126
+ministral8b,IFNG,Schmidt,5013,68,63,61,107
+ministral8b,IFNG,Schmidt,5014,85,55,64,83
+ministral8b,IFNG,Schmidt,5015,66,69,82,97
+ministral8b,IFNG,Schmidt,5016,82,78,84,99
+ministral8b,IFNG,Schmidt,5017,81,51,82,107
+ministral8b,IFNG,Schmidt,5018,70,70,76,111
+ministral8b,IFNG,Schmidt,5019,69,59,68,109
+ministral8b,IFNG,Schmidt,5020,80,63,75,115
+ministral8b,Sanchez21_down,Sanchez,5001,49,46,45,40
+ministral8b,Sanchez21_down,Sanchez,5002,37,36,47,46
+ministral8b,Sanchez21_down,Sanchez,5003,36,35,45,40
+ministral8b,Sanchez21_down,Sanchez,5004,43,45,43,57
+ministral8b,Sanchez21_down,Sanchez,5005,37,40,37,48
+ministral8b,Sanchez21_down,Sanchez,5006,43,47,53,45
+ministral8b,Sanchez21_down,Sanchez,5007,38,41,50,45
+ministral8b,Sanchez21_down,Sanchez,5008,49,43,45,53
+ministral8b,Sanchez21_down,Sanchez,5009,60,41,57,63
+ministral8b,Sanchez21_down,Sanchez,5010,41,42,41,40
+ministral8b,Sanchez21_down,Sanchez,5011,45,39,46,47
+ministral8b,Sanchez21_down,Sanchez,5012,33,40,48,37
+ministral8b,Sanchez21_down,Sanchez,5013,38,39,49,47
+ministral8b,Sanchez21_down,Sanchez,5014,42,42,48,52
+ministral8b,Sanchez21_down,Sanchez,5015,35,37,54,40
+ministral8b,Sanchez21_down,Sanchez,5016,50,47,51,43
+ministral8b,Sanchez21_down,Sanchez,5017,40,44,46,49
+ministral8b,Sanchez21_down,Sanchez,5018,44,45,43,56
+ministral8b,Sanchez21_down,Sanchez,5019,34,40,48,44
+ministral8b,Sanchez21_down,Sanchez,5020,36,36,52,54
+ministral8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5001,9,8,4,6
+ministral8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5002,9,6,9,8
+ministral8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5003,7,4,6,9
+ministral8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5004,5,6,10,4
+ministral8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5005,8,10,9,7
+ministral8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5006,9,6,9,8
+ministral8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5007,6,5,6,7
+ministral8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5008,5,6,10,6
+ministral8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5009,7,4,5,5
+ministral8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5010,7,5,7,3
+ministral8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5011,4,6,9,6
+ministral8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5012,7,7,10,8
+ministral8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5013,7,8,9,7
+ministral8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5014,7,8,12,4
+ministral8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5015,7,6,7,5
+ministral8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5016,7,7,10,9
+ministral8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5017,5,3,7,5
+ministral8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5018,6,5,10,9
+ministral8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5019,6,4,7,8
+ministral8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5020,5,6,7,5
+qwen3_8b,Carnevale22_Adenosine,Carnevale,5001,57,35,47,68
+qwen3_8b,Carnevale22_Adenosine,Carnevale,5002,55,60,42,66
+qwen3_8b,Carnevale22_Adenosine,Carnevale,5003,59,61,36,65
+qwen3_8b,Carnevale22_Adenosine,Carnevale,5004,74,49,46,71
+qwen3_8b,Carnevale22_Adenosine,Carnevale,5005,48,58,46,66
+qwen3_8b,Carnevale22_Adenosine,Carnevale,5006,73,62,50,68
+qwen3_8b,Carnevale22_Adenosine,Carnevale,5007,68,65,60,61
+qwen3_8b,Carnevale22_Adenosine,Carnevale,5008,73,54,41,67
+qwen3_8b,Carnevale22_Adenosine,Carnevale,5009,60,75,53,72
+qwen3_8b,Carnevale22_Adenosine,Carnevale,5010,65,64,54,68
+qwen3_8b,Carnevale22_Adenosine,Carnevale,5011,61,63,45,66
+qwen3_8b,Carnevale22_Adenosine,Carnevale,5012,66,70,47,69
+qwen3_8b,Carnevale22_Adenosine,Carnevale,5013,68,62,53,64
+qwen3_8b,Carnevale22_Adenosine,Carnevale,5014,67,66,48,62
+qwen3_8b,Carnevale22_Adenosine,Carnevale,5015,65,59,46,63
+qwen3_8b,Carnevale22_Adenosine,Carnevale,5016,74,52,50,69
+qwen3_8b,Carnevale22_Adenosine,Carnevale,5017,66,71,56,72
+qwen3_8b,Carnevale22_Adenosine,Carnevale,5018,70,69,49,63
+qwen3_8b,Carnevale22_Adenosine,Carnevale,5019,62,52,53,61
+qwen3_8b,Carnevale22_Adenosine,Carnevale,5020,70,57,57,71
+qwen3_8b,Sanchez21,Sanchez,5001,52,54,52,47
+qwen3_8b,Sanchez21,Sanchez,5002,56,56,60,62
+qwen3_8b,Sanchez21,Sanchez,5003,59,72,60,66
+qwen3_8b,Sanchez21,Sanchez,5004,66,65,57,69
+qwen3_8b,Sanchez21,Sanchez,5005,57,56,51,61
+qwen3_8b,Sanchez21,Sanchez,5006,64,61,58,67
+qwen3_8b,Sanchez21,Sanchez,5007,53,43,38,58
+qwen3_8b,Sanchez21,Sanchez,5008,48,33,46,47
+qwen3_8b,Sanchez21,Sanchez,5009,60,49,51,63
+qwen3_8b,Sanchez21,Sanchez,5010,62,62,50,61
+qwen3_8b,Sanchez21,Sanchez,5011,67,57,58,59
+qwen3_8b,Sanchez21,Sanchez,5012,50,47,53,54
+qwen3_8b,Sanchez21,Sanchez,5013,63,47,58,57
+qwen3_8b,Sanchez21,Sanchez,5014,58,56,46,19
+qwen3_8b,Sanchez21,Sanchez,5015,59,55,52,56
+qwen3_8b,Sanchez21,Sanchez,5016,62,51,40,51
+qwen3_8b,Sanchez21,Sanchez,5017,63,56,50,57
+qwen3_8b,Sanchez21,Sanchez,5018,62,59,51,60
+qwen3_8b,Sanchez21,Sanchez,5019,57,66,57,58
+qwen3_8b,Sanchez21,Sanchez,5020,61,61,53,62
+qwen3_8b,IL2,Schmidt,5001,162,90,64,167
+qwen3_8b,IL2,Schmidt,5002,141,78,67,172
+qwen3_8b,IL2,Schmidt,5003,155,95,80,174
+qwen3_8b,IL2,Schmidt,5004,164,155,78,175
+qwen3_8b,IL2,Schmidt,5005,61,112,96,156
+qwen3_8b,IL2,Schmidt,5006,182,157,66,180
+qwen3_8b,IL2,Schmidt,5007,114,150,67,178
+qwen3_8b,IL2,Schmidt,5008,166,85,61,171
+qwen3_8b,IL2,Schmidt,5009,166,165,69,172
+qwen3_8b,IL2,Schmidt,5010,179,135,75,171
+qwen3_8b,IL2,Schmidt,5011,159,85,80,174
+qwen3_8b,IL2,Schmidt,5012,44,78,60,159
+qwen3_8b,IL2,Schmidt,5013,159,58,57,175
+qwen3_8b,IL2,Schmidt,5014,63,118,50,160
+qwen3_8b,IL2,Schmidt,5015,145,95,84,169
+qwen3_8b,IL2,Schmidt,5016,180,155,74,182
+qwen3_8b,IL2,Schmidt,5017,157,126,66,176
+qwen3_8b,IL2,Schmidt,5018,164,159,57,171
+qwen3_8b,IL2,Schmidt,5019,164,54,97,176
+qwen3_8b,IL2,Schmidt,5020,107,65,58,170
+qwen3_8b,IFNG,Schmidt,5001,120,120,55,113
+qwen3_8b,IFNG,Schmidt,5002,125,112,53,122
+qwen3_8b,IFNG,Schmidt,5003,55,84,40,82
+qwen3_8b,IFNG,Schmidt,5004,126,119,49,111
+qwen3_8b,IFNG,Schmidt,5005,75,70,56,81
+qwen3_8b,IFNG,Schmidt,5006,127,127,66,125
+qwen3_8b,IFNG,Schmidt,5007,122,118,56,122
+qwen3_8b,IFNG,Schmidt,5008,118,119,80,125
+qwen3_8b,IFNG,Schmidt,5009,115,111,49,118
+qwen3_8b,IFNG,Schmidt,5010,114,113,45,119
+qwen3_8b,IFNG,Schmidt,5011,114,119,43,121
+qwen3_8b,IFNG,Schmidt,5012,64,90,51,86
+qwen3_8b,IFNG,Schmidt,5013,119,91,57,106
+qwen3_8b,IFNG,Schmidt,5014,121,113,45,110
+qwen3_8b,IFNG,Schmidt,5015,119,72,48,109
+qwen3_8b,IFNG,Schmidt,5016,123,92,55,117
+qwen3_8b,IFNG,Schmidt,5017,121,117,42,114
+qwen3_8b,IFNG,Schmidt,5018,113,105,49,103
+qwen3_8b,IFNG,Schmidt,5019,72,62,60,89
+qwen3_8b,IFNG,Schmidt,5020,118,109,48,111
+qwen3_8b,Sanchez21_down,Sanchez,5001,51,52,48,49
+qwen3_8b,Sanchez21_down,Sanchez,5002,43,21,35,24
+qwen3_8b,Sanchez21_down,Sanchez,5003,51,45,49,31
+qwen3_8b,Sanchez21_down,Sanchez,5004,52,49,54,50
+qwen3_8b,Sanchez21_down,Sanchez,5005,60,48,56,43
+qwen3_8b,Sanchez21_down,Sanchez,5006,56,38,55,43
+qwen3_8b,Sanchez21_down,Sanchez,5007,55,45,50,51
+qwen3_8b,Sanchez21_down,Sanchez,5008,52,47,47,40
+qwen3_8b,Sanchez21_down,Sanchez,5009,54,42,46,42
+qwen3_8b,Sanchez21_down,Sanchez,5010,47,49,45,49
+qwen3_8b,Sanchez21_down,Sanchez,5011,52,50,48,44
+qwen3_8b,Sanchez21_down,Sanchez,5012,52,47,47,48
+qwen3_8b,Sanchez21_down,Sanchez,5013,43,40,44,34
+qwen3_8b,Sanchez21_down,Sanchez,5014,50,49,48,50
+qwen3_8b,Sanchez21_down,Sanchez,5015,48,51,46,52
+qwen3_8b,Sanchez21_down,Sanchez,5016,47,46,43,34
+qwen3_8b,Sanchez21_down,Sanchez,5017,48,46,49,39
+qwen3_8b,Sanchez21_down,Sanchez,5018,52,51,52,48
+qwen3_8b,Sanchez21_down,Sanchez,5019,50,44,51,46
+qwen3_8b,Sanchez21_down,Sanchez,5020,48,42,46,44
+qwen3_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5001,8,6,7,6
+qwen3_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5002,6,7,12,4
+qwen3_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5003,7,7,9,9
+qwen3_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5004,8,6,10,7
+qwen3_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5005,6,8,7,8
+qwen3_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5006,5,5,6,7
+qwen3_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5007,5,5,5,6
+qwen3_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5008,5,6,6,8
+qwen3_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5009,6,6,7,5
+qwen3_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5010,8,8,9,6
+qwen3_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5011,6,6,5,6
+qwen3_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5012,6,6,9,6
+qwen3_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5013,7,6,4,5
+qwen3_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5014,6,6,9,7
+qwen3_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5015,6,6,10,8
+qwen3_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5016,6,7,10,3
+qwen3_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5017,5,5,7,5
+qwen3_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5018,5,7,5,7
+qwen3_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5019,5,8,10,7
+qwen3_8b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5020,7,6,8,6
+phi4_14b,Carnevale22_Adenosine,Carnevale,5001,70,69,36,69
+phi4_14b,Carnevale22_Adenosine,Carnevale,5002,75,72,43,73
+phi4_14b,Carnevale22_Adenosine,Carnevale,5003,66,68,35,68
+phi4_14b,Carnevale22_Adenosine,Carnevale,5004,57,63,46,62
+phi4_14b,Carnevale22_Adenosine,Carnevale,5005,68,70,42,71
+phi4_14b,Carnevale22_Adenosine,Carnevale,5006,46,60,41,69
+phi4_14b,Carnevale22_Adenosine,Carnevale,5007,62,67,49,73
+phi4_14b,Carnevale22_Adenosine,Carnevale,5008,69,40,39,65
+phi4_14b,Carnevale22_Adenosine,Carnevale,5009,75,74,49,71
+phi4_14b,Carnevale22_Adenosine,Carnevale,5010,52,58,52,70
+phi4_14b,Carnevale22_Adenosine,Carnevale,5011,47,52,48,61
+phi4_14b,Carnevale22_Adenosine,Carnevale,5012,75,63,43,70
+phi4_14b,Carnevale22_Adenosine,Carnevale,5013,56,34,44,23
+phi4_14b,Carnevale22_Adenosine,Carnevale,5014,71,61,45,76
+phi4_14b,Carnevale22_Adenosine,Carnevale,5015,66,67,51,61
+phi4_14b,Carnevale22_Adenosine,Carnevale,5016,74,33,48,61
+phi4_14b,Carnevale22_Adenosine,Carnevale,5017,61,76,59,75
+phi4_14b,Carnevale22_Adenosine,Carnevale,5018,70,70,45,49
+phi4_14b,Carnevale22_Adenosine,Carnevale,5019,70,69,43,68
+phi4_14b,Carnevale22_Adenosine,Carnevale,5020,73,73,49,55
+phi4_14b,Sanchez21,Sanchez,5001,69,50,47,67
+phi4_14b,Sanchez21,Sanchez,5002,56,59,50,52
+phi4_14b,Sanchez21,Sanchez,5003,60,60,52,66
+phi4_14b,Sanchez21,Sanchez,5004,61,63,45,74
+phi4_14b,Sanchez21,Sanchez,5005,65,53,46,73
+phi4_14b,Sanchez21,Sanchez,5006,47,42,43,65
+phi4_14b,Sanchez21,Sanchez,5007,48,42,45,60
+phi4_14b,Sanchez21,Sanchez,5008,69,58,49,61
+phi4_14b,Sanchez21,Sanchez,5009,65,39,39,59
+phi4_14b,Sanchez21,Sanchez,5010,56,64,62,64
+phi4_14b,Sanchez21,Sanchez,5011,58,56,56,65
+phi4_14b,Sanchez21,Sanchez,5012,56,56,50,62
+phi4_14b,Sanchez21,Sanchez,5013,50,63,43,60
+phi4_14b,Sanchez21,Sanchez,5014,64,44,51,63
+phi4_14b,Sanchez21,Sanchez,5015,56,57,47,62
+phi4_14b,Sanchez21,Sanchez,5016,67,58,54,66
+phi4_14b,Sanchez21,Sanchez,5017,55,39,53,38
+phi4_14b,Sanchez21,Sanchez,5018,49,53,43,58
+phi4_14b,Sanchez21,Sanchez,5019,61,49,43,61
+phi4_14b,Sanchez21,Sanchez,5020,59,40,55,64
+phi4_14b,IL2,Schmidt,5001,166,129,68,179
+phi4_14b,IL2,Schmidt,5002,66,75,74,144
+phi4_14b,IL2,Schmidt,5003,180,142,78,186
+phi4_14b,IL2,Schmidt,5004,144,63,78,168
+phi4_14b,IL2,Schmidt,5005,152,165,81,181
+phi4_14b,IL2,Schmidt,5006,168,134,77,179
+phi4_14b,IL2,Schmidt,5007,130,177,85,181
+phi4_14b,IL2,Schmidt,5008,163,159,70,177
+phi4_14b,IL2,Schmidt,5009,129,121,78,176
+phi4_14b,IL2,Schmidt,5010,69,181,82,177
+phi4_14b,IL2,Schmidt,5011,166,133,59,158
+phi4_14b,IL2,Schmidt,5012,162,157,98,182
+phi4_14b,IL2,Schmidt,5013,89,147,53,173
+phi4_14b,IL2,Schmidt,5014,127,110,51,174
+phi4_14b,IL2,Schmidt,5015,50,130,62,161
+phi4_14b,IL2,Schmidt,5016,159,141,88,178
+phi4_14b,IL2,Schmidt,5017,109,39,69,150
+phi4_14b,IL2,Schmidt,5018,151,157,78,180
+phi4_14b,IL2,Schmidt,5019,77,93,45,173
+phi4_14b,IL2,Schmidt,5020,73,149,63,148
+phi4_14b,IFNG,Schmidt,5001,101,60,70,103
+phi4_14b,IFNG,Schmidt,5002,56,102,44,107
+phi4_14b,IFNG,Schmidt,5003,126,101,86,125
+phi4_14b,IFNG,Schmidt,5004,89,90,74,118
+phi4_14b,IFNG,Schmidt,5005,91,54,77,107
+phi4_14b,IFNG,Schmidt,5006,88,68,58,101
+phi4_14b,IFNG,Schmidt,5007,60,48,58,87
+phi4_14b,IFNG,Schmidt,5008,44,30,52,95
+phi4_14b,IFNG,Schmidt,5009,90,44,58,109
+phi4_14b,IFNG,Schmidt,5010,101,51,55,111
+phi4_14b,IFNG,Schmidt,5011,59,93,56,107
+phi4_14b,IFNG,Schmidt,5012,118,42,54,116
+phi4_14b,IFNG,Schmidt,5013,62,68,52,86
+phi4_14b,IFNG,Schmidt,5014,67,39,54,108
+phi4_14b,IFNG,Schmidt,5015,127,116,51,121
+phi4_14b,IFNG,Schmidt,5016,60,42,48,86
+phi4_14b,IFNG,Schmidt,5017,70,42,53,81
+phi4_14b,IFNG,Schmidt,5018,52,47,49,85
+phi4_14b,IFNG,Schmidt,5019,114,70,46,108
+phi4_14b,IFNG,Schmidt,5020,41,47,59,83
+phi4_14b,Sanchez21_down,Sanchez,5001,38,36,35,42
+phi4_14b,Sanchez21_down,Sanchez,5002,37,41,41,47
+phi4_14b,Sanchez21_down,Sanchez,5003,37,48,33,43
+phi4_14b,Sanchez21_down,Sanchez,5004,45,38,42,41
+phi4_14b,Sanchez21_down,Sanchez,5005,50,37,33,53
+phi4_14b,Sanchez21_down,Sanchez,5006,51,41,44,53
+phi4_14b,Sanchez21_down,Sanchez,5007,38,50,40,48
+phi4_14b,Sanchez21_down,Sanchez,5008,55,44,37,44
+phi4_14b,Sanchez21_down,Sanchez,5009,42,57,51,53
+phi4_14b,Sanchez21_down,Sanchez,5010,46,42,37,53
+phi4_14b,Sanchez21_down,Sanchez,5011,49,47,40,44
+phi4_14b,Sanchez21_down,Sanchez,5012,50,62,51,50
+phi4_14b,Sanchez21_down,Sanchez,5013,40,52,35,44
+phi4_14b,Sanchez21_down,Sanchez,5014,47,53,31,51
+phi4_14b,Sanchez21_down,Sanchez,5015,53,56,41,48
+phi4_14b,Sanchez21_down,Sanchez,5016,39,41,37,44
+phi4_14b,Sanchez21_down,Sanchez,5017,39,56,38,52
+phi4_14b,Sanchez21_down,Sanchez,5018,40,43,33,43
+phi4_14b,Sanchez21_down,Sanchez,5019,48,51,41,49
+phi4_14b,Sanchez21_down,Sanchez,5020,39,46,46,47
+phi4_14b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5001,7,8,7,7
+phi4_14b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5002,5,7,7,4
+phi4_14b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5003,5,5,7,6
+phi4_14b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5004,9,7,10,8
+phi4_14b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5005,8,8,10,6
+phi4_14b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5006,5,6,4,7
+phi4_14b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5007,13,11,9,7
+phi4_14b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5008,7,6,7,8
+phi4_14b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5009,5,7,6,7
+phi4_14b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5010,6,5,9,6
+phi4_14b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5011,4,7,8,6
+phi4_14b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5012,4,5,6,7
+phi4_14b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5013,5,5,6,5
+phi4_14b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5014,8,7,7,11
+phi4_14b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5015,8,7,7,8
+phi4_14b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5016,6,10,6,9
+phi4_14b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5017,4,7,5,10
+phi4_14b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5018,6,6,9,7
+phi4_14b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5019,5,6,9,7
+phi4_14b,Steinhart_crispra_GD2_D22,CAR-T released unpublished,5020,5,6,7,7

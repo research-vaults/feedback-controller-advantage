@@ -1,0 +1,2310 @@
+{
+  "development_means": {
+    "Carnevale22_Adenosine": {
+      "C00": 33.5,
+      "C01": 32.0,
+      "C02": 32.625,
+      "C03": 30.625,
+      "C04": 31.25,
+      "C05": 34.0,
+      "C06": 32.0,
+      "C07": 33.0,
+      "C08": 33.5,
+      "C09": 32.0,
+      "C10": 31.125,
+      "C11": 29.625,
+      "C12": 31.875,
+      "C13": 31.125,
+      "C14": 31.875,
+      "C15": 33.625,
+      "C16": 34.0,
+      "C17": 36.25,
+      "C18": 35.25,
+      "C19": 33.375
+    },
+    "IL2": {
+      "C00": 49.25,
+      "C01": 37.75,
+      "C02": 48.75,
+      "C03": 37.375,
+      "C04": 24.125,
+      "C05": 19.5,
+      "C06": 21.625,
+      "C07": 19.25,
+      "C08": 25.25,
+      "C09": 19.875,
+      "C10": 22.875,
+      "C11": 21.25,
+      "C12": 19.625,
+      "C13": 17.875,
+      "C14": 20.25,
+      "C15": 18.75,
+      "C16": 19.375,
+      "C17": 16.75,
+      "C18": 33.25,
+      "C19": 26.25
+    }
+  },
+  "development_rows": [
+    {
+      "hits": 31,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C00"
+    },
+    {
+      "hits": 32,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C01"
+    },
+    {
+      "hits": 30,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C02"
+    },
+    {
+      "hits": 31,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C03"
+    },
+    {
+      "hits": 28,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C04"
+    },
+    {
+      "hits": 31,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C05"
+    },
+    {
+      "hits": 28,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C06"
+    },
+    {
+      "hits": 32,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C07"
+    },
+    {
+      "hits": 34,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C08"
+    },
+    {
+      "hits": 35,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C09"
+    },
+    {
+      "hits": 31,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C10"
+    },
+    {
+      "hits": 27,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C11"
+    },
+    {
+      "hits": 29,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C12"
+    },
+    {
+      "hits": 31,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C13"
+    },
+    {
+      "hits": 29,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C14"
+    },
+    {
+      "hits": 37,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C15"
+    },
+    {
+      "hits": 38,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C16"
+    },
+    {
+      "hits": 40,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C17"
+    },
+    {
+      "hits": 35,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C18"
+    },
+    {
+      "hits": 25,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C19"
+    },
+    {
+      "hits": 30,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C00"
+    },
+    {
+      "hits": 32,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C01"
+    },
+    {
+      "hits": 30,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C02"
+    },
+    {
+      "hits": 29,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C03"
+    },
+    {
+      "hits": 29,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C04"
+    },
+    {
+      "hits": 25,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C05"
+    },
+    {
+      "hits": 27,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C06"
+    },
+    {
+      "hits": 24,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C07"
+    },
+    {
+      "hits": 25,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C08"
+    },
+    {
+      "hits": 30,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C09"
+    },
+    {
+      "hits": 34,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C10"
+    },
+    {
+      "hits": 27,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C11"
+    },
+    {
+      "hits": 29,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C12"
+    },
+    {
+      "hits": 30,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C13"
+    },
+    {
+      "hits": 30,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C14"
+    },
+    {
+      "hits": 28,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C15"
+    },
+    {
+      "hits": 32,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C16"
+    },
+    {
+      "hits": 31,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C17"
+    },
+    {
+      "hits": 38,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C18"
+    },
+    {
+      "hits": 28,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C19"
+    },
+    {
+      "hits": 31,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C00"
+    },
+    {
+      "hits": 29,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C01"
+    },
+    {
+      "hits": 28,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C02"
+    },
+    {
+      "hits": 26,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C03"
+    },
+    {
+      "hits": 23,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C04"
+    },
+    {
+      "hits": 29,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C05"
+    },
+    {
+      "hits": 24,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C06"
+    },
+    {
+      "hits": 29,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C07"
+    },
+    {
+      "hits": 25,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C08"
+    },
+    {
+      "hits": 27,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C09"
+    },
+    {
+      "hits": 25,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C10"
+    },
+    {
+      "hits": 28,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C11"
+    },
+    {
+      "hits": 31,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C12"
+    },
+    {
+      "hits": 27,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C13"
+    },
+    {
+      "hits": 31,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C14"
+    },
+    {
+      "hits": 30,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C15"
+    },
+    {
+      "hits": 26,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C16"
+    },
+    {
+      "hits": 35,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C17"
+    },
+    {
+      "hits": 32,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C18"
+    },
+    {
+      "hits": 37,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C19"
+    },
+    {
+      "hits": 33,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C00"
+    },
+    {
+      "hits": 31,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C01"
+    },
+    {
+      "hits": 38,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C02"
+    },
+    {
+      "hits": 28,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C03"
+    },
+    {
+      "hits": 33,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C04"
+    },
+    {
+      "hits": 34,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C05"
+    },
+    {
+      "hits": 34,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C06"
+    },
+    {
+      "hits": 37,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C07"
+    },
+    {
+      "hits": 43,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C08"
+    },
+    {
+      "hits": 38,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C09"
+    },
+    {
+      "hits": 30,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C10"
+    },
+    {
+      "hits": 26,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C11"
+    },
+    {
+      "hits": 38,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C12"
+    },
+    {
+      "hits": 31,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C13"
+    },
+    {
+      "hits": 32,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C14"
+    },
+    {
+      "hits": 32,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C15"
+    },
+    {
+      "hits": 32,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C16"
+    },
+    {
+      "hits": 33,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C17"
+    },
+    {
+      "hits": 38,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C18"
+    },
+    {
+      "hits": 41,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C19"
+    },
+    {
+      "hits": 58,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C00"
+    },
+    {
+      "hits": 31,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C01"
+    },
+    {
+      "hits": 52,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C02"
+    },
+    {
+      "hits": 32,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C03"
+    },
+    {
+      "hits": 14,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C04"
+    },
+    {
+      "hits": 12,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C05"
+    },
+    {
+      "hits": 17,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C06"
+    },
+    {
+      "hits": 12,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C07"
+    },
+    {
+      "hits": 18,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C08"
+    },
+    {
+      "hits": 15,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C09"
+    },
+    {
+      "hits": 14,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C10"
+    },
+    {
+      "hits": 14,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C11"
+    },
+    {
+      "hits": 14,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C12"
+    },
+    {
+      "hits": 11,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C13"
+    },
+    {
+      "hits": 14,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C14"
+    },
+    {
+      "hits": 14,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C15"
+    },
+    {
+      "hits": 12,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C16"
+    },
+    {
+      "hits": 11,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C17"
+    },
+    {
+      "hits": 24,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C18"
+    },
+    {
+      "hits": 11,
+      "model": "qwen25_7b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C19"
+    },
+    {
+      "hits": 51,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C00"
+    },
+    {
+      "hits": 45,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C01"
+    },
+    {
+      "hits": 50,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C02"
+    },
+    {
+      "hits": 44,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C03"
+    },
+    {
+      "hits": 27,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C04"
+    },
+    {
+      "hits": 22,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C05"
+    },
+    {
+      "hits": 26,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C06"
+    },
+    {
+      "hits": 22,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C07"
+    },
+    {
+      "hits": 26,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C08"
+    },
+    {
+      "hits": 21,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C09"
+    },
+    {
+      "hits": 29,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C10"
+    },
+    {
+      "hits": 23,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C11"
+    },
+    {
+      "hits": 27,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C12"
+    },
+    {
+      "hits": 23,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C13"
+    },
+    {
+      "hits": 23,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C14"
+    },
+    {
+      "hits": 19,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C15"
+    },
+    {
+      "hits": 21,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C16"
+    },
+    {
+      "hits": 17,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C17"
+    },
+    {
+      "hits": 34,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C18"
+    },
+    {
+      "hits": 37,
+      "model": "qwen25_7b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C19"
+    },
+    {
+      "hits": 50,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C00"
+    },
+    {
+      "hits": 40,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C01"
+    },
+    {
+      "hits": 49,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C02"
+    },
+    {
+      "hits": 38,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C03"
+    },
+    {
+      "hits": 23,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C04"
+    },
+    {
+      "hits": 15,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C05"
+    },
+    {
+      "hits": 16,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C06"
+    },
+    {
+      "hits": 16,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C07"
+    },
+    {
+      "hits": 16,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C08"
+    },
+    {
+      "hits": 13,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C09"
+    },
+    {
+      "hits": 15,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C10"
+    },
+    {
+      "hits": 19,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C11"
+    },
+    {
+      "hits": 16,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C12"
+    },
+    {
+      "hits": 13,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C13"
+    },
+    {
+      "hits": 18,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C14"
+    },
+    {
+      "hits": 17,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C15"
+    },
+    {
+      "hits": 16,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C16"
+    },
+    {
+      "hits": 13,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C17"
+    },
+    {
+      "hits": 27,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C18"
+    },
+    {
+      "hits": 22,
+      "model": "qwen25_7b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C19"
+    },
+    {
+      "hits": 49,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C00"
+    },
+    {
+      "hits": 40,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C01"
+    },
+    {
+      "hits": 48,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C02"
+    },
+    {
+      "hits": 42,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C03"
+    },
+    {
+      "hits": 23,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C04"
+    },
+    {
+      "hits": 22,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C05"
+    },
+    {
+      "hits": 24,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C06"
+    },
+    {
+      "hits": 23,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C07"
+    },
+    {
+      "hits": 27,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C08"
+    },
+    {
+      "hits": 23,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C09"
+    },
+    {
+      "hits": 25,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C10"
+    },
+    {
+      "hits": 24,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C11"
+    },
+    {
+      "hits": 20,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C12"
+    },
+    {
+      "hits": 15,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C13"
+    },
+    {
+      "hits": 19,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C14"
+    },
+    {
+      "hits": 19,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C15"
+    },
+    {
+      "hits": 21,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C16"
+    },
+    {
+      "hits": 16,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C17"
+    },
+    {
+      "hits": 32,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C18"
+    },
+    {
+      "hits": 32,
+      "model": "qwen25_7b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C19"
+    },
+    {
+      "hits": 34,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C00"
+    },
+    {
+      "hits": 36,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C01"
+    },
+    {
+      "hits": 34,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C02"
+    },
+    {
+      "hits": 33,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C03"
+    },
+    {
+      "hits": 33,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C04"
+    },
+    {
+      "hits": 41,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C05"
+    },
+    {
+      "hits": 35,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C06"
+    },
+    {
+      "hits": 31,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C07"
+    },
+    {
+      "hits": 37,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C08"
+    },
+    {
+      "hits": 26,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C09"
+    },
+    {
+      "hits": 32,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C10"
+    },
+    {
+      "hits": 30,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C11"
+    },
+    {
+      "hits": 27,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C12"
+    },
+    {
+      "hits": 26,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C13"
+    },
+    {
+      "hits": 35,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C14"
+    },
+    {
+      "hits": 39,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C15"
+    },
+    {
+      "hits": 40,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C16"
+    },
+    {
+      "hits": 41,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C17"
+    },
+    {
+      "hits": 37,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C18"
+    },
+    {
+      "hits": 29,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C19"
+    },
+    {
+      "hits": 30,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C00"
+    },
+    {
+      "hits": 25,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C01"
+    },
+    {
+      "hits": 31,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C02"
+    },
+    {
+      "hits": 28,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C03"
+    },
+    {
+      "hits": 31,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C04"
+    },
+    {
+      "hits": 30,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C05"
+    },
+    {
+      "hits": 28,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C06"
+    },
+    {
+      "hits": 33,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C07"
+    },
+    {
+      "hits": 28,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C08"
+    },
+    {
+      "hits": 28,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C09"
+    },
+    {
+      "hits": 28,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C10"
+    },
+    {
+      "hits": 29,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C11"
+    },
+    {
+      "hits": 27,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C12"
+    },
+    {
+      "hits": 30,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C13"
+    },
+    {
+      "hits": 30,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C14"
+    },
+    {
+      "hits": 31,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C15"
+    },
+    {
+      "hits": 34,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C16"
+    },
+    {
+      "hits": 38,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C17"
+    },
+    {
+      "hits": 31,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C18"
+    },
+    {
+      "hits": 29,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C19"
+    },
+    {
+      "hits": 33,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C00"
+    },
+    {
+      "hits": 30,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C01"
+    },
+    {
+      "hits": 30,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C02"
+    },
+    {
+      "hits": 29,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C03"
+    },
+    {
+      "hits": 40,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C04"
+    },
+    {
+      "hits": 41,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C05"
+    },
+    {
+      "hits": 32,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C06"
+    },
+    {
+      "hits": 38,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C07"
+    },
+    {
+      "hits": 34,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C08"
+    },
+    {
+      "hits": 31,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C09"
+    },
+    {
+      "hits": 31,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C10"
+    },
+    {
+      "hits": 29,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C11"
+    },
+    {
+      "hits": 32,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C12"
+    },
+    {
+      "hits": 32,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C13"
+    },
+    {
+      "hits": 27,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C14"
+    },
+    {
+      "hits": 33,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C15"
+    },
+    {
+      "hits": 33,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C16"
+    },
+    {
+      "hits": 36,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C17"
+    },
+    {
+      "hits": 34,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C18"
+    },
+    {
+      "hits": 33,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C19"
+    },
+    {
+      "hits": 46,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C00"
+    },
+    {
+      "hits": 41,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C01"
+    },
+    {
+      "hits": 40,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C02"
+    },
+    {
+      "hits": 41,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C03"
+    },
+    {
+      "hits": 33,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C04"
+    },
+    {
+      "hits": 41,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C05"
+    },
+    {
+      "hits": 48,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C06"
+    },
+    {
+      "hits": 40,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C07"
+    },
+    {
+      "hits": 42,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C08"
+    },
+    {
+      "hits": 41,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C09"
+    },
+    {
+      "hits": 38,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C10"
+    },
+    {
+      "hits": 41,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C11"
+    },
+    {
+      "hits": 42,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C12"
+    },
+    {
+      "hits": 42,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C13"
+    },
+    {
+      "hits": 41,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C14"
+    },
+    {
+      "hits": 39,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C15"
+    },
+    {
+      "hits": 37,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C16"
+    },
+    {
+      "hits": 36,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C17"
+    },
+    {
+      "hits": 37,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C18"
+    },
+    {
+      "hits": 45,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "Carnevale22_Adenosine",
+      "setting": "C19"
+    },
+    {
+      "hits": 50,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C00"
+    },
+    {
+      "hits": 31,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C01"
+    },
+    {
+      "hits": 49,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C02"
+    },
+    {
+      "hits": 33,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C03"
+    },
+    {
+      "hits": 28,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C04"
+    },
+    {
+      "hits": 19,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C05"
+    },
+    {
+      "hits": 19,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C06"
+    },
+    {
+      "hits": 16,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C07"
+    },
+    {
+      "hits": 32,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C08"
+    },
+    {
+      "hits": 22,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C09"
+    },
+    {
+      "hits": 27,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C10"
+    },
+    {
+      "hits": 31,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C11"
+    },
+    {
+      "hits": 24,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C12"
+    },
+    {
+      "hits": 27,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C13"
+    },
+    {
+      "hits": 25,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C14"
+    },
+    {
+      "hits": 26,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C15"
+    },
+    {
+      "hits": 28,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C16"
+    },
+    {
+      "hits": 20,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C17"
+    },
+    {
+      "hits": 41,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C18"
+    },
+    {
+      "hits": 30,
+      "model": "ministral8b",
+      "run": 4001,
+      "screen": "IL2",
+      "setting": "C19"
+    },
+    {
+      "hits": 37,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C00"
+    },
+    {
+      "hits": 34,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C01"
+    },
+    {
+      "hits": 37,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C02"
+    },
+    {
+      "hits": 30,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C03"
+    },
+    {
+      "hits": 24,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C04"
+    },
+    {
+      "hits": 18,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C05"
+    },
+    {
+      "hits": 24,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C06"
+    },
+    {
+      "hits": 16,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C07"
+    },
+    {
+      "hits": 27,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C08"
+    },
+    {
+      "hits": 17,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C09"
+    },
+    {
+      "hits": 27,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C10"
+    },
+    {
+      "hits": 14,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C11"
+    },
+    {
+      "hits": 16,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C12"
+    },
+    {
+      "hits": 15,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C13"
+    },
+    {
+      "hits": 18,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C14"
+    },
+    {
+      "hits": 16,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C15"
+    },
+    {
+      "hits": 16,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C16"
+    },
+    {
+      "hits": 14,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C17"
+    },
+    {
+      "hits": 30,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C18"
+    },
+    {
+      "hits": 26,
+      "model": "ministral8b",
+      "run": 4002,
+      "screen": "IL2",
+      "setting": "C19"
+    },
+    {
+      "hits": 33,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C00"
+    },
+    {
+      "hits": 31,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C01"
+    },
+    {
+      "hits": 46,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C02"
+    },
+    {
+      "hits": 31,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C03"
+    },
+    {
+      "hits": 18,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C04"
+    },
+    {
+      "hits": 14,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C05"
+    },
+    {
+      "hits": 18,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C06"
+    },
+    {
+      "hits": 15,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C07"
+    },
+    {
+      "hits": 17,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C08"
+    },
+    {
+      "hits": 17,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C09"
+    },
+    {
+      "hits": 13,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C10"
+    },
+    {
+      "hits": 15,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C11"
+    },
+    {
+      "hits": 13,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C12"
+    },
+    {
+      "hits": 11,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C13"
+    },
+    {
+      "hits": 16,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C14"
+    },
+    {
+      "hits": 10,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C15"
+    },
+    {
+      "hits": 14,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C16"
+    },
+    {
+      "hits": 14,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C17"
+    },
+    {
+      "hits": 31,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C18"
+    },
+    {
+      "hits": 18,
+      "model": "ministral8b",
+      "run": 4003,
+      "screen": "IL2",
+      "setting": "C19"
+    },
+    {
+      "hits": 66,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C00"
+    },
+    {
+      "hits": 50,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C01"
+    },
+    {
+      "hits": 59,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C02"
+    },
+    {
+      "hits": 49,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C03"
+    },
+    {
+      "hits": 36,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C04"
+    },
+    {
+      "hits": 34,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C05"
+    },
+    {
+      "hits": 29,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C06"
+    },
+    {
+      "hits": 34,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C07"
+    },
+    {
+      "hits": 39,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C08"
+    },
+    {
+      "hits": 31,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C09"
+    },
+    {
+      "hits": 33,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C10"
+    },
+    {
+      "hits": 30,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C11"
+    },
+    {
+      "hits": 27,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C12"
+    },
+    {
+      "hits": 28,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C13"
+    },
+    {
+      "hits": 29,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C14"
+    },
+    {
+      "hits": 29,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C15"
+    },
+    {
+      "hits": 27,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C16"
+    },
+    {
+      "hits": 29,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C17"
+    },
+    {
+      "hits": 47,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C18"
+    },
+    {
+      "hits": 34,
+      "model": "ministral8b",
+      "run": 4004,
+      "screen": "IL2",
+      "setting": "C19"
+    }
+  ],
+  "freeze_sha256": "808252cb8ffa25fa7b30f6d2a537919661bf915a6fbd91df5ac87caf9d66a4f8",
+  "selected": {
+    "Carnevale22_Adenosine": {
+      "beta": 2.0,
+      "id": "C17",
+      "kind": "LINEAR_UCB",
+      "length": null,
+      "noise": 10.0,
+      "target": "hit"
+    },
+    "IL2": {
+      "beta": 1.0,
+      "id": "C00",
+      "kind": "GP_UCB",
+      "length": 0.25,
+      "noise": 0.01,
+      "target": "hit"
+    }
+  },
+  "selection_unix": 1789827966.86991
+}

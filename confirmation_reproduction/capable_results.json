@@ -1,0 +1,177 @@
+{
+  "primary": {
+    "assignment": {
+      "mean": 40.225,
+      "low": 22.225,
+      "high": 56.775000000000006,
+      "level": 0.9833333333333333,
+      "n": 40,
+      "cells": 2
+    },
+    "availability": {
+      "mean": 54.925,
+      "low": 40.01645833333335,
+      "high": 67.45,
+      "level": 0.9833333333333333,
+      "n": 40,
+      "cells": 2
+    },
+    "controller": {
+      "mean": -11.45,
+      "low": -24.942083333333308,
+      "high": -0.325,
+      "level": 0.9833333333333333,
+      "n": 40,
+      "cells": 2
+    }
+  },
+  "supporting_sources": {
+    "Carnevale22_Adenosine": {
+      "assignment": {
+        "mean": 16.6,
+        "low": 8.95,
+        "high": 24.55,
+        "level": 0.95,
+        "n": 20,
+        "cells": 1
+      },
+      "availability": {
+        "mean": 26.6,
+        "low": 24.7,
+        "high": 28.5,
+        "level": 0.95,
+        "n": 20,
+        "cells": 1
+      },
+      "controller": {
+        "mean": 6.85,
+        "low": 4.05,
+        "high": 9.65,
+        "level": 0.95,
+        "n": 20,
+        "cells": 1
+      }
+    },
+    "IL2": {
+      "assignment": {
+        "mean": 63.85,
+        "low": 35.64875000000002,
+        "high": 90.5,
+        "level": 0.95,
+        "n": 20,
+        "cells": 1
+      },
+      "availability": {
+        "mean": 83.25,
+        "low": 59.448750000000025,
+        "high": 104.2,
+        "level": 0.95,
+        "n": 20,
+        "cells": 1
+      },
+      "controller": {
+        "mean": -29.75,
+        "low": -51.25,
+        "high": -11.1,
+        "level": 0.95,
+        "n": 20,
+        "cells": 1
+      }
+    }
+  },
+  "supporting_models": {
+    "gemini38": {
+      "assignment": {
+        "mean": 40.225,
+        "low": 25.425,
+        "high": 53.92562499999995,
+        "level": 0.95,
+        "n": 40,
+        "cells": 2
+      },
+      "availability": {
+        "mean": 54.925,
+        "low": 42.775,
+        "high": 65.525,
+        "level": 0.95,
+        "n": 40,
+        "cells": 2
+      },
+      "controller": {
+        "mean": -11.45,
+        "low": -22.42562499999999,
+        "high": -1.9250000000000007,
+        "level": 0.95,
+        "n": 40,
+        "cells": 2
+      }
+    }
+  },
+  "absolute": {
+    "TRUE": {
+      "mean": 92.475,
+      "low": 79.525,
+      "high": 103.725,
+      "level": 0.95,
+      "n": 40,
+      "cells": 2
+    },
+    "WITHIN_BATCH_PERMUTED": {
+      "mean": 52.25,
+      "low": 42.675,
+      "high": 62.575,
+      "level": 0.95,
+      "n": 40,
+      "cells": 2
+    },
+    "NO_OUTCOMES": {
+      "mean": 37.55,
+      "low": 35.400000000000006,
+      "high": 39.625,
+      "level": 0.95,
+      "n": 40,
+      "cells": 2
+    },
+    "UNIFORM": {
+      "mean": 103.925,
+      "low": 100.125,
+      "high": 107.6,
+      "level": 0.95,
+      "n": 40,
+      "cells": 2
+    }
+  },
+  "status": "PASS",
+  "blocks": 40,
+  "trajectories": 160,
+  "audited_adaptive_decisions": 640,
+  "completion": {
+    "TRUE": [
+      160,
+      160,
+      0
+    ],
+    "WITHIN_BATCH_PERMUTED": [
+      160,
+      160,
+      0
+    ],
+    "NO_OUTCOMES": [
+      160,
+      160,
+      0
+    ]
+  },
+  "requests": 480,
+  "successful_responses": 480,
+  "cost": {
+    "charged_or_conservative_usd": 2.1440031699999995,
+    "inflight_usd": -2.3592239273284576e-16,
+    "prior_pass_cost_usd": 0.6872151700000005,
+    "requests": 480,
+    "stage_cost_usd": 1.456787999999999,
+    "whole_pass_cap_usd": 20
+  },
+  "inference": "Fixed20starts/cell;20000source/model-stratified paired bootstrap draws; primary98.333%; supporting95%; fixed sources, no biological population inference",
+  "csv_sha256": "1a92a632817f8fcf9adf0e25c1b893fc20c3409b1f9480ead279e2b9bcb5267e"
+}

@@ -1,0 +1,1670 @@
+{
+  "status": "PASS",
+  "states": 560,
+  "starts": 140,
+  "saved_llm_batch_replays": 560,
+  "estimator": "mean per decision within start; equal model-readout weighting; start-cluster bootstrap",
+  "scope": "same-state candidate diagnostics along mixed-policy histories, not new complete-policy outcomes",
+  "results": {
+    "640": {
+      "oracle_increment": {
+        "mean": 0.43333333333333335,
+        "interval": [
+          0.18541666666666667,
+          0.6791666666666667
+        ],
+        "level": 0.95,
+        "n": 120,
+        "cells": 12
+      },
+      "selected_increment": {
+        "mean": 0.15416666666666665,
+        "interval": [
+          -0.13541666666666666,
+          0.4333333333333333
+        ],
+        "level": 0.95,
+        "n": 120,
+        "cells": 12
+      },
+      "mixed_regret": {
+        "mean": 1.16875,
+        "interval": [
+          0.9708333333333332,
+          1.3875
+        ],
+        "level": 0.95,
+        "n": 120,
+        "cells": 12
+      },
+      "uniform_regret": {
+        "mean": 0.8895833333333334,
+        "interval": [
+          0.7125000000000002,
+          1.0854166666666665
+        ],
+        "level": 0.95,
+        "n": 120,
+        "cells": 12
+      },
+      "mixed_oracle_gain": {
+        "mean": 1.8312499999999998,
+        "interval": [
+          1.5958333333333332,
+          2.08125
+        ],
+        "level": 0.95,
+        "n": 120,
+        "cells": 12
+      },
+      "uniform_oracle_gain": {
+        "mean": 1.3979166666666665,
+        "interval": [
+          1.1791666666666667,
+          1.6395833333333334
+        ],
+        "level": 0.95,
+        "n": 120,
+        "cells": 12
+      },
+      "centre_overlap": {
+        "mean": 0.02731481481481481,
+        "interval": [
+          0.020403439153439156,
+          0.034168320105820105
+        ],
+        "level": 0.95,
+        "n": 120,
+        "cells": 12
+      },
+      "batch_overlap": {
+        "mean": 0.26801683197113635,
+        "interval": [
+          0.25179471134797843,
+          0.2843721282202533
+        ],
+        "level": 0.95,
+        "n": 120,
+        "cells": 12
+      },
+      "uniform_batch_overlap": {
+        "mean": 0.557628622958701,
+        "interval": [
+          0.5437022178353103,
+          0.5719650506846703
+        ],
+        "level": 0.95,
+        "n": 120,
+        "cells": 12
+      },
+      "llm_beats_uniform": {
+        "mean": 0.45208333333333334,
+        "interval": [
+          0.4145312500000008,
+          0.4895833333333333
+        ],
+        "level": 0.95,
+        "n": 120,
+        "cells": 12
+      },
+      "oracle_increment_recomputed": {
+        "mean": 0.43333333333333335,
+        "interval": [
+          0.18541666666666667,
+          0.6791666666666667
+        ],
+        "level": 0.95,
+        "n": 120,
+        "cells": 12
+      },
+      "selected_increment_recomputed": {
+        "mean": 0.15416666666666665,
+        "interval": [
+          -0.13541666666666666,
+          0.4333333333333333
+        ],
+        "level": 0.95,
+        "n": 120,
+        "cells": 12
+      }
+    },
+    "160": {
+      "oracle_increment": {
+        "mean": 0.11249999999999999,
+        "interval": [
+          -0.11250000000000002,
+          0.3375
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "selected_increment": {
+        "mean": 0.05,
+        "interval": [
+          -0.15,
+          0.23750000000000002
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "mixed_regret": {
+        "mean": 0.375,
+        "interval": [
+          0.2,
+          0.5625
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "uniform_regret": {
+        "mean": 0.3125,
+        "interval": [
+          0.1375,
+          0.5625
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "mixed_oracle_gain": {
+        "mean": 0.3875,
+        "interval": [
+          0.2,
+          0.6
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "uniform_oracle_gain": {
+        "mean": 0.275,
+        "interval": [
+          0.15,
+          0.4375
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "centre_overlap": {
+        "mean": 0.026190476190476188,
+        "interval": [
+          0.011805555555555555,
+          0.04176587301587302
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "batch_overlap": {
+        "mean": 0.31570748288554984,
+        "interval": [
+          0.2735229790881012,
+          0.36083671111468923
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "uniform_batch_overlap": {
+        "mean": 0.8036624587364601,
+        "interval": [
+          0.7795244749127177,
+          0.8249839546477392
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "llm_beats_uniform": {
+        "mean": 0.25,
+        "interval": [
+          0.1375,
+          0.375
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "oracle_increment_recomputed": {
+        "mean": 0.11249999999999999,
+        "interval": [
+          -0.11250000000000002,
+          0.3375
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "selected_increment_recomputed": {
+        "mean": 0.05,
+        "interval": [
+          -0.15,
+          0.23750000000000002
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      }
+    },
+    "Carnevale22_Adenosine": {
+      "oracle_increment": {
+        "mean": 0.375,
+        "interval": [
+          -0.15,
+          0.8125
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "selected_increment": {
+        "mean": -0.0625,
+        "interval": [
+          -0.875,
+          0.6125
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "mixed_regret": {
+        "mean": 1.075,
+        "interval": [
+          0.7125,
+          1.475
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "uniform_regret": {
+        "mean": 0.6375,
+        "interval": [
+          0.42500000000000004,
+          0.85
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "mixed_oracle_gain": {
+        "mean": 1.9375,
+        "interval": [
+          1.4875,
+          2.4124999999999996
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "uniform_oracle_gain": {
+        "mean": 1.5625,
+        "interval": [
+          1.1,
+          2.15
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "centre_overlap": {
+        "mean": 0.014930555555555558,
+        "interval": [
+          0.0045138888888888885,
+          0.025694444444444447
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "batch_overlap": {
+        "mean": 0.32790422330624686,
+        "interval": [
+          0.2908906871809926,
+          0.366671761149838
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "uniform_batch_overlap": {
+        "mean": 0.5013654434656064,
+        "interval": [
+          0.4711478333815141,
+          0.5320774196942849
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "llm_beats_uniform": {
+        "mean": 0.5,
+        "interval": [
+          0.4125,
+          0.5875
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "oracle_increment_recomputed": {
+        "mean": 0.375,
+        "interval": [
+          -0.15,
+          0.8125
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "selected_increment_recomputed": {
+        "mean": -0.0625,
+        "interval": [
+          -0.875,
+          0.6125
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      }
+    },
+    "Sanchez21": {
+      "oracle_increment": {
+        "mean": 0.45,
+        "interval": [
+          -0.11249999999999999,
+          1.0375
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "selected_increment": {
+        "mean": 0.21250000000000002,
+        "interval": [
+          -0.525,
+          0.9
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "mixed_regret": {
+        "mean": 0.9375,
+        "interval": [
+          0.55,
+          1.4125
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "uniform_regret": {
+        "mean": 0.7,
+        "interval": [
+          0.375,
+          1.1
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "mixed_oracle_gain": {
+        "mean": 1.875,
+        "interval": [
+          1.3,
+          2.4625000000000004
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "uniform_oracle_gain": {
+        "mean": 1.425,
+        "interval": [
+          0.9125000000000001,
+          2.0125
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "centre_overlap": {
+        "mean": 0.019394841269841267,
+        "interval": [
+          0.005902777777777778,
+          0.03511904761904762
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "batch_overlap": {
+        "mean": 0.24594523719051253,
+        "interval": [
+          0.19805856039508266,
+          0.2934189581448495
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "uniform_batch_overlap": {
+        "mean": 0.5257394382422783,
+        "interval": [
+          0.4810080482193602,
+          0.5691278692182916
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "llm_beats_uniform": {
+        "mean": 0.5,
+        "interval": [
+          0.4,
+          0.5875
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "oracle_increment_recomputed": {
+        "mean": 0.45,
+        "interval": [
+          -0.11249999999999999,
+          1.0375
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "selected_increment_recomputed": {
+        "mean": 0.21250000000000002,
+        "interval": [
+          -0.525,
+          0.9
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      }
+    },
+    "IL2": {
+      "oracle_increment": {
+        "mean": 0.3875,
+        "interval": [
+          -0.4375,
+          1.125
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "selected_increment": {
+        "mean": 0.7124999999999999,
+        "interval": [
+          -0.3625,
+          1.65
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "mixed_regret": {
+        "mean": 1.1375,
+        "interval": [
+          0.675,
+          1.6375000000000002
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "uniform_regret": {
+        "mean": 1.4625,
+        "interval": [
+          0.8250000000000001,
+          2.2
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "mixed_oracle_gain": {
+        "mean": 2.175,
+        "interval": [
+          1.525,
+          2.8375
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "uniform_oracle_gain": {
+        "mean": 1.7875,
+        "interval": [
+          1.1749999999999998,
+          2.55
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "centre_overlap": {
+        "mean": 0.004166666666666666,
+        "interval": [
+          0.0,
+          0.008333333333333333
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "batch_overlap": {
+        "mean": 0.32601486523900736,
+        "interval": [
+          0.2942309930051465,
+          0.3571470061008782
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "uniform_batch_overlap": {
+        "mean": 0.5373242857522864,
+        "interval": [
+          0.5075184825083658,
+          0.5690081070144447
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "llm_beats_uniform": {
+        "mean": 0.4125,
+        "interval": [
+          0.3125,
+          0.5
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "oracle_increment_recomputed": {
+        "mean": 0.3875,
+        "interval": [
+          -0.4375,
+          1.125
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "selected_increment_recomputed": {
+        "mean": 0.7124999999999999,
+        "interval": [
+          -0.3625,
+          1.65
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      }
+    },
+    "IFNG": {
+      "oracle_increment": {
+        "mean": 0.45,
+        "interval": [
+          -0.35,
+          1.275
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "selected_increment": {
+        "mean": -0.35,
+        "interval": [
+          -1.125,
+          0.5
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "mixed_regret": {
+        "mean": 2.3125,
+        "interval": [
+          1.4375,
+          3.2875
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "uniform_regret": {
+        "mean": 1.5125000000000002,
+        "interval": [
+          0.9500000000000001,
+          2.2125
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "mixed_oracle_gain": {
+        "mean": 3.0250000000000004,
+        "interval": [
+          2.1375,
+          3.9875
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "uniform_oracle_gain": {
+        "mean": 2.575,
+        "interval": [
+          1.7375,
+          3.475
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "centre_overlap": {
+        "mean": 0.010416666666666666,
+        "interval": [
+          0.0013888888888888887,
+          0.021180555555555557
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "batch_overlap": {
+        "mean": 0.2940691293276622,
+        "interval": [
+          0.25393258076220754,
+          0.33290161611315033
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "uniform_batch_overlap": {
+        "mean": 0.4904053231190151,
+        "interval": [
+          0.45526504874713264,
+          0.526072466986357
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "llm_beats_uniform": {
+        "mean": 0.5,
+        "interval": [
+          0.4,
+          0.6000000000000001
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "oracle_increment_recomputed": {
+        "mean": 0.45,
+        "interval": [
+          -0.35,
+          1.275
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "selected_increment_recomputed": {
+        "mean": -0.35,
+        "interval": [
+          -1.125,
+          0.5
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      }
+    },
+    "Sanchez21_down": {
+      "oracle_increment": {
+        "mean": 0.5125000000000001,
+        "interval": [
+          -0.09999999999999999,
+          1.1624999999999999
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "selected_increment": {
+        "mean": 0.425,
+        "interval": [
+          0.03749999999999998,
+          0.8625
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "mixed_regret": {
+        "mean": 1.025,
+        "interval": [
+          0.7,
+          1.3875
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "uniform_regret": {
+        "mean": 0.9375,
+        "interval": [
+          0.55,
+          1.3875000000000002
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "mixed_oracle_gain": {
+        "mean": 1.475,
+        "interval": [
+          1.0375,
+          1.975
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "uniform_oracle_gain": {
+        "mean": 0.9624999999999999,
+        "interval": [
+          0.675,
+          1.275
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "centre_overlap": {
+        "mean": 0.019097222222222224,
+        "interval": [
+          0.008333333333333331,
+          0.03159722222222222
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "batch_overlap": {
+        "mean": 0.21891004481709858,
+        "interval": [
+          0.18043651870715466,
+          0.2590392785224631
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "uniform_batch_overlap": {
+        "mean": 0.4516599129169794,
+        "interval": [
+          0.4156616641374453,
+          0.4871017998417659
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "llm_beats_uniform": {
+        "mean": 0.46249999999999997,
+        "interval": [
+          0.375,
+          0.5625
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "oracle_increment_recomputed": {
+        "mean": 0.5125000000000001,
+        "interval": [
+          -0.09999999999999999,
+          1.1624999999999999
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "selected_increment_recomputed": {
+        "mean": 0.425,
+        "interval": [
+          0.03749999999999998,
+          0.8625
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      }
+    },
+    "Scharenberg22": {
+      "oracle_increment": {
+        "mean": 0.11249999999999999,
+        "interval": [
+          -0.11250000000000002,
+          0.3375
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "selected_increment": {
+        "mean": 0.05,
+        "interval": [
+          -0.15,
+          0.23750000000000002
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "mixed_regret": {
+        "mean": 0.375,
+        "interval": [
+          0.2,
+          0.5625
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "uniform_regret": {
+        "mean": 0.3125,
+        "interval": [
+          0.1375,
+          0.5625
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "mixed_oracle_gain": {
+        "mean": 0.3875,
+        "interval": [
+          0.2,
+          0.6
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "uniform_oracle_gain": {
+        "mean": 0.275,
+        "interval": [
+          0.15,
+          0.4375
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "centre_overlap": {
+        "mean": 0.026190476190476188,
+        "interval": [
+          0.011805555555555555,
+          0.04176587301587302
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "batch_overlap": {
+        "mean": 0.31570748288554984,
+        "interval": [
+          0.2735229790881012,
+          0.36083671111468923
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "uniform_batch_overlap": {
+        "mean": 0.8036624587364601,
+        "interval": [
+          0.7795244749127177,
+          0.8249839546477392
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "llm_beats_uniform": {
+        "mean": 0.25,
+        "interval": [
+          0.1375,
+          0.375
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "oracle_increment_recomputed": {
+        "mean": 0.11249999999999999,
+        "interval": [
+          -0.11250000000000002,
+          0.3375
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "selected_increment_recomputed": {
+        "mean": 0.05,
+        "interval": [
+          -0.15,
+          0.23750000000000002
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      }
+    },
+    "Steinhart_crispra_GD2_D22": {
+      "oracle_increment": {
+        "mean": 0.42500000000000004,
+        "interval": [
+          0.275,
+          0.6
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "selected_increment": {
+        "mean": -0.0125,
+        "interval": [
+          -0.15,
+          0.125
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "mixed_regret": {
+        "mean": 0.525,
+        "interval": [
+          0.35,
+          0.7375
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "uniform_regret": {
+        "mean": 0.0875,
+        "interval": [
+          0.025,
+          0.15000000000000002
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "mixed_oracle_gain": {
+        "mean": 0.5,
+        "interval": [
+          0.3375,
+          0.675
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "uniform_oracle_gain": {
+        "mean": 0.07500000000000001,
+        "interval": [
+          0.025,
+          0.125
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "centre_overlap": {
+        "mean": 0.0958829365079365,
+        "interval": [
+          0.06230034722222224,
+          0.12951388888888887
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "batch_overlap": {
+        "mean": 0.19525749194629077,
+        "interval": [
+          0.15395258460859654,
+          0.23948010620083604
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "uniform_batch_overlap": {
+        "mean": 0.8392773342560406,
+        "interval": [
+          0.8084717353141186,
+          0.8695650516603819
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "llm_beats_uniform": {
+        "mean": 0.3375,
+        "interval": [
+          0.25,
+          0.425
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "oracle_increment_recomputed": {
+        "mean": 0.42500000000000004,
+        "interval": [
+          0.275,
+          0.6
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      },
+      "selected_increment_recomputed": {
+        "mean": -0.0125,
+        "interval": [
+          -0.15,
+          0.125
+        ],
+        "level": 0.95,
+        "n": 20,
+        "cells": 2
+      }
+    }
+  },
+  "bindings": {
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9001/GEOMETRY/CANDIDATES_1.json": "e01e43795df579522cae60514c9e532a7c200d84cfd43af5a36e989f6eb9617d",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9001/GEOMETRY/CANDIDATES_2.json": "c7233cdc187a68ae7de1e6fb181e33d408b950ced36a354f00b7d848bc7b0839",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9001/GEOMETRY/CANDIDATES_3.json": "f32594220583b92e158d397241d99163a3e8d8e7cb143a8c39beb82b4360bcf6",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9001/GEOMETRY/CANDIDATES_4.json": "9f19a68e9bd68d3378b9848780598b3dd61b16b5b34e12f755f4559f501e4b49",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9002/GEOMETRY/CANDIDATES_1.json": "71468c76ceb0ac3b571dbfa5a75372d45a5d76752dc71c1318ea72a476f2aa05",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9002/GEOMETRY/CANDIDATES_2.json": "4f4ad4e5607b40997829537bf1e01e4918af0281cd7f0ea021952d2b1653e9ff",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9002/GEOMETRY/CANDIDATES_3.json": "7c15edc41ef34f58232af6086c7f6b8206c5052f1849b95eb7a2a96711f6c72a",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9002/GEOMETRY/CANDIDATES_4.json": "bda8cccefa50c5fb0b0105e85a711f0495df47f8ee233b25c665df8f2c5f4fe5",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9003/GEOMETRY/CANDIDATES_1.json": "66ca4816311b94915fad4fe02c3634e531c80b36500e86a90fb6c9609b514ca9",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9003/GEOMETRY/CANDIDATES_2.json": "e15ef825b10efbe62e8be4c0883f383d397e26fcc34c42e66a3f86db6539206a",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9003/GEOMETRY/CANDIDATES_3.json": "f2e70a8bd847be7453bc781c1eff7be35837d87263b1fe00a5a44c6056eda359",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9003/GEOMETRY/CANDIDATES_4.json": "ffde2c1da2ff779f507b4b87974a6fe66a34baa11b6888567d55b598d228678b",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9004/GEOMETRY/CANDIDATES_1.json": "f11eae79e2f72d2cbd4c2a65249f9d12300d3a0743cf7eb6570c0bcf6e75b09d",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9004/GEOMETRY/CANDIDATES_2.json": "a5d365a175d27e5c5cef36707a7767ead69c3ee0c292426164e8e498e13cd3a9",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9004/GEOMETRY/CANDIDATES_3.json": "2bb259033a2433433b8c25326b5622a7d488c1787501bcce2b1cafb1aeebab7c",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9004/GEOMETRY/CANDIDATES_4.json": "10125011e6a0a6850e14e7eb07a6521fd075f537068012d13895e1c355b06e1e",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9005/GEOMETRY/CANDIDATES_1.json": "b54cde29dba5dc4829cd056dd73a5fed91f2bc0f0d5ad41b09f5ed01d9bfdb09",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9005/GEOMETRY/CANDIDATES_2.json": "05164b8d59b4a2b11dfff3e6c75b2c3e2dec4608492ace8efaddd61a1359f106",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9005/GEOMETRY/CANDIDATES_3.json": "9ae3782a06599102636c339ad64db68a9e0961b89db1acbe1fdaec4c9ed86111",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9005/GEOMETRY/CANDIDATES_4.json": "c1cbccc810501d76c905cd963ed8e4c520f1316d355e6a3a7c2e7aaa1a6ddded",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9006/GEOMETRY/CANDIDATES_1.json": "7379b4e4dafd51fec763f58c55385c22bd635f5943ea25b5e4661dd3e14d9678",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9006/GEOMETRY/CANDIDATES_2.json": "0efe0137cff3397c53b8f8d40f2cdabd670fab48e4b8a15c8b8053a387d7f0fb",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9006/GEOMETRY/CANDIDATES_3.json": "cedd418c32835ae865e28329fe053204b4cd8132509290b31f73a6b614b10964",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9006/GEOMETRY/CANDIDATES_4.json": "022b2999d0b65c003c2e65a28f3b08da2f519c12471943511c5506b8c2060dea",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9007/GEOMETRY/CANDIDATES_1.json": "783464664aedbb065c1d3eaa3dad5737da447a1ea7d4934363a8e94003e3794b",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9007/GEOMETRY/CANDIDATES_2.json": "86c8c3b158875cee550e8ce4333832baee6e7349d4149d7f40f0e8a3cb6729fe",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9007/GEOMETRY/CANDIDATES_3.json": "1dbe0afa1403d4d4dded62eb2d775e6764605b5634715b84db37298e7280e4dc",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9007/GEOMETRY/CANDIDATES_4.json": "f6a1c3ed7a7768d26410a67ddab6b8b4f87a083755018f6565b913d177f9f4b9",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9008/GEOMETRY/CANDIDATES_1.json": "c29b8327ac0a730965c6d11b8bb6099caf697ce79436f88a52cf198cfb1b1ecc",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9008/GEOMETRY/CANDIDATES_2.json": "4a5966013cb9e24650e849d6f8efe21901d3e5fb476408234635f25887d46100",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9008/GEOMETRY/CANDIDATES_3.json": "14d4c85485adf9d986dc38ac7dfd66ffe8b62c284fbaa5bcd56c06657afa9702",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9008/GEOMETRY/CANDIDATES_4.json": "e6d385cdef4b0ac7a82f147afb59bb0e4d20a2458c2cbc6733967dd4d60ddad9",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9009/GEOMETRY/CANDIDATES_1.json": "644fe6ed6c17ce261c01358d232455f3a4aea83b4393d4ccbb32fc8e0fbf3bd4",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9009/GEOMETRY/CANDIDATES_2.json": "66c589e3ebd36eb63e01a80800a45e8412487bb0aaa381aeca07ed290ce2280a",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9009/GEOMETRY/CANDIDATES_3.json": "8438829345e48a93d96db2424c74f8650707d63247ed7cf7ee135206e8403a6a",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9009/GEOMETRY/CANDIDATES_4.json": "59ce684d4be0de7431ae633be14b8d2597d9762f1ef66ea4829c916c66d86698",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9010/GEOMETRY/CANDIDATES_1.json": "94b37973611cb4c5178ea23f60e0516a2f294a1f4b8aef3b0da918781835e4d8",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9010/GEOMETRY/CANDIDATES_2.json": "8c50f5d859e3cdc49d76be7837111955ffb57102f2d21dc89d29360e0519ae69",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9010/GEOMETRY/CANDIDATES_3.json": "f6ed51a3d3f15730f5b79b064e71ee3e1ea4a8dacef7bc0eb1a924ad0116ed74",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Carnevale22_Adenosine_9010/GEOMETRY/CANDIDATES_4.json": "ec403318cf7d1986b739b73824978c41a36e9dd5633336b2b4ff34529fb0b639",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9001/GEOMETRY/CANDIDATES_1.json": "e3cd2e62166fd1eb87a621450209213ed399ad22b6a7ea174c4d1d5ebd7f7438",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9001/GEOMETRY/CANDIDATES_2.json": "736cad9ee3fbda55d62b3165e8a1ca46da2cce9eb4b846402db06a7af83aab01",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9001/GEOMETRY/CANDIDATES_3.json": "b81f6ecbf86d1c44df4783a49d31a396536eb27a05dcbf990d9aebf23a4bab4e",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9001/GEOMETRY/CANDIDATES_4.json": "389a54a93506aa81075b0d86e301dd37a91e766cad03ea8c183ebb9e2fbd98c3",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9002/GEOMETRY/CANDIDATES_1.json": "495d26ac12e5dc076ee07dc2475f6ece7e235f187ddc9a1b3c7a9ed6dec209d2",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9002/GEOMETRY/CANDIDATES_2.json": "d0b584d3f6207b71fa1f172750770fa08de24c8694fdcfcc20674768d9515015",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9002/GEOMETRY/CANDIDATES_3.json": "ede16e447c03bbf279522ef842280f698c06b3ec5bf8d71af45c7346dfe11ba1",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9002/GEOMETRY/CANDIDATES_4.json": "be0bc21864d02adb4971d1c3f5064a89b4601d87be155c109d01fcf470d4ebe3",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9003/GEOMETRY/CANDIDATES_1.json": "51764cecdf63319fc4101b42c91528f34256223790cc577e774240271dacc929",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9003/GEOMETRY/CANDIDATES_2.json": "8469e4e3ae85b930255d584bd8376ad6b987776d0cb3f6b2a343df86079dc0e9",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9003/GEOMETRY/CANDIDATES_3.json": "7d2f94899ebc73a5a6537976b1d0847aa4793cd0f8f74abcfe4f571f37749463",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9003/GEOMETRY/CANDIDATES_4.json": "278a3c3b49e289882b37c4e350482b9a5dc793f69d1e8a6c579b89a19d3bd1e0",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9004/GEOMETRY/CANDIDATES_1.json": "271a77051b0a4bd86fb86b2128c39e5bffc7092ecb6e73d7624448681cbe7f8c",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9004/GEOMETRY/CANDIDATES_2.json": "41467239dd3c3802c4707d2a3ace7eaa099aae193cfe517746aa9a0f192e02f1",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9004/GEOMETRY/CANDIDATES_3.json": "c5fbb29faf1de4321bf7db649e819a43028fd91a395e25c6e53c8f0b096e77b0",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9004/GEOMETRY/CANDIDATES_4.json": "feb6c9226f6a6d4c30f08c7e5f4546960fe5ba4f3494c7e3c0ec3e781452e9c4",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9005/GEOMETRY/CANDIDATES_1.json": "f800989eb90188f29b5ad2b1325502eb5ebe66b26af8395ff279f12d13a5043b",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9005/GEOMETRY/CANDIDATES_2.json": "eb9891c23246a377bd129ddbb4c4d807a6763f578a24afe01e0a90b94eb7c4bc",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9005/GEOMETRY/CANDIDATES_3.json": "03b0287530e72accb0ac910f8cdbe64adbefcfec730c3a7b75bb6798e5070329",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9005/GEOMETRY/CANDIDATES_4.json": "6dc19550465a76558522d3c977984b5363b2da0c399d039f5a81660f8b73e877",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9006/GEOMETRY/CANDIDATES_1.json": "2fb60c2a12950c6c99fd2cbed8fd1d2ede16b982a9bb63ceb5ed6207dc3239bd",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9006/GEOMETRY/CANDIDATES_2.json": "ed624c9e95e0a77f238a00e28454d5b49e6acd85e8bb55d434a9d6e20f6dad6e",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9006/GEOMETRY/CANDIDATES_3.json": "65eab60d8aa83bb0f60e7f8efca0e914e38251829ce0208a8df1a2da39199d23",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9006/GEOMETRY/CANDIDATES_4.json": "3eb1318daf04b4e1400f71d9f4b4a8705d9a89be168a477c7ac87d94a7be8fee",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9007/GEOMETRY/CANDIDATES_1.json": "ff07f08846ce04be9662716070de91d51c381abf89734f9a14aa7bb6437e62fd",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9007/GEOMETRY/CANDIDATES_2.json": "1caeac3154f56e610cae74541799990f93d279ccbb473133c098d316326ad699",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9007/GEOMETRY/CANDIDATES_3.json": "fbcd71af3aea7835677cf6f9dcb87d9df28349bc34932918b423df6014e649d4",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9007/GEOMETRY/CANDIDATES_4.json": "be2336269acb408bb2b8b61d5fc641c3443e6750141e711ad027d4d87d1b161c",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9008/GEOMETRY/CANDIDATES_1.json": "350d2b2461faab62a2c3f5a33efca5bc10c145555039557ebbf502dfbf5b5abe",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9008/GEOMETRY/CANDIDATES_2.json": "71f6ec2bb2a146bd42d5a94c9111be5d5acab6d0af0be97f01869e14882c3e5c",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9008/GEOMETRY/CANDIDATES_3.json": "f8f94c49ac54fe1cf9342e2a71380fc03a1d55acb033cef0249ea4107f1d49eb",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9008/GEOMETRY/CANDIDATES_4.json": "2d8bb4b235945f5d7ce389c8d9107cff1b89907418187ff475bde89294fdb309",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9009/GEOMETRY/CANDIDATES_1.json": "db331ceeb69bb97eb21692d2274e169f0dd48b5c52bf14f5928f49b3457cd964",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9009/GEOMETRY/CANDIDATES_2.json": "cab73016c9ff6975d309db43641b7c15b60a67da7a2d4b7ab37431352f28f410",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9009/GEOMETRY/CANDIDATES_3.json": "252f4e122e810fe9d90dc02a7068e54db2ddbb20d7038509f29f26e01aeff2ab",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9009/GEOMETRY/CANDIDATES_4.json": "d3d0b872d24156956ad0cdad2bca67692d37bf3e63347df2e7b6b62096ad3d82",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9010/GEOMETRY/CANDIDATES_1.json": "6dc63e5f6774ba98504ba9f68a1a13e3615390570b25718ef98462574a25649e",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9010/GEOMETRY/CANDIDATES_2.json": "14837e2be4ac32d4422fd27bfcb17a5d6b663dff1e3e2aa53ec2988776dc5aeb",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9010/GEOMETRY/CANDIDATES_3.json": "a5f1fa75665e098f674cb4190de2a0bee6ffaf7b9cd80ef0c7d08894bbc4e3cd",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IFNG_9010/GEOMETRY/CANDIDATES_4.json": "be72a458485c7ba3104908215185e655957af57c00f191648087feca48bcc07e",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9001/GEOMETRY/CANDIDATES_1.json": "2fae290280da8c5967f1a038669638f98853416754c8b6dba9ceb62a0f79e40d",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9001/GEOMETRY/CANDIDATES_2.json": "98733e4090a084007ecb7f4a68b051f88c6d1aae9565af1afa06bfe4d771dceb",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9001/GEOMETRY/CANDIDATES_3.json": "19567bace9079f7fb3655b279165e1f3ed8a6c7bd334d62846463dc201c5636a",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9001/GEOMETRY/CANDIDATES_4.json": "94630dea869e33b08b4ec20905bc2d46ff421a024563ec398e0f8cac8f55845b",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9002/GEOMETRY/CANDIDATES_1.json": "ad8660a31783eb30c8dc6215b15196330001c1c5acffd6b698cf744ce91f2400",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9002/GEOMETRY/CANDIDATES_2.json": "2940f2bbfafbf82786fd582b3cb086da923809d8ab45baf2e1b34a365b222bac",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9002/GEOMETRY/CANDIDATES_3.json": "34a7020bfa1fa0fcfb015b785d8c671ff434b8d0b9078ac85bfd98679f49c590",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9002/GEOMETRY/CANDIDATES_4.json": "510750b0f015b56eeb4ebe808d868b3f99ca14dc633c649623765cd2b1a2cc21",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9003/GEOMETRY/CANDIDATES_1.json": "715b5fe651ed62e578d04db92530655e1e29a8fa82940967b07407c41594f59e",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9003/GEOMETRY/CANDIDATES_2.json": "23fcc78745e76d1d95e6d3a797d4b81e08263ad1001111f99b2e754308b66b98",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9003/GEOMETRY/CANDIDATES_3.json": "ffd58fd657c800b415ee9550e0a1c16b95b15cbca75616602d3f5364acdbb3ed",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9003/GEOMETRY/CANDIDATES_4.json": "772b61660f181af23da0f5fb581c4159f83e7f3085b8577d5a714c7695c00816",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9004/GEOMETRY/CANDIDATES_1.json": "737a3ff8a41cbb177e739141a35e5a97971a7d39671595594aa03fb3d79d8bc7",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9004/GEOMETRY/CANDIDATES_2.json": "d28e1aac2985c4bb178b2925e7e0b2a11d033a1ca1f817fd1d1a21b575d30c1b",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9004/GEOMETRY/CANDIDATES_3.json": "cbaced07fc726c4b2f158d788b37e98cc91df6da9c72e7d068ce6e488f88ed30",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9004/GEOMETRY/CANDIDATES_4.json": "6bfdcdba2d6e5e1f2805bd4bc6244f10f033087ee5ddcbd55a1431c5f4eb375c",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9005/GEOMETRY/CANDIDATES_1.json": "9de2e6cc2d4372895a28299d9d8f128130298c65e141ea876af45035d82b84e8",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9005/GEOMETRY/CANDIDATES_2.json": "d392c221dbb03137166d8e93d32f619324323f2d0bb254da27a35e8bdae832b5",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9005/GEOMETRY/CANDIDATES_3.json": "ef77755c79fc2c3d393363279efbdc07741697ca722c03729c6dc3cbab43be0c",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9005/GEOMETRY/CANDIDATES_4.json": "251d30db03ce2330ddb03e10df56a70cbdddd7b9e9e5e0a38b0ae98aa8998365",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9006/GEOMETRY/CANDIDATES_1.json": "0a99df2ba8f3b396bb1c5d51bec769d408b98ffa4eb7fb060d79dad5b92e256f",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9006/GEOMETRY/CANDIDATES_2.json": "44ba3f874ed89e4232f72fc1a144366b170ec838e6d34368ee969ce4d541931c",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9006/GEOMETRY/CANDIDATES_3.json": "3d0cdfb4f2c42232b094218eec0d67ec16a0a5875267d409f2f789341ef2cc67",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9006/GEOMETRY/CANDIDATES_4.json": "c4426cfd2ebb63bdbba531448ce85ea5387699547385ea91b2c4c381de5e048f",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9007/GEOMETRY/CANDIDATES_1.json": "50bd04a155c78bd7fac4156010a4bd98b5b540470a0450504d95cc764ee6ed07",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9007/GEOMETRY/CANDIDATES_2.json": "532540883750eb04b40b03e8b20ffa5f8e5dd242587ba4ec5cf5df3ee95373cc",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9007/GEOMETRY/CANDIDATES_3.json": "26da1c2bc6813e4b4f42fb4b2784d90c0b25a66619b1d30de681ccd642d8407b",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9007/GEOMETRY/CANDIDATES_4.json": "ffe311c0a7fcdcb10f76146da15dd2078eccc8484d0b0431401860a6d9409bb0",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9008/GEOMETRY/CANDIDATES_1.json": "9ea60804e37e49bf46c237b74c720420bbbc2500fe59b531050f578b7c8a2777",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9008/GEOMETRY/CANDIDATES_2.json": "9b83afb01bebc2222b50f538355c708b737654cc32e7557db3ce8047c2dc4866",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9008/GEOMETRY/CANDIDATES_3.json": "2ffbeea0a23bd85a31b66bf26ac1d08dcdebe7fd42c726cbd7f711342c59d6e2",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9008/GEOMETRY/CANDIDATES_4.json": "e2ffbae09ca7798924918a2123b9bbed539e93121df225a9473317ab71f70abf",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9009/GEOMETRY/CANDIDATES_1.json": "8d1e836f79449f0110c432ca8a22dc28ef745ba9a17bce118de689a6144f6583",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9009/GEOMETRY/CANDIDATES_2.json": "6c518ad4d5364f91ddbdb3970fff530a792594a3ae7dbe7e4c8fc68e45d5c925",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9009/GEOMETRY/CANDIDATES_3.json": "d2f1867af00575a7f3205186b44e76c510e0fc559477a58af62b661df2962c0d",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9009/GEOMETRY/CANDIDATES_4.json": "31f32ce18b6d1a7a4585e4f4053a98cd7640327693b20529518ce6c8703ca075",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9010/GEOMETRY/CANDIDATES_1.json": "449b253198c75e532e7e3f075c18ebf4620281ae08e3ed7214c0d692b7a35a2c",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9010/GEOMETRY/CANDIDATES_2.json": "73c51a73e61bcec802b0d6ed2e9a6723066a977c7454041ff3850683d584f043",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9010/GEOMETRY/CANDIDATES_3.json": "65d9531310a12c080111f2a5d387a806fbd7eff2c44fc0f563080068ea8a220a",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_IL2_9010/GEOMETRY/CANDIDATES_4.json": "d659a9535d0651898fa2fe91ca724b6e1983018921ebc7669eb6268290748b47",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9001/GEOMETRY/CANDIDATES_1.json": "48b3ecdbc92c78c520a97528cbb164f44f491e5580a887aea9eb9d2220959752",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9001/GEOMETRY/CANDIDATES_2.json": "b47e8f46d12c0d926e6cefb8becf99e0abf3fc416d8373b58c50270a2228dd53",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9001/GEOMETRY/CANDIDATES_3.json": "9cc9d082db59e9f68eac8c8077244c131c4ae2cc0fa847cb7f7218730acb8e8f",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9001/GEOMETRY/CANDIDATES_4.json": "2ff6ce72c0fe792b596dd4d36288c628c4fd3012d5dbecfabc7ac1f0cc46deaf",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9002/GEOMETRY/CANDIDATES_1.json": "dd2e246e11d636d979fd2179b3f4dfb516861f6d3d726525bae3ec77c82ebef5",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9002/GEOMETRY/CANDIDATES_2.json": "05e63b90a5a3e17cb87ea649c058c33fda479f1a20784bd2bb3bec3b42a008af",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9002/GEOMETRY/CANDIDATES_3.json": "f55e5fa46e836c7d1ba9f46be325052d6aac99347247e42869b7d2cd454d5772",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9002/GEOMETRY/CANDIDATES_4.json": "24db3b4ac49fa3c3e39957a6c96d9a90301d217a9b7cb4e1eab41f601fe42178",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9003/GEOMETRY/CANDIDATES_1.json": "4f00bdaf79ad5ccca37e3b4873fb4e741c15e1523a043cdab81fdefa13707ed6",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9003/GEOMETRY/CANDIDATES_2.json": "8c9d8f599cf36c55324a23fedf16b57210f1bcbec3f55781b9fbd6d1912f3602",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9003/GEOMETRY/CANDIDATES_3.json": "eeb717399d3873e40c8f3aca4de911dd804d2c891669281ab01356a0d5e9f66e",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9003/GEOMETRY/CANDIDATES_4.json": "e4a29b98c995067844e0936f905cfd2f7d13d14fd6ca18e6e16378d0212901e4",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9004/GEOMETRY/CANDIDATES_1.json": "bb82a112917baf4d021d79019770d8fcf6f01e4e5f5919821b66d1d76d08f8c9",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9004/GEOMETRY/CANDIDATES_2.json": "ed43430d4dee3eed1bc1c0fca8c10bc81598ffd7f8f6e4819bdb3bd65d4007f5",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9004/GEOMETRY/CANDIDATES_3.json": "33b35b344f7c1f94c66856e26e4344af07a1c89f2f88ce099e26851f379e054c",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9004/GEOMETRY/CANDIDATES_4.json": "700f9d2b35f5682ba1827f49e90e0c355c3acce750d55947ffc50686a88ed9bb",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9005/GEOMETRY/CANDIDATES_1.json": "c249aa3fdc8567944840f0efb8c44a5e6116751597af623eff7501d8e656f400",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9005/GEOMETRY/CANDIDATES_2.json": "091127bf71e9c9ab107775915077ef328c496259300021714ecd964e1bd088f5",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9005/GEOMETRY/CANDIDATES_3.json": "405dd7383549363c1d42cfff0ec06ef31369cd34bf80767ebf68443ac2f9d34f",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9005/GEOMETRY/CANDIDATES_4.json": "fa6b0684f477b46330c0b2fae1252ad9698d75c5225296390a4d18d66bad930c",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9006/GEOMETRY/CANDIDATES_1.json": "e69c2240988f707df60bbae4a6aa039f0302f539b0fc6ed6d07b0bdf1f122b94",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9006/GEOMETRY/CANDIDATES_2.json": "109a13baf5c7246163878553b540333814d70c81e6324f01e58f1a4709fed3a9",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9006/GEOMETRY/CANDIDATES_3.json": "ce13ecc2b2a2433fa1762212375796ab329cef81f6f92b0b3e88a14a5686b66d",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9006/GEOMETRY/CANDIDATES_4.json": "a7ca0f99100bdd2c04578c43693211ccb718c6d203a8cd97bb07e879d9237e26",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9007/GEOMETRY/CANDIDATES_1.json": "2b20aff4ed0142eb17c49eef151011a01b034c785c450374fbd0826f1d4a3351",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9007/GEOMETRY/CANDIDATES_2.json": "984b403d44ae3e94d1a0af15e0345e0f4a0d30a34c7b3cb91e894840d95d897d",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9007/GEOMETRY/CANDIDATES_3.json": "d1e79ed25f2196bdd12f4c0be864e425a6e2fe20337e6d692caade8e40221f05",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9007/GEOMETRY/CANDIDATES_4.json": "4c7046d722b77d05b228c35ac87a40d4b84664716264ab9c0149f5dd0ae5985f",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9008/GEOMETRY/CANDIDATES_1.json": "2226be960594e52faf48d30ac392e07d384fa2f60dc5f499a4c798691631d0d0",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9008/GEOMETRY/CANDIDATES_2.json": "5d4ea9e4d6895bc91e0cb1091b62fa90eef0e1589a4d52353dd468525142505c",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9008/GEOMETRY/CANDIDATES_3.json": "8b4ad63acabd685e48184e9c0b7c6c51aab3b111ecbc748c2c4df4ef6fe3a6c4",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9008/GEOMETRY/CANDIDATES_4.json": "8d7251a482a5da28906bcf4ba22351df5f47f839c1ae935698080e565fc3e676",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9009/GEOMETRY/CANDIDATES_1.json": "a3976061049f230cb61dd9edf15e2786f2aa040c75d7f7552477278ea82b3388",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9009/GEOMETRY/CANDIDATES_2.json": "e322e9eef423bee12fbb2e0e6075d828753cca2776ceab4c05b2653291a45105",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9009/GEOMETRY/CANDIDATES_3.json": "a9ab3da5b28960e342bfa42b57979aaf92cd0667286b50a7f60b76b97c2553a9",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9009/GEOMETRY/CANDIDATES_4.json": "c663078983650421ae1190e1b5f3d2898fb6a45974c617291c49056776144a4a",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9010/GEOMETRY/CANDIDATES_1.json": "1fb1c6fc67a583f574bd20f45814e8fd43c138e8cd8201ba66709d270bc1ea7f",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9010/GEOMETRY/CANDIDATES_2.json": "49e0d9a7846096c56caf0791368914c5a50f0ac1149e76df5fcd340c55e69bda",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9010/GEOMETRY/CANDIDATES_3.json": "4e6d363cc7cd39211724ffe5151e5409cd9651fa08fa26b39d9cd532a4412047",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_9010/GEOMETRY/CANDIDATES_4.json": "a03382e1e486f1c247cf3ddc0858d426f0b9765dc269cec9ee1dbda833bd11ea",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9001/GEOMETRY/CANDIDATES_1.json": "ca1d102807c55e314702d2a157ae5addf398ca9dbb76ec5d6067f6fbbc970126",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9001/GEOMETRY/CANDIDATES_2.json": "eb23b61e93b489bc6d9fce57f7a60bb025aa1f7b4aa1ad2d22d67bce454c06e1",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9001/GEOMETRY/CANDIDATES_3.json": "2c992532d26a16fc8722db8cd062359f66b448bea4e4494a371d516a245112be",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9001/GEOMETRY/CANDIDATES_4.json": "9241b4c0bde32890e0a0700aa0e965b1369433fa3d040cced5310cb2067d172c",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9002/GEOMETRY/CANDIDATES_1.json": "a40c33d139ad283ca8fa67ad08cafd12a97ec221e97d9b54626e05c20a5d815e",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9002/GEOMETRY/CANDIDATES_2.json": "efa12d9fee28b9225653c540a0bada6b505c24fe5fb9f82b22d2e05bf00c3d55",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9002/GEOMETRY/CANDIDATES_3.json": "b92c7ed62a61753ffff6dbf8ed61935a0fb65bc9203f5633000d505e28b9789d",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9002/GEOMETRY/CANDIDATES_4.json": "9604633d30efa3b46bb79a9275f0ce947324b1769f943fac0161e7f32c0a75bc",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9003/GEOMETRY/CANDIDATES_1.json": "e799a029a0d35c4ce25627cffaba62bbebe615588bf5903ecf8aba7eacb72a7e",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9003/GEOMETRY/CANDIDATES_2.json": "b85e8677cf2d1734eb02a03786b682cb7620cfa7b1b1d4265d03c7aa6e63eb0c",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9003/GEOMETRY/CANDIDATES_3.json": "fe4ccff5724310a5c9ff367e514eeffb38d4b8be1ecfe7355f692203feca5cb3",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9003/GEOMETRY/CANDIDATES_4.json": "5e3cca6070f42465b3a9fb2ee0c67da841a96ba6d6f23c89340273d313c3fca5",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9004/GEOMETRY/CANDIDATES_1.json": "4245798e1165d5f727e4490a1a785e810e018a362a400614ac3fe07d638c6dec",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9004/GEOMETRY/CANDIDATES_2.json": "f7f749195506b7a11a0c126fce2b8704bdace587fc017b7aaa11d537144f3d72",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9004/GEOMETRY/CANDIDATES_3.json": "a745da8487d3fff52fd2ea510ca2e2ca6057c0865af8ee105680b562832f1598",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9004/GEOMETRY/CANDIDATES_4.json": "2763a58b4e224801e419d67c88923159c8e448b40e212d78709444196963fd4a",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9005/GEOMETRY/CANDIDATES_1.json": "428dff50c9752397fc731b8586e584d07589b5c36614998a2cdd771fbbf93af8",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9005/GEOMETRY/CANDIDATES_2.json": "446525821138ee546de974da84262435b043091699186c3895246a9df234037e",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9005/GEOMETRY/CANDIDATES_3.json": "6a9cb2f06feaa0151e236d8325a600e4c2e416488483d92821970bdb24362f47",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9005/GEOMETRY/CANDIDATES_4.json": "3719bf068f3f9f34ac078c7085d57529f916f2c685e38607dc069057c23583c3",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9006/GEOMETRY/CANDIDATES_1.json": "7121825d75e1c53e7baabfd367a251b38684bc5eae071f24196146a9c6ed324d",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9006/GEOMETRY/CANDIDATES_2.json": "934328e486afcf8d38df228de1f302a78ea2a95268f22be4aff481c1463d4331",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9006/GEOMETRY/CANDIDATES_3.json": "5b82b7a2c74098ed2e90ca68fdf144b5b5b220c9eb07e6c693ae0ea49a991b46",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9006/GEOMETRY/CANDIDATES_4.json": "b660acdca3c7389b3bae2ed4057e89f126f93570a1f409a76738f137f7e7977e",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9007/GEOMETRY/CANDIDATES_1.json": "298ce7c9e3fc2c22be37fc7297a4e98ed9db97f64ba919098f4e79d2993c33c6",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9007/GEOMETRY/CANDIDATES_2.json": "2e1c96b2a825f5feecd5771b681a7b024dfe8d5fc9ab9e53966c763638101aa7",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9007/GEOMETRY/CANDIDATES_3.json": "9e7658212c3c9256016eae47475a4efc1bdd1a326b1cb7dab96225a08115d3b7",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9007/GEOMETRY/CANDIDATES_4.json": "635f6d76e26abccc9a497071cc84dfdfff4f171e0ac90af1b771e154d0d83020",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9008/GEOMETRY/CANDIDATES_1.json": "0525b734e258dcd7d3761ae94e17d9a07ea8b707c7f84ff36ca6d2e6fd58518c",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9008/GEOMETRY/CANDIDATES_2.json": "87ce16cbe81ed87d4cd93bcae0bc1f390048edc20b7d0bc57d2f56bad3f7cfc1",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9008/GEOMETRY/CANDIDATES_3.json": "7e1f61a38d0f7e527ae25742b7973926140502a7b6d79649aea5fd0335b2bf2c",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9008/GEOMETRY/CANDIDATES_4.json": "b22e7f447a0b7fc1489b96b2e6380828a787885d2d4efaf716d84d7b8e5b9692",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9009/GEOMETRY/CANDIDATES_1.json": "710006ee65a0043dcdd532864c3cff5a13d90e54e06a5e6a3f015d01f92ed4dc",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9009/GEOMETRY/CANDIDATES_2.json": "89f836fe513a2fee4fe2c59aa7e2dbcd9d2d46e5e1f4b71c4e3b39c67e4b78d3",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9009/GEOMETRY/CANDIDATES_3.json": "a9d5929970e770f814fec225fc90bdd65861484047b06c00107ff4dd28b8480f",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9009/GEOMETRY/CANDIDATES_4.json": "dade89212ca339351e9378fc38cdf6d53209076bf232e9d27a8247decad09f7f",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9010/GEOMETRY/CANDIDATES_1.json": "c44342fd5ff7cc26f2c53736b92b15f2672a04735d7fda9ff905bf26627f6aae",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9010/GEOMETRY/CANDIDATES_2.json": "065d28a8bb6e303595e9a510e32fd56eb5c9686bf498e04ec6e3921a93bd19be",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9010/GEOMETRY/CANDIDATES_3.json": "65cc4af2a3631156de6b196c29241daaffb75242f15c95d5376e7cbc8d6ec11f",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Sanchez21_down_9010/GEOMETRY/CANDIDATES_4.json": "613d82c6d5a12cb842942803224189aa46c82c78e869b07d4b606a2d38165d07",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9001/GEOMETRY/CANDIDATES_1.json": "004582efc6107fe14bf7629731bef803a58ececc6f39be768ec592649c2d6b37",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9001/GEOMETRY/CANDIDATES_2.json": "8b914e44545cb533d068a81e27871ecb5dc6f4bf9128ce7268b19b4d0d9d39cf",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9001/GEOMETRY/CANDIDATES_3.json": "5cb3d2d5e48bd901b7d73a80823dcb129e2b257ea949a432b984aae21bb2dbdb",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9001/GEOMETRY/CANDIDATES_4.json": "e5f06ae8e8129206544fd64da8dab52d8d0ccfa19d940ecf3c0fd2370302ec85",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9002/GEOMETRY/CANDIDATES_1.json": "38935a25c2cb4443281b2b14e53efbf583c9e90a6a98351a68fd734d13b6e1fe",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9002/GEOMETRY/CANDIDATES_2.json": "da0333ed7b7b785b9a5afeebb13afca81ccdea50d28a3286f349b96564aa6b27",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9002/GEOMETRY/CANDIDATES_3.json": "cf9812fea2faf9ae9959298e5873e2c10474350f5d9455ef9771591fc2acedce",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9002/GEOMETRY/CANDIDATES_4.json": "725ba6881f69bbcaf600f53fafacf4738cee605af34a8f24d0a684b45186974b",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9003/GEOMETRY/CANDIDATES_1.json": "70d59e6361cd10afba2df30fbe975f91dc8c9720a34d3ec0da52a409eb52fe28",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9003/GEOMETRY/CANDIDATES_2.json": "5f55c89724465396b31a8f39073ca59d6b978b9f42a9c810c2c43a3820bc2653",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9003/GEOMETRY/CANDIDATES_3.json": "107c779f92cce9e40258f2607d02291bf811d84813d9c2f7bc4ab6ce5c512108",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9003/GEOMETRY/CANDIDATES_4.json": "7404cee03b13c81fe35135a4fe0aeb5c7dc527a9fedd69e512597995c95efd03",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9004/GEOMETRY/CANDIDATES_1.json": "42b951791687346c2c52472ef0aa7a2a8839c76ffae8812164140ec8c536c2a0",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9004/GEOMETRY/CANDIDATES_2.json": "259fb098bd4e4e49d9d885077c094be0d8829852b3d8370f1bc3e19340a689df",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9004/GEOMETRY/CANDIDATES_3.json": "58a2916ee96c1bfd0de7ec14a6e9532a8ed9492634c2217ef16e8a8f0423b163",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9004/GEOMETRY/CANDIDATES_4.json": "ef7e3a7897e96451ae2dd790febbd957910c4544442e443544218983ab10f954",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9005/GEOMETRY/CANDIDATES_1.json": "d0c984e0f0acaa66de210292303df00242bd85bb788dbc41b28fc70d0a54e54d",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9005/GEOMETRY/CANDIDATES_2.json": "c455708718278ff0d58deff57b204b5849c75a1c28e5eee6c18f8d911eca7808",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9005/GEOMETRY/CANDIDATES_3.json": "44015a78569b0cdd6d3c0f114340a8e41821f9296461e3ddc65066262ca82585",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9005/GEOMETRY/CANDIDATES_4.json": "3696a7864deb366eaca88cdb8e3d896f03140aa71256759cb24f5449117b3469",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9006/GEOMETRY/CANDIDATES_1.json": "4fb74b876d86a43038b6f6a4e3ad5400493632bbad994df943ab33e1563bca3f",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9006/GEOMETRY/CANDIDATES_2.json": "23becf89ac462f9dbbb44e8539af4f431344ad8aa51e1d960275e21cb18b740f",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9006/GEOMETRY/CANDIDATES_3.json": "3c80200d02c90de08becf5e77897b277844fa4f8be09c6555a1d537c59c117c2",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9006/GEOMETRY/CANDIDATES_4.json": "725ea442a60f51ea40b9cb7e1eb27c26498bc31ea8106f206bbd70556c4fb6dd",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9007/GEOMETRY/CANDIDATES_1.json": "1992c2a979bf8c85fee11e2ea5c20863431c24ada3c36643b314bdd47eb1dbe9",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9007/GEOMETRY/CANDIDATES_2.json": "d5f20d3a0c5983ea8c1a5bf317ef2be2c4d612c8883b0937bb0171436b38d7e6",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9007/GEOMETRY/CANDIDATES_3.json": "d33f0c9e4fd82a48a726444a5cc5d359786e388e47f703e15d628b682bcea5ba",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9007/GEOMETRY/CANDIDATES_4.json": "788b6c7be04dbd1dc3e8bdbe8f24f6d390b8ea31ffa640b148d5f0adbd72545d",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9008/GEOMETRY/CANDIDATES_1.json": "d072df4a4261c0f8d65d2d287746e58767608b4f9020735cee04490f3eaa0ec2",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9008/GEOMETRY/CANDIDATES_2.json": "7bd7f83887ddeddbbe10ea4601996c39704c8f55055cb4967ff1998b2ce921ef",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9008/GEOMETRY/CANDIDATES_3.json": "d150cb2463c95eb6c5feaab897b83196027171f79a5268b9036c31ee7b97d6f5",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9008/GEOMETRY/CANDIDATES_4.json": "9c55d3726adab2c2c04f6cac2b54a3023135310a62223dee09c723e1c49b1b7c",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9009/GEOMETRY/CANDIDATES_1.json": "e65cc0e5fa1a66058373eef42b01c4259fa1a561b0f45aa0037915e8a5b30199",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9009/GEOMETRY/CANDIDATES_2.json": "ec41f10ff63aacefa9c5bc9340ef5343ad50276c3addc5ec5744bbad740a2645",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9009/GEOMETRY/CANDIDATES_3.json": "0b22a19987c9016cd1531ac05010748a8073f3274dd640520d7b4646b3e042b8",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9009/GEOMETRY/CANDIDATES_4.json": "c788a7cd4bbe288f800d6719869d190d15a109f727881f7a744892fd21d0022a",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9010/GEOMETRY/CANDIDATES_1.json": "570f467885b30dee66f235c0af4fcf14521bf094d2a253086dbda00c6621d94c",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9010/GEOMETRY/CANDIDATES_2.json": "045257327e02c677dd8879a2bb91b91e49bb68f617a0b788d299e7420386b098",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9010/GEOMETRY/CANDIDATES_3.json": "4bed3ae947c74465665aa1912805328df8ee1ab7c211046a4ef38d323b7e7e2c",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Scharenberg22_9010/GEOMETRY/CANDIDATES_4.json": "77d0be9fd1cebf25f8ae7855684b601d421b3bebe712e04952e4c386d3a9a2ec",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9001/GEOMETRY/CANDIDATES_1.json": "d938fa4bcade5963bb8029f8c2cff51dc1603dc50532839e98880713a073e744",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9001/GEOMETRY/CANDIDATES_2.json": "709dcdbf1be0361925b43e71c253db1fe658612134be662c1dc5a8f508485d63",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9001/GEOMETRY/CANDIDATES_3.json": "50703657396cfd7a37a48b99db0c1fca78cb47628816950ed3bedb517eae92c5",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9001/GEOMETRY/CANDIDATES_4.json": "4eb8cf0a8bc39edf1ad7ed7afb7f2f9f29f830df2999a5b5869bbc5cf2a68f95",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9002/GEOMETRY/CANDIDATES_1.json": "b1186387438b0698f897793f3d5352d690f7dc4263ae5305ddc3396fddd07adc",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9002/GEOMETRY/CANDIDATES_2.json": "dd3c2d0e9d92af7e25a04c02d2de76581e8fde3afb292269f2f8f640f84dc53a",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9002/GEOMETRY/CANDIDATES_3.json": "c403e7836361d74d3a81b381e962c0a0221de2c0c16e23c76e6f04d94db87ad7",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9002/GEOMETRY/CANDIDATES_4.json": "64216b8640abde2087e736d891aa8295b2639bf71a6d06dd2b99023c103265c7",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9003/GEOMETRY/CANDIDATES_1.json": "a833f369e8cb2367a1fb1635f1934b0d0cd3a68a7c7381915cf09249d2bc91b4",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9003/GEOMETRY/CANDIDATES_2.json": "8db648c556af4d1ef1ac281b5f9d3330fb891a2bc624667fd775a581d53f683b",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9003/GEOMETRY/CANDIDATES_3.json": "8683fb0bdc9d35890e8fdeb908fc2cb7b72fc975ed846fb84ea8feac222ac16f",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9003/GEOMETRY/CANDIDATES_4.json": "c40a0ecfc641bfd26dad40c4ad6d15eacac91252ab86e4f757d6d9049d59a1f0",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9004/GEOMETRY/CANDIDATES_1.json": "62af0407f9c27bdc8f81b1ce7c1f649f7087ed5bb5b5504a53b33ee77460d0b0",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9004/GEOMETRY/CANDIDATES_2.json": "f9c8837e45cb43e32c9bf3948b22d9b7649eadbea3c9e27b2bd04f15094167e5",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9004/GEOMETRY/CANDIDATES_3.json": "5c33946e19562e45d6ae175c398509a378ea88f6edb8133e837a00b72168ecfb",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9004/GEOMETRY/CANDIDATES_4.json": "f07bb4ebb3ce94bce6056463c7ef5563bc99fd08951b5b4d2c1feb701059442c",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9005/GEOMETRY/CANDIDATES_1.json": "5bdf0b7470cdc0a12cc27c8460a8e7ffe0b48dec38d676bfd7d311f9d55d7a0f",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9005/GEOMETRY/CANDIDATES_2.json": "e3673f6f061f2067bbfbd56d231da5dfc1543ddb73bb4bd83c5263d98da0b4b7",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9005/GEOMETRY/CANDIDATES_3.json": "095f909667936d8411d942107d4f135399acf8b09d02d121d28e3b01234c09e0",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9005/GEOMETRY/CANDIDATES_4.json": "e77d58bcf1081bf143611780a9f60ecf4c764f8950321971a0961c5422262007",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9006/GEOMETRY/CANDIDATES_1.json": "74010aa281f735bbda1d36a1dc5e6869cc1c2e5d9cfcc05a1283ebc261b5ec9a",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9006/GEOMETRY/CANDIDATES_2.json": "8fc5b026eecbf7ae3e33241ee7dada8b173861b419e9fb18e1ee974b635123b4",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9006/GEOMETRY/CANDIDATES_3.json": "455af00da9f223aae7107eadebfa30a589eef5b261b608461b9b3a1ac6f619d6",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9006/GEOMETRY/CANDIDATES_4.json": "e8f016205f3206386a7e50b0659f2d554cac5c6bdef1e70a46b4f84531b2ff07",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9007/GEOMETRY/CANDIDATES_1.json": "88f6d5c47c9655b9dcbffa8953bc28e20f9a7cc66549350b7a78e4bb0fed3fe0",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9007/GEOMETRY/CANDIDATES_2.json": "8b8fc681c728a269b24a48f0dd888fe10e50f8dbcff9dcc0c060096fdabddb8e",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9007/GEOMETRY/CANDIDATES_3.json": "19b1edc6a74f607c0b3ee0f8a2992ebf4fa1e72e8d167357051f39a609f9f4c5",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9007/GEOMETRY/CANDIDATES_4.json": "07d3075ba7d0941c38baa70773fd00c8612a80d1ebfab91e759013a8524f8fca",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9008/GEOMETRY/CANDIDATES_1.json": "96c303d3901469412cbb2d6244fc31bb9e676ae5c01e2faeeeea193823899d04",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9008/GEOMETRY/CANDIDATES_2.json": "8f1a91f7820ee0c83a3b419e6eb0e3d039565d57151e19131f9ad89aa8014d25",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9008/GEOMETRY/CANDIDATES_3.json": "75e8fda3db45821fea46b18504099144420d26faa4d2070e7fe4cc91819282d8",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9008/GEOMETRY/CANDIDATES_4.json": "03deb0e6b37560ebff2b83874a5d60e3bfc2c6154fd17d88641d48b7d4786724",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9009/GEOMETRY/CANDIDATES_1.json": "2baa3b1288432743a7d061f631c024add0c43b9f945fede092553b6c0cefb8c5",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9009/GEOMETRY/CANDIDATES_2.json": "b67a88462dad0b51bbb41325ff992340c7e29c293873264b08f492ebc0478b0a",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9009/GEOMETRY/CANDIDATES_3.json": "4d2a3608c93cf0d8a4c8d3b647547565f3380d7be208984fe14683ed844ce4f4",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9009/GEOMETRY/CANDIDATES_4.json": "c810e1a6efd3b438d2822253b5fe797db99efedf8b1408340e2782bb9534e2d1",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9010/GEOMETRY/CANDIDATES_1.json": "766fda099b7182579960df3dadc1bac5026cef321e50079d63c19ebc8b15e81f",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9010/GEOMETRY/CANDIDATES_2.json": "fedf90fd95d3e9f6b88bc753261b14631ad824c09b75d3891f628371f9ab6cab",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9010/GEOMETRY/CANDIDATES_3.json": "544d3272ca69b342366594e09c0282d06c67b96073c3aa4c4272addb1223d5f8",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/llama31_8b_Steinhart_crispra_GD2_D22_9010/GEOMETRY/CANDIDATES_4.json": "89092fd5e56c24cf5d9ab83ec175b627c61b9ace48fd63e13e21fd060a9b7520",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9001/GEOMETRY/CANDIDATES_1.json": "c40afb70c6aa617ab6c9eb2cb6e6dba56634370e2a55b258721c85dce1c294df",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9001/GEOMETRY/CANDIDATES_2.json": "b0bfa7cc5038b6d27741f2e9acdc4e4e9f367e8633479454a3b390edb085215b",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9001/GEOMETRY/CANDIDATES_3.json": "28cd6718e852aa9b88fd45dbc2320f9b8c0efd6359368156dc558ca85e8f4560",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9001/GEOMETRY/CANDIDATES_4.json": "f7c6b03652624068d62bd4cad2f69cd15cf586bd0704297ae458c308108fa33e",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9002/GEOMETRY/CANDIDATES_1.json": "69f018fb5722b9eeb4f5ec62953f5f1c1eadd93b0c23bafd3004573fe15989e8",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9002/GEOMETRY/CANDIDATES_2.json": "19b1fefb17e279da9977794c861eda110a7655277d76b3261e3a90486a9d0e3d",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9002/GEOMETRY/CANDIDATES_3.json": "221163fd8f35a380e85c4d0a2c4396633c64d66c12885a8235950123dee9d27a",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9002/GEOMETRY/CANDIDATES_4.json": "545a0fb4420a61348bc2c97ae5dcb0ec7521eacbd1cdaccb82950968c870a9eb",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9003/GEOMETRY/CANDIDATES_1.json": "a4655229d623d34dabe40de786431c706cf47abbac06280e3bfdf37d75d06016",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9003/GEOMETRY/CANDIDATES_2.json": "eafcb29e76a0c3567f2d9e5c4d0a9b54a105d82160fb3fde8b2ee5654357a1e3",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9003/GEOMETRY/CANDIDATES_3.json": "f311f738034cb3ca42a6ebef54c1881ffe5a28d49af7d3dfb88b1c1693c6b0b7",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9003/GEOMETRY/CANDIDATES_4.json": "735a7fc3eedbef4a2eca2035ff9a18217803b8b5d0aef0632791225b2f512f12",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9004/GEOMETRY/CANDIDATES_1.json": "915f649fd20425d13df51ec2905fbfe4219e881c6afa09553afeaf16f5d4e465",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9004/GEOMETRY/CANDIDATES_2.json": "a10ee8709152fd57240894a957499194931bbc48ca7fe7cf161bb222434e5fd9",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9004/GEOMETRY/CANDIDATES_3.json": "a82a7f1e2bbab610b3ed1804cc9545bf1e05499ebe4abd677a935e0151b72d07",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9004/GEOMETRY/CANDIDATES_4.json": "f1eb8f738beb55ff062ed6fcd0958fbac8ba546a5d9a76f26d15ff1c70772f98",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9005/GEOMETRY/CANDIDATES_1.json": "6bf10f3fe981c87f0a40919e91d3b3cb41987001a4a3d1005e097207ec2eb533",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9005/GEOMETRY/CANDIDATES_2.json": "d573cbcb8a59e98538521fcc9b7dd14df4778086925f2a5c6298626213f08411",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9005/GEOMETRY/CANDIDATES_3.json": "0fb1b5d2e66a28bf4bff8f833865e3310d9e42a9b42dc631f9b346a8c8240e90",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9005/GEOMETRY/CANDIDATES_4.json": "ba2841fd54b3161f56dcc7e2e1e894f018113b0efddcc00dda605ef066ff5be5",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9006/GEOMETRY/CANDIDATES_1.json": "6dbf1e9ed8b40bd2204f9e0c6bf612a6af0b6c6712ecec2eb64d1bd66eb20d3b",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9006/GEOMETRY/CANDIDATES_2.json": "afcdd1556c006a6acc40ee962e98d9356d2fb2ceafa75dab8bcb2b3d8ffcbf9c",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9006/GEOMETRY/CANDIDATES_3.json": "d290b5cb03c19698ba040dfb38b4bab35a748bba8599095052ed75a6fb1d8447",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9006/GEOMETRY/CANDIDATES_4.json": "c3dd710a4587316e5cb168d36f05d033e55ea9a8dfe5a89f9ae05e62c8006bc6",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9007/GEOMETRY/CANDIDATES_1.json": "f533f78f3cf27cc5d1af5a03fc56b029ac83ac8a9ffa5a50319a70dc4f3b836f",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9007/GEOMETRY/CANDIDATES_2.json": "24141ab01dd769f2a3d8df3bf0f21c41fcbdad0bf71d50ae23285f19159c4511",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9007/GEOMETRY/CANDIDATES_3.json": "626f4b80ff9d9586596922c6cd9f67ecf42aa9eb93fa5ac225f4ed44165a70d9",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9007/GEOMETRY/CANDIDATES_4.json": "abc055a0955ff278d80f55ea65f360e56844b8e1ef5a0f9dfdfa372f32b9ea26",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9008/GEOMETRY/CANDIDATES_1.json": "4a439b58ee46a8c33948851551ba083b46987c740fb7ee603c7ebd2b55bfaa45",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9008/GEOMETRY/CANDIDATES_2.json": "7b235cfa8d119653694f7ac1ce4ad9818ba1c72e42f55887929e8c93ffead6bf",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9008/GEOMETRY/CANDIDATES_3.json": "903001a9189358a62bb3b93a19c9e606605e58481b23590df5a839480fc613d4",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9008/GEOMETRY/CANDIDATES_4.json": "749ae80fd99873c9df5dd54ca6ed8b20a7d540b1a2b6f7519a5c47cd0d5f388b",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9009/GEOMETRY/CANDIDATES_1.json": "cf556e1ea61a76514376ebaee16cfe2b6dca2274cb2a0019ed761f19fb87d432",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9009/GEOMETRY/CANDIDATES_2.json": "38be8b68f637232a261f4d505c8acdc9ab0959d73256d79c619aebfd5f80733b",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9009/GEOMETRY/CANDIDATES_3.json": "d8a9a3576a3a107aed491e9fe00029283139792f817048223a42081449567060",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9009/GEOMETRY/CANDIDATES_4.json": "57a8d6bca7bb35cb96e937d6df2f7149624089c4d8433fc4c784723fed1e7388",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9010/GEOMETRY/CANDIDATES_1.json": "286b77c9273da8905be8e9b9d29af23184d95af30b92b7cbfd741ff1e21e9911",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9010/GEOMETRY/CANDIDATES_2.json": "861b0dec29c3ac714ce5c67580b0be4b5c314287561ad91c2f12d0336e1f6fc9",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9010/GEOMETRY/CANDIDATES_3.json": "89255e78a8ed56fab694c163852da78a95a75270ed5c400fe35740388d9845a0",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Carnevale22_Adenosine_9010/GEOMETRY/CANDIDATES_4.json": "5ded9c23c66256c061b682264fdcbaa761403026b74b0c0ad8172b063aa05e25",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9001/GEOMETRY/CANDIDATES_1.json": "64e7482f0c89fa67bc3a4b328a46891e3ff07ab40ed586806e0e7f91cd52babd",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9001/GEOMETRY/CANDIDATES_2.json": "615ee86518441adbe984944a997d24a378727b5dac960a877bd234e44592d1b2",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9001/GEOMETRY/CANDIDATES_3.json": "530639cee75586223def1c0b3dcf7db6146501a08196626fa0d50f6d45bbbe16",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9001/GEOMETRY/CANDIDATES_4.json": "c4e2dafa1ee567cf4b1af4e9c9b67a637ad9a8595aef6399c12436a815570c50",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9002/GEOMETRY/CANDIDATES_1.json": "fd959dcfb2dec4ce81348971175ca1080abc6c9284d5ce153556950e955f864e",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9002/GEOMETRY/CANDIDATES_2.json": "8aa16c9ef958507812e6fd29a45a46162a5af73da65bd0e123ad417919539cdc",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9002/GEOMETRY/CANDIDATES_3.json": "667b6776b722132706c8519ef2f713d6443b6763ee0922b3e38962c5ff3b9275",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9002/GEOMETRY/CANDIDATES_4.json": "31d5b0dee1de3eec5f3a1685103d34c1a0dba13f8337465ddbc8e194b92b0b25",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9003/GEOMETRY/CANDIDATES_1.json": "15f487a71e51ef0374a041e7c741bf46dbc490e33ff7b291fd13b04614bea55a",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9003/GEOMETRY/CANDIDATES_2.json": "0f0171c0b23e4bb1a19c7c8e3585044f917f6c37829c4d18d4e4ea1cb8b01050",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9003/GEOMETRY/CANDIDATES_3.json": "49c3b536fe732c72644c88b38acadcc09fa81d18c6b1889e216674b2ff466e57",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9003/GEOMETRY/CANDIDATES_4.json": "7a4e2fbdbaf2fac5a0ebb536a323ca4e2fdb1248c850eeb849f3e1bd248e8126",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9004/GEOMETRY/CANDIDATES_1.json": "bc638a99d255fbb191858652b221f7a9e64aa4e858e114d84fe08dab290cc14f",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9004/GEOMETRY/CANDIDATES_2.json": "d831e316d41d5ef32d7b70497311a1426c7757d5f0b1af795081fd0a5b48a744",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9004/GEOMETRY/CANDIDATES_3.json": "a3ead73bcbec46d6767481fee64358813cf37b74a352fdba79272f8ddb64cefa",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9004/GEOMETRY/CANDIDATES_4.json": "a05930e9569960e8851ebe870c6a02b78aa2b89541a4be94734d173804b64da3",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9005/GEOMETRY/CANDIDATES_1.json": "835398608a6a4a303464896a747ed117bca9c0b0cc877458efd6c6cc6483bbfa",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9005/GEOMETRY/CANDIDATES_2.json": "5a6e575a7e03f5a08a43e31d9c4093ccf7d790c5e95ff953f8f8a55f743f4d19",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9005/GEOMETRY/CANDIDATES_3.json": "f42c20fee2ffd8b0148e63903f1a866f5ab9c7dceeb6523008bc8077261d0fcc",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9005/GEOMETRY/CANDIDATES_4.json": "84b86c1ec29636580f4f3f0c0a368cbc00c661745e1de92ad8eebc164d2e5656",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9006/GEOMETRY/CANDIDATES_1.json": "8ca17b898ec990a5281f46d2f057b3a9bec4f913ba24a6e2be773fe15f20c41d",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9006/GEOMETRY/CANDIDATES_2.json": "2d5abc4cb35100e95b7f545cd8bc546669c450201936b849cc06eee8c1f4fc0b",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9006/GEOMETRY/CANDIDATES_3.json": "a9a737a2a806e92027d03061737f500bf589d8add6d327c375220f8902d4dc9c",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9006/GEOMETRY/CANDIDATES_4.json": "c7fdbc7c54e61c798fffaa4a8306cde6c8817830d653d06f93703ae5b4d36bf7",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9007/GEOMETRY/CANDIDATES_1.json": "62134259db69f781b7ae7886e20e56e4ff1ae109db4d16b53276dcbf7cec7bc4",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9007/GEOMETRY/CANDIDATES_2.json": "e14c17c10767e045041999619251ebe8a400560ebb85f2f816c5e3488cfff5e2",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9007/GEOMETRY/CANDIDATES_3.json": "39a32db1386ea2780e67b9e79303b24c81e73ff02190ee3202ab7e2f2bce41fe",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9007/GEOMETRY/CANDIDATES_4.json": "d2189ed7bf03922de87bdbbf008a764f2d264514c0caba010641d2aa42dce619",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9008/GEOMETRY/CANDIDATES_1.json": "42cac01aecfbafb22b7aa5593480234165a82ced57da0742481a93e3d86c73c3",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9008/GEOMETRY/CANDIDATES_2.json": "5ad3c403296e07ea8b37accc08fd97a093c1e44f879d753a98797e7114ee8354",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9008/GEOMETRY/CANDIDATES_3.json": "8999212c744ae267307a10e40d167e9104b47da5a37530b10aaf642c49426704",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9008/GEOMETRY/CANDIDATES_4.json": "993d469b435fa126b6b610d4314bd0357d630d0eba3945667008a293d6520b60",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9009/GEOMETRY/CANDIDATES_1.json": "9cefc0e0c994e2c637f0302afc9c123566616c0e3ece34620360fb2dd6d66558",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9009/GEOMETRY/CANDIDATES_2.json": "67551b97fda78605a8e5cfbf95980ac67a2ccd8495cdeb1902bbcd5a563a3d27",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9009/GEOMETRY/CANDIDATES_3.json": "cae3e44b525e25dcbe1fa840470038aaba98e31ac70e8c739b9555ffa53c5d71",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9009/GEOMETRY/CANDIDATES_4.json": "f96a781856b6c048eb8ccbd5083de79266663c370ea8f21da85a2d52840d7f79",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9010/GEOMETRY/CANDIDATES_1.json": "7e36c4e72f747357f8bcbf835e8d6ece23dade2f99457e68daa29c5d82994eba",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9010/GEOMETRY/CANDIDATES_2.json": "8576bb178df766760279fa31cf303d53dd7b95ed759decbf67f293b251a30742",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9010/GEOMETRY/CANDIDATES_3.json": "171542863a22037cf0ea4c870f59760767bef525ab77355e8204e4a05a03cf41",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IFNG_9010/GEOMETRY/CANDIDATES_4.json": "a021cca59fb6c224006c202ba43a4a50228af31e50c0ac318a6478c1dd6b0c34",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9001/GEOMETRY/CANDIDATES_1.json": "2c4959f5f5e1138158dda85a3586cbe61112141b43391bb2dd22408168552d4d",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9001/GEOMETRY/CANDIDATES_2.json": "51148de108201d9833b96e768ed10eaa5d1db2362f8d84deed617fe1bfc30d93",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9001/GEOMETRY/CANDIDATES_3.json": "78b79a4c98f4cc1c15d4ecca26eb1496093ef3bfb96f4210ae925cb06516e602",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9001/GEOMETRY/CANDIDATES_4.json": "0c262bf9108646d31bfa0cdf26af7f87fee4081ed414859110c17f46745481ba",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9002/GEOMETRY/CANDIDATES_1.json": "066ce32c7c9e7a08118e8b8f8b1208012a02640f93de8e754edb68ca48e51b4a",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9002/GEOMETRY/CANDIDATES_2.json": "a337298d24e5a3853299d9f6d202d6c7e40df04cffd470aa986056f4628be0fc",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9002/GEOMETRY/CANDIDATES_3.json": "2f4772d7f66203b60837d11baa091afce434a088bc6bde574c2bba523ef8df4d",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9002/GEOMETRY/CANDIDATES_4.json": "93ab791ff88e7ab5f90250ca9ab5dc41436e75292b2b03421de8efb141ee1a86",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9003/GEOMETRY/CANDIDATES_1.json": "3b6a9d2c9654cefbfd497c04668b729dd09bec67397214a71474015ad0f81b44",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9003/GEOMETRY/CANDIDATES_2.json": "f016af2cf7d34d96db4f63b3de652b0e59c70053840b9b7d8c0320c8e5385378",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9003/GEOMETRY/CANDIDATES_3.json": "66635bb5f35841b30fb4f7633f161fc1b335c3b4665c271bd3bb7bcecbbfb01f",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9003/GEOMETRY/CANDIDATES_4.json": "181c8db2dbe6a69e1a1ae45a5b1709660e185716bdfbdfb6370c5f3e630dd54e",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9004/GEOMETRY/CANDIDATES_1.json": "ab93acbc688672b764b1aaa42457a78abc128830d8800bc53c152ca984427fc2",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9004/GEOMETRY/CANDIDATES_2.json": "5c487c8ff471a2f7acd0b1d7a82e236a582b642fc9d2ecb59a3bdfeda3754fe6",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9004/GEOMETRY/CANDIDATES_3.json": "2b1f09f21b04039b2a452cf0fa0735f3ddbd85b030fb8cb59dd6aa9c0b2f99e2",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9004/GEOMETRY/CANDIDATES_4.json": "cf00cdc5fb2ce2d8c13e2f0ea81d40b5a986277b2574ca45255f4b0a0883f0a9",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9005/GEOMETRY/CANDIDATES_1.json": "69ff42c6acec0f8c27512efd584f4ffca454fce22e3731693fe41c8e636f0786",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9005/GEOMETRY/CANDIDATES_2.json": "68be038a9c6c34ffd19cc864a901280f9d4148484a0c58fea3b336885a13f6d7",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9005/GEOMETRY/CANDIDATES_3.json": "a7c2b4bbb575e5e6a7a3f29f1fdf2ddf56a1b4dc635b28fa6f7280ffa4ccf641",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9005/GEOMETRY/CANDIDATES_4.json": "6d7461b720e0af22904024d6c21d9aaf9e89c93b66366b42b1ccfef6bd693566",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9006/GEOMETRY/CANDIDATES_1.json": "30d334f691897e34de8ad53fae2f461b045e17d992db3f65a795d33986fe3327",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9006/GEOMETRY/CANDIDATES_2.json": "1e8c43c22cb6a458f12a3c103f84bc2080535851e5f693179542668c46da3128",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9006/GEOMETRY/CANDIDATES_3.json": "bc66f319d2d791277932b5cc0d75b47c637f5ee68facf99d67187c7afc8a647a",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9006/GEOMETRY/CANDIDATES_4.json": "f9db9f2d128adb1fa5eb8bda8fcc4a4ac7b73848f35639cf609cc7c350f64f01",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9007/GEOMETRY/CANDIDATES_1.json": "7e25b091f66db76d7c5b1a7e83c4d33b001971d11f5166fddf7441de245ec9d0",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9007/GEOMETRY/CANDIDATES_2.json": "b07d6e8865a1e36ea08186b5e70fcb00cd8c0fe4e0287577700ee6421ea88ffc",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9007/GEOMETRY/CANDIDATES_3.json": "96f61b244ff5831d7728849db7bc002b21adaf7b086adc2f5dc19874f69d9fef",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9007/GEOMETRY/CANDIDATES_4.json": "6824dee825ff6353774a1569616d4deda9e9a3bff3f2c17fc63366b60fef0a4a",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9008/GEOMETRY/CANDIDATES_1.json": "02c6be732b7f9db62384b4dd74f56aadca90d67122d0cbe54537b1b4d6205253",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9008/GEOMETRY/CANDIDATES_2.json": "ae858d4ac700245457d10dfa036b3c9a76ce04bbc9733c4c73e3d00a444284ff",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9008/GEOMETRY/CANDIDATES_3.json": "8f676335f1dddaf16b45145d34375b408391f98432c4d505bae40c422188d513",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9008/GEOMETRY/CANDIDATES_4.json": "52793e51edb3058cd2bb01e012f62f76b6622d15c4520b102d24e5101fb5e994",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9009/GEOMETRY/CANDIDATES_1.json": "0f88a20546e3e015639fc8ddc731d2679bfc904a6b28b142c7a84ab31b271e13",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9009/GEOMETRY/CANDIDATES_2.json": "ae2b774e0b92c1886db62aa8e40cd836beb2258a0c3ae9b77f7b267bdf021dc8",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9009/GEOMETRY/CANDIDATES_3.json": "03a7ec63b97a6f555802bf5568099abafb02649268749c0bcb70da078d6e7a39",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9009/GEOMETRY/CANDIDATES_4.json": "12db1876df20e29ab5b7e226bc2c66d8130e076f3130622f8ad280e999165246",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9010/GEOMETRY/CANDIDATES_1.json": "b3b7ded4afbabfaa5df16dc82875b6157ab0ef5014e3f27255d0d4a70d7b9b17",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9010/GEOMETRY/CANDIDATES_2.json": "3b3085d30ddf83bc08bd43e6c4f189a345e636748590f2b7fef6a02e345f5692",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9010/GEOMETRY/CANDIDATES_3.json": "379314e85ffe37a280f987c8dc0bd2e49cb683426226dee1d7f00fd514bfc9f0",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_IL2_9010/GEOMETRY/CANDIDATES_4.json": "bb8dde381562bd7bedc7dc0cd32e6bc3543209c3d06a0123135b295d5ee9f1d6",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9001/GEOMETRY/CANDIDATES_1.json": "91b27650f8a1954b446d17d99d2827ac51f971544b93477f13313b7f644ee350",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9001/GEOMETRY/CANDIDATES_2.json": "e38c62d2bf1edad0b705e4f71a54334c9e3ddf2ba3dc7554bb7c561a2d421d26",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9001/GEOMETRY/CANDIDATES_3.json": "d6fdb442090bc995389327670c5311eb675c7b94d917f8379f059aaba1e0744e",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9001/GEOMETRY/CANDIDATES_4.json": "dd5751dfb3d64fbdd7aa1459d1774954878a0efe37e9e72a972320ae8baa5ac6",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9002/GEOMETRY/CANDIDATES_1.json": "50b27f2d699d4447efca44db29a431346902fc1999ff68ff908355c51d0a984c",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9002/GEOMETRY/CANDIDATES_2.json": "5aae7d4ace76924a925a151e88c297f793fa5a082b608c3e9b058dd486919ed7",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9002/GEOMETRY/CANDIDATES_3.json": "3703f1ceb99a891bed9ba50ffa72e76e0907197c25f7bf804af9009a6eab197f",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9002/GEOMETRY/CANDIDATES_4.json": "dd0e2c03ef314c915cb0d78575bc3801642185eb1201d4321dafc91c756d1653",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9003/GEOMETRY/CANDIDATES_1.json": "d64e1e82d4c2dcb41284c7af442600a1413c352882225faa72b8da70c70dcd47",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9003/GEOMETRY/CANDIDATES_2.json": "ced96f6662e111352e5930f34c05c01603e0269f8df6a7a5631319be211b98bb",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9003/GEOMETRY/CANDIDATES_3.json": "80bca39cba33d2f3490696284a7adfaf7cfc27fedc39dbbf8434a5f1365ab01c",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9003/GEOMETRY/CANDIDATES_4.json": "e8f217e106438fc59612d61c9c1e842ccb9c851e64dd6364a6fb701ef9adcc95",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9004/GEOMETRY/CANDIDATES_1.json": "f02ab021bd0527f570a244acf3b9a24171611aac04fac12e38bacaaa25844ff4",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9004/GEOMETRY/CANDIDATES_2.json": "d60c904bd067a8a1e113a5539b287446026985d74c58fdaf4f56b53f1db39bfb",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9004/GEOMETRY/CANDIDATES_3.json": "c1512b4adec240d65a42439cd3136ae2c2006fd56dea64b7ff5f0777789398ca",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9004/GEOMETRY/CANDIDATES_4.json": "c673b7a704d6f9c9095a7bb474d39cbd27f1427419f7198b783a8fb4d5729581",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9005/GEOMETRY/CANDIDATES_1.json": "abde71d686256de035c0fdaaadf315d0033b8d4a04ceb9fec30e822a2bec9181",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9005/GEOMETRY/CANDIDATES_2.json": "fb1313cc0643648d7dae4049f42493943c6b2b29a9713b16ac2b5fabbc0b1c70",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9005/GEOMETRY/CANDIDATES_3.json": "074d1b11b10fe383fc5212a2f45606deea465954656af1c61c3367408325d8ed",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9005/GEOMETRY/CANDIDATES_4.json": "d99c5035c47fcb9d92176756a6a7a74355a43c106c1d953fce5e00f0a9c54a53",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9006/GEOMETRY/CANDIDATES_1.json": "15f2fc1e50d42d7593ff778f2db2530cb6dd668845761e26c3b95acda6a5a1ad",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9006/GEOMETRY/CANDIDATES_2.json": "3f357c8391c7c54b0b054f728acff268b29ba5106f2dd5d8d9b42fa906489f5c",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9006/GEOMETRY/CANDIDATES_3.json": "4cb6fff0e72a31b19f34fe76687cb7cc8566d1be17027d1566d2c70517aa419c",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9006/GEOMETRY/CANDIDATES_4.json": "42ff3a9681d5d1d7bed82796286eadb5e1a8128efac213dad423f7e42f5f4f16",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9007/GEOMETRY/CANDIDATES_1.json": "c8a0e043fbb3dc0cc91aec5372be5d54bde2788cf4fac5f887b14e4395af4f75",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9007/GEOMETRY/CANDIDATES_2.json": "9f5964da4fcbb78dbc7466bebb28e044c89980b709892e67ab40da31437a3d91",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9007/GEOMETRY/CANDIDATES_3.json": "b96b98ba135d40caf337c86e7d0d327f24225e2246c506dd90373585bd90d178",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9007/GEOMETRY/CANDIDATES_4.json": "3f82cddde99f88531b5509483b22c0197a40834181d4c2ea39b5e74ca3f80d6e",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9008/GEOMETRY/CANDIDATES_1.json": "c844b8162e08fdd04b70827a23b078ebc9664d6fa6dc7e52c3ce063d9c720d77",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9008/GEOMETRY/CANDIDATES_2.json": "9dd7e4a128be673230da2cd3d7ee3067a490ed19675423c7281c6fc2cb4bdeef",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9008/GEOMETRY/CANDIDATES_3.json": "7f4861191928894efcd376109e36bf50174870c77f3118b41641ad744c5356be",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9008/GEOMETRY/CANDIDATES_4.json": "94bbb8ad7b78cc5753d14a6ea96f035802e67292e9c2f83899b977baa86786e1",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9009/GEOMETRY/CANDIDATES_1.json": "027594ebaf43ef6dd340c66012d936311320405f50fc72263afc27ff7f6bacb0",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9009/GEOMETRY/CANDIDATES_2.json": "3e1cf8cf552d941eb58ecac8c861163bd62f87b71b95114acd0c60c10704c757",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9009/GEOMETRY/CANDIDATES_3.json": "920827d9c1ed986f38e9f5741117fd7e3bf2e6e493d7cb967655ae3973e29db0",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9009/GEOMETRY/CANDIDATES_4.json": "ee180a5a1ab1ab56ddd92e5d376bd1eeb43921f10348190c5e72cc9875532a34",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9010/GEOMETRY/CANDIDATES_1.json": "c4d50d4e9a11ab42082f77fec33ea8047c5c089976585be1bed01c67646ce4bc",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9010/GEOMETRY/CANDIDATES_2.json": "e9e1a48bcaf5318a08217914b835270da188a1f5523da323c904aea93fc912aa",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9010/GEOMETRY/CANDIDATES_3.json": "8a26b8800508827c2b35a83b6d67e26f3dd30f48d447e2b38831ce7e2430cdb9",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_9010/GEOMETRY/CANDIDATES_4.json": "5a7d92d4bc1fd44e0c6d62cccad0971d2f519461bc330604ed133b181894f10d",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9001/GEOMETRY/CANDIDATES_1.json": "47b817b28d4c76e5e455f00e9a01818e68db5a49d9b7421fc45a6d68f9ce21a0",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9001/GEOMETRY/CANDIDATES_2.json": "dfbdd4518a4b23504ebc41e633ddb023ea1e2547691dc48855a106855ffab9e2",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9001/GEOMETRY/CANDIDATES_3.json": "d1819c5d356b5f72364fbc6cb2a2cf097c07fe25070165f0d9e4aaaacf16bde7",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9001/GEOMETRY/CANDIDATES_4.json": "456b14be30bbfbe2b5f23359ffce9606583cefa52e867d8b0d6fd7ae568b0e18",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9002/GEOMETRY/CANDIDATES_1.json": "7a368ca75458997904bbdf5809e94792c901e1d01c011bd5385971d819f6439d",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9002/GEOMETRY/CANDIDATES_2.json": "bf3b88fa8a60830945bf0adfcf32189b79994763b7d0267bcb1646f967de91d6",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9002/GEOMETRY/CANDIDATES_3.json": "23ca14679ab93993784df39bdadc45d38fdbe3d8b47618273be50bd901ce9bf5",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9002/GEOMETRY/CANDIDATES_4.json": "d2eda44a0755783b6a6a95671c31beb6e3b5dc2b76bbfef1ee341b1b532219b3",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9003/GEOMETRY/CANDIDATES_1.json": "dc3fdcd9650cc85a17c30da66f2961984825828f40a3a8490687f5a11a980f41",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9003/GEOMETRY/CANDIDATES_2.json": "2588f05cd8f83d797ccfeb809d8ed4e273a37b25cfd9540be6747e14ab79012a",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9003/GEOMETRY/CANDIDATES_3.json": "8e27bdda6b674ddd0d7c5c990c8b05197f8050b36791f78f9f6e475b68decd65",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9003/GEOMETRY/CANDIDATES_4.json": "4edd55cd18f644979f7ed2150e89f48709987604f7ec99eb01c2cd1310320aa5",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9004/GEOMETRY/CANDIDATES_1.json": "cc9bc5c8bdabbdfad3d51912984ea5c8e8c9426c9521d76d81d0cefd3bcf4dac",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9004/GEOMETRY/CANDIDATES_2.json": "ae67e9dd77133911b33b8bfc61e355235fd07343a42342a38b38becbc98a5786",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9004/GEOMETRY/CANDIDATES_3.json": "70120510a11f80289a16d560792d468479733b4cd26d6b859142d6b60a9a8222",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9004/GEOMETRY/CANDIDATES_4.json": "27b93bf551521226f4ce05801912f5957efd32de9e67f1a360f555ed5a1e7d16",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9005/GEOMETRY/CANDIDATES_1.json": "4cbbc95d867dbed71dd3fba4f285d4474bb345a7db77664825fb211ea5460afd",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9005/GEOMETRY/CANDIDATES_2.json": "7e93e437aed6167b9b02cba1d2078b594da5d8c9b58485cb58173cd339bf9cb0",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9005/GEOMETRY/CANDIDATES_3.json": "06498b9373295886326d3b4da7b22fbeb1c5e5ecf4a66a3479dd70c4cb8c0d70",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9005/GEOMETRY/CANDIDATES_4.json": "48bb4d0f7110705535f04c9eaacdf0c40d58ad6483bd20392e339556f2b272aa",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9006/GEOMETRY/CANDIDATES_1.json": "bf9193b74ecf682564fce169df2f80f0740d846f5e3f515a5d4a092af6473f38",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9006/GEOMETRY/CANDIDATES_2.json": "828924b6ef4dba37c847013925646e13f85b68a3167af54e5ff24c9144e79b3f",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9006/GEOMETRY/CANDIDATES_3.json": "0302a9a13dbed9bf6f09a98af7f6b46fb89e53c5bd98ed5b3cd172818bf84858",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9006/GEOMETRY/CANDIDATES_4.json": "680d07d5653771af6a1731ee66ac046ec1f08b251b72ae6e0202e5b58d1b7e1f",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9007/GEOMETRY/CANDIDATES_1.json": "e7002065be1ef05d1e8501f2e3248ec6d52d8877949a6bc6a6e5c9dc0da9922a",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9007/GEOMETRY/CANDIDATES_2.json": "90c4caa033694b188b8f163cb21eaa8e86681de12cafe7f55348cf003e687d60",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9007/GEOMETRY/CANDIDATES_3.json": "354d8842b93ad546826b3fb0335322c84322134e6692d4a38073a86824e3a93b",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9007/GEOMETRY/CANDIDATES_4.json": "b740b1bd1026c8f24abff57ba0922af41cf4f3b027c458258b07d57383197164",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9008/GEOMETRY/CANDIDATES_1.json": "99fe5be308499400bd7d91aae6aa5fceb86ac144f1d9942ca848a435b2d53ae0",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9008/GEOMETRY/CANDIDATES_2.json": "62a673dfdb08dc74b659ef99b27ab25e4426c652d223321ea7a9d167b6b67315",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9008/GEOMETRY/CANDIDATES_3.json": "9f9f6d238145fed2d2ef0e5976c5224afafd0193004851c89051d93aff828cb2",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9008/GEOMETRY/CANDIDATES_4.json": "9b4cb9982fc7ecf837c9fa90cd55b33e23540f44e538f218feb0ed9fb0e44c06",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9009/GEOMETRY/CANDIDATES_1.json": "b5796183206a17f0e18c8f4965b104d5753f88ce4c1fece2630229d97241300b",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9009/GEOMETRY/CANDIDATES_2.json": "72eab2dd965c8409d185821231ff65715e99e51885e0453107e69f87201f10b6",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9009/GEOMETRY/CANDIDATES_3.json": "604df26fd8f24d911e59c155ef3693da4f9adb1c22305bcf8140c211885f5c3f",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9009/GEOMETRY/CANDIDATES_4.json": "1beb8634430350ab9e61cc092e32dffd706df6afc202c9333a5cffc17cdd0843",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9010/GEOMETRY/CANDIDATES_1.json": "6f5cf1209b907402ad76538568946f2ea1611c6a58d90d2b3a0ab11843c777d4",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9010/GEOMETRY/CANDIDATES_2.json": "3e49db906b97f5108b674b72cb052b6a04807ee1df6d5c25bb87fcabefc30e3b",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9010/GEOMETRY/CANDIDATES_3.json": "1504581ecaa2278efc9ecff9e6bb7e4fc4e2b526fe78d0b1171f7341e7edd911",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Sanchez21_down_9010/GEOMETRY/CANDIDATES_4.json": "04a7e260a49ebbc519c96fffe5357742e9f074e2b8388d6f3bcd8ff7c7d016cc",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9001/GEOMETRY/CANDIDATES_1.json": "079b4a4f1ce305a97e085496b3952b956687c419abd0ad011f51aeadb7943e16",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9001/GEOMETRY/CANDIDATES_2.json": "198dc16862c362a839f1a9fbe4c299f2592f5156b324c4fd4470926b5bb11108",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9001/GEOMETRY/CANDIDATES_3.json": "c8f9005281f0428206bd442d326179587381c485486d21cd2e66676da3d9ea8d",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9001/GEOMETRY/CANDIDATES_4.json": "1a3b6022486c36bd6c219aa47292d93dbc9edf3cdf866b1bfc60c6b2a555d91d",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9002/GEOMETRY/CANDIDATES_1.json": "2575092e8f8b50052a5143bafe1b4d2b2581656d6d3002a965673f61f1608860",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9002/GEOMETRY/CANDIDATES_2.json": "b09de6c0507bfe466e1872c088bd36e487df4539f016ca4c794f4177eae0ccb4",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9002/GEOMETRY/CANDIDATES_3.json": "0477481159e6b5a9daa483b377a93deaf9290834b6f1f7cc90617169ac8d5c7a",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9002/GEOMETRY/CANDIDATES_4.json": "0d3e84e72de74236f88b114a70965053052eb61386fbcf3d4f51893ca71d9aaa",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9003/GEOMETRY/CANDIDATES_1.json": "f59660daa2038bf9f92596b834ec5e0d11c3bbca1575475ddab94870ba8fa3c7",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9003/GEOMETRY/CANDIDATES_2.json": "de3648fd7efa69ae2c90ad828daefccabb361d57d8e049b19d64a0fe7f820f93",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9003/GEOMETRY/CANDIDATES_3.json": "af8d8b945489d73c87fcba8479304237bd4b77b642ff062e830089f43fc952dd",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9003/GEOMETRY/CANDIDATES_4.json": "8850eb20dda24967299759bca9e05c4e156314a642b98a7f6a5fb99867f13c2b",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9004/GEOMETRY/CANDIDATES_1.json": "2d49d731f5d241abdf42a4d0ce8251944f53f1dd3af1ccc60edb7a823ecf5de3",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9004/GEOMETRY/CANDIDATES_2.json": "a946cbc2a5c9ade5477cb09a76215b6f843bc17251078a29a41e8cb415d0aaab",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9004/GEOMETRY/CANDIDATES_3.json": "555a04c12080e70a79e3a87e8f2054a1df3ae1493268140d4fcfc79018bc16ca",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9004/GEOMETRY/CANDIDATES_4.json": "9c3a8b6901eff39e3d9d585c5b854a0dbc88926be2f95bf66421038c0b0f76e8",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9005/GEOMETRY/CANDIDATES_1.json": "47690a6fe5ee800682a8128c60281fe70ccb48b3da5331a75f8d3b7362cb0935",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9005/GEOMETRY/CANDIDATES_2.json": "ec27a4ac8407399ff3290470879129c86a82736c7c9671df9a88d3e6ed60784b",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9005/GEOMETRY/CANDIDATES_3.json": "779aed9f0a3cb0b956d7ce23b9f2601f5a2cfc80cd68fa8c515cf2242fe5e9b1",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9005/GEOMETRY/CANDIDATES_4.json": "600b95c0e952f51732b9446fa8afaaaca02d5f9449804837a8fe8989ed2dd924",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9006/GEOMETRY/CANDIDATES_1.json": "c5f34bc1cd7aa16cdebb4fd6eb03b0803997d7409fbd26b1e9f67e651c7efc9e",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9006/GEOMETRY/CANDIDATES_2.json": "03b98fd58c2da5db6ed4b763620486539009212c49ea32dcc956644efb5df07e",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9006/GEOMETRY/CANDIDATES_3.json": "a792130a9de839980897b76694c1830bbe96b5a5d05a87216515aef947c9733c",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9006/GEOMETRY/CANDIDATES_4.json": "ef9b4b963f86db59b8bb6c1a4666f2e5bb8f93f7223ae8dc789cd8436ee99c6f",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9007/GEOMETRY/CANDIDATES_1.json": "34f0fca8c36652a81619b0c2e5561686405f5c42847b4afab5076b6332aad1b8",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9007/GEOMETRY/CANDIDATES_2.json": "baf9027815f258035768bcfe7004cde99c47a4fde506cb1e96bda3aebbba5a80",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9007/GEOMETRY/CANDIDATES_3.json": "cb36bf5a846f08dcb38548744243ecfaec22afd1c4d99fe99d6a68db156028d9",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9007/GEOMETRY/CANDIDATES_4.json": "f0ec08302d63affeb6a8585e1cf1c7919d17c9f5f45834c091c9c31684baf0d4",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9008/GEOMETRY/CANDIDATES_1.json": "f2ce05b4f27cd415915725e5eee3e53db7ad16b9a6be1e8eb2d887edc5b0adac",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9008/GEOMETRY/CANDIDATES_2.json": "6bb6b0c7a6edbe2486a8aad241ddca3ee449637b019ffa2479cddd2a54c83894",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9008/GEOMETRY/CANDIDATES_3.json": "7bee4aa924b46120454a1c83d55a6c32390828a166e7b2e9f562b2c13a77acf4",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9008/GEOMETRY/CANDIDATES_4.json": "cdbdb2e3336f4a61bf5cdf214cc945bff94bf87c692ef9c27bd927f632d42fd5",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9009/GEOMETRY/CANDIDATES_1.json": "47a712d522065bf0a03409675c2d9c9b1e5dd6721c860ebe74c1e4b58ffe59a0",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9009/GEOMETRY/CANDIDATES_2.json": "a831a1f16ffe0dd28774fe8f04a742a61b027c6a4298c0062610c503a1f18811",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9009/GEOMETRY/CANDIDATES_3.json": "37ad3877a737afeeed6f9530144bceceedddcd186c4c80f01f1c1027ca536962",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9009/GEOMETRY/CANDIDATES_4.json": "4e5cd1e69913b94cd54ca3b75ea1b412d8e8cb440e213a0629e8fa91570ded24",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9010/GEOMETRY/CANDIDATES_1.json": "6fc0b9ffc0ed0f6c63c6d451191ea4e07d30ebc9e68223224462f5c4484aee65",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9010/GEOMETRY/CANDIDATES_2.json": "8becfbdebcb93def76e4a36d64e13686da0c91cb8799dcdfff649c36e35cfb36",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9010/GEOMETRY/CANDIDATES_3.json": "34091f7639d81c11d4778a3c64d95f2c43468d7075c33e84f86a136003a80f1f",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Scharenberg22_9010/GEOMETRY/CANDIDATES_4.json": "a994dcba90b1cc1805445304eb61d1864228e98915f8d49a9a28b959629e5c45",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9001/GEOMETRY/CANDIDATES_1.json": "1d11d3b5ff8c6fad614857fd161fef23335db96990351d0523391007d75b3302",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9001/GEOMETRY/CANDIDATES_2.json": "4dfbcb3f5f40f51db1b31a3b417dcb9dfb119390b34da51a193cd0f35e7348b4",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9001/GEOMETRY/CANDIDATES_3.json": "b23d30c83172eaae9594087c8baf526ab04cb71b63088f6f960ee2d5f0404761",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9001/GEOMETRY/CANDIDATES_4.json": "ad2555e00aaef26e16ab6116000e349ec15512c19e7286a6fcb76aafd8550b11",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9002/GEOMETRY/CANDIDATES_1.json": "8ee2aa73eb1eeb414933674d4224c78803161b2cbd15bc045bb2a9570262ebdc",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9002/GEOMETRY/CANDIDATES_2.json": "8721fd5d5b698bc0cd38250ded3ae4464326d2903888c788c20ba4ae30d0a085",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9002/GEOMETRY/CANDIDATES_3.json": "8888f667c979c14e3f0ee104461cc39d31d6276eb719476fd6973446355b3848",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9002/GEOMETRY/CANDIDATES_4.json": "d5e87cb96972504edad1e4b69f437ed9598e61d20e4013b76b75f35aeddade1b",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9003/GEOMETRY/CANDIDATES_1.json": "22c2bfc5a771f55367fe9fe5f5a07fe7d0ec2473e6f9d1390685017f8aa82bef",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9003/GEOMETRY/CANDIDATES_2.json": "fcf30eeda4c9a7b1b80cbbd5ba568ee7a4f7051fed065e9a3c65be9cecaa1254",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9003/GEOMETRY/CANDIDATES_3.json": "43a07d58ad28a3e33fc9a48f39f294e3b7fe89c4115038bad6b33c1663b60c1b",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9003/GEOMETRY/CANDIDATES_4.json": "1fca5ada14d94942f14c086f11fe8961059cdd4d4db6ee156f11775b5ba1e98c",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9004/GEOMETRY/CANDIDATES_1.json": "53bf09af0ee87d078d0d160be3ce02de3bf4d90bedb9d33e7953931871011dd5",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9004/GEOMETRY/CANDIDATES_2.json": "d9d09519cb2ad3a6aa056c02b4741006aea654507827f450615004fdd3a6764c",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9004/GEOMETRY/CANDIDATES_3.json": "77aecee840fc563e16e3470ea7a544beff166bc4fca81ec10a531e1fc338b9f7",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9004/GEOMETRY/CANDIDATES_4.json": "fb9e75fd9a4ad8fef64b504fe2ee934d640ad9f3143e4d0b138e0b4c006c49b6",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9005/GEOMETRY/CANDIDATES_1.json": "ebfb2fab6cfb04a4802c5460ca9c667ae60c8b2cbbf7ef5d43bb090f2e2f871d",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9005/GEOMETRY/CANDIDATES_2.json": "db7bf26f0b48f0d86ddf57afd4e54f6a80b9f702841e13b57737f18d5ad1de1a",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9005/GEOMETRY/CANDIDATES_3.json": "428c924ea5e7028b48df41d30dbdb6b91410d1974e6535f474cd96e040c1bba4",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9005/GEOMETRY/CANDIDATES_4.json": "f8329a9e3ebb6a15341346108760267552fe8b2e7a47670ef0547bd17e334b71",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9006/GEOMETRY/CANDIDATES_1.json": "3cd5d2563d4ba59c5bd16c9f92f403f2804eaec7e7e854ecb40563e966b7221a",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9006/GEOMETRY/CANDIDATES_2.json": "01e4612c158c659e49ace0c76aa7d872d9543600b4d98fe00588c18399f0f7be",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9006/GEOMETRY/CANDIDATES_3.json": "2ebea4e1487ee2a126abc542797d4d2ae3045bcdda3fc2814e2b7d4a1d738d39",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9006/GEOMETRY/CANDIDATES_4.json": "f22edb322fee1fb81847f4be210146f64781149ff8594afccd0079787167d24f",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9007/GEOMETRY/CANDIDATES_1.json": "8fcd8001d234cde98f33a369717699212bcd6854ac9bc881fd1f7d15565e2b51",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9007/GEOMETRY/CANDIDATES_2.json": "530d259ffdd7f792e20a3da6e5729931c4261df8a0769334167f53044a49d892",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9007/GEOMETRY/CANDIDATES_3.json": "d5cb74adb38050063c81b37d7baf5e4aaaffecb84a7db3eaa891f4fa0c03f308",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9007/GEOMETRY/CANDIDATES_4.json": "b3d38d332c994d52e1c563f58b3a138a9fd85ac336d560c34c7738a69b3dbb00",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9008/GEOMETRY/CANDIDATES_1.json": "e633268a8c6d9e671b45b5b572fa780e0413016fee0168fa9f396e5603b4b62b",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9008/GEOMETRY/CANDIDATES_2.json": "d5e654239e1d8453323ffd1a169245c65b54c16339903e0b29614d594d60096f",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9008/GEOMETRY/CANDIDATES_3.json": "3b0b8006eade712d2518bee2d5b152a65c5f795e097fcf3f82f0442860c53ac3",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9008/GEOMETRY/CANDIDATES_4.json": "35ede807b5de761f2d0186078699753a38d002d9eb1679c7ad0edebdfe00a13b",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9009/GEOMETRY/CANDIDATES_1.json": "3e7da7c586d72cef33751354ee0a8328879eb50db45b1a33533fc8516fcbdc19",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9009/GEOMETRY/CANDIDATES_2.json": "fc8362b4127fd353b46cbad90011e170c26cb679aa280d1bc853a81044c57684",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9009/GEOMETRY/CANDIDATES_3.json": "385ba983439e27edf21adfe12f368a96951b1e3777d8d36d97fbe76a10011920",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9009/GEOMETRY/CANDIDATES_4.json": "cda4138de6d6fb7c591a8616e9a20ecd988065cb95f83d96db342ee96429607e",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9010/GEOMETRY/CANDIDATES_1.json": "25a2a85756efb955efaf4e973dcca5b57c7cf975d0bcc126cc673b4c5ba67f8b",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9010/GEOMETRY/CANDIDATES_2.json": "e3ca25d227f56d6be3536c9f8706a3bbbd5675e5478a48a20c020eaa94860ba7",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9010/GEOMETRY/CANDIDATES_3.json": "1fedc46f0d988470302612a56b4741284a49885a93bee948af1a01384c36880b",
+    "Analysis/novelty_extension_20260908/geometry_campaigns/qwen25_7b_Steinhart_crispra_GD2_D22_9010/GEOMETRY/CANDIDATES_4.json": "66c1588e038568d4a01f966819d6e0b646841257aa41d2ce134a826f9270aab3"
+  }
+}

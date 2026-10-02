@@ -1,0 +1,338 @@
+[
+  {
+    "cell": "llama31_8b|Carnevale22_Adenosine|9002|LLM_TRUE_1_NN",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.7881393432617188e-07,
+    "max_saved_greedy_step_gap": 5.960464477539063e-08,
+    "hit_change": 0
+  },
+  {
+    "cell": "llama31_8b|Carnevale22_Adenosine|9007|LLM_TRUE_2_NN",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.7881393432617188e-07,
+    "max_saved_greedy_step_gap": 5.960464477539063e-08,
+    "hit_change": 0
+  },
+  {
+    "cell": "llama31_8b|IFNG|9007|UNIFORM_CANDIDATE|2|False",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 1.1920928955078125e-07,
+    "hit_change": 0
+  },
+  {
+    "cell": "llama31_8b|IFNG|9010|UNIFORM_CANDIDATE|2|False",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 0.0,
+    "hit_change": 0
+  },
+  {
+    "cell": "llama31_8b|IL2|9009|UNIFORM_CANDIDATE|3|False",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.7881393432617188e-07,
+    "max_saved_greedy_step_gap": 1.7881393432617188e-07,
+    "hit_change": 0
+  },
+  {
+    "cell": "llama31_8b|Sanchez21_down|9002|UNIFORM_CANDIDATE|2|False",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 0.0,
+    "hit_change": 0
+  },
+  {
+    "cell": "llama31_8b|Sanchez21_down|9002|UNIFORM_CANDIDATE|3|False",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 5.960464477539063e-08,
+    "hit_change": 0
+  },
+  {
+    "cell": "llama31_8b|Sanchez21_down|9002|LLM_TRUE_3_NN",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 5.960464477539063e-08,
+    "hit_change": 0
+  },
+  {
+    "cell": "llama31_8b|Sanchez21_down|9003|UNIFORM_CANDIDATE|2|False",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 5.960464477539063e-08,
+    "hit_change": 0
+  },
+  {
+    "cell": "llama31_8b|Sanchez21_down|9008|UNIFORM_CANDIDATE|2|False",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 0.0,
+    "hit_change": 0
+  },
+  {
+    "cell": "llama31_8b|Steinhart_crispra_GD2_D22|9003|UNIFORM_CANDIDATE|2|False",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 0.0,
+    "hit_change": 0
+  },
+  {
+    "cell": "llama31_8b|Steinhart_crispra_GD2_D22|9004|UNIFORM_CANDIDATE|3|False",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 0.0,
+    "hit_change": 0
+  },
+  {
+    "cell": "qwen25_7b|Carnevale22_Adenosine|9004|UNIFORM_CANDIDATE|1|False",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 5.960464477539063e-08,
+    "hit_change": 0
+  },
+  {
+    "cell": "qwen25_7b|Carnevale22_Adenosine|9004|UNIFORM_CANDIDATE|2|False",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 5.960464477539063e-08,
+    "hit_change": 0
+  },
+  {
+    "cell": "qwen25_7b|Carnevale22_Adenosine|9005|UNIFORM_CANDIDATE|1|False",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 5.960464477539063e-08,
+    "hit_change": 0
+  },
+  {
+    "cell": "qwen25_7b|Carnevale22_Adenosine|9010|LLM_TRUE_2_NN",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 5.960464477539063e-08,
+    "hit_change": 0
+  },
+  {
+    "cell": "qwen25_7b|IFNG|9002|UNIFORM_CANDIDATE|3|False",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 5.960464477539063e-08,
+    "hit_change": 0
+  },
+  {
+    "cell": "qwen25_7b|IFNG|9003|UNIFORM_CANDIDATE|2|False",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 0.0,
+    "hit_change": 0
+  },
+  {
+    "cell": "qwen25_7b|IFNG|9003|LLM_TRUE_2_NN",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 0.0,
+    "hit_change": 0
+  },
+  {
+    "cell": "qwen25_7b|IFNG|9004|UNIFORM_CANDIDATE|1|False",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 5.960464477539063e-08,
+    "hit_change": 0
+  },
+  {
+    "cell": "qwen25_7b|IFNG|9008|LLM_TRUE_2_NN",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 5.960464477539063e-08,
+    "hit_change": 0
+  },
+  {
+    "cell": "qwen25_7b|IFNG|9009|UNIFORM_CANDIDATE|4|False",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 1.1920928955078125e-07,
+    "hit_change": 0
+  },
+  {
+    "cell": "qwen25_7b|IFNG|9010|UNIFORM_CANDIDATE|1|False",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 1.1920928955078125e-07,
+    "hit_change": 0
+  },
+  {
+    "cell": "qwen25_7b|IL2|9001|LLM_TRUE_2_NN",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 5.960464477539063e-08,
+    "hit_change": 0
+  },
+  {
+    "cell": "qwen25_7b|IL2|9003|UNIFORM_CANDIDATE|1|False",
+    "same_set": false,
+    "set_difference": [
+      "CDC20",
+      "PFDN2"
+    ],
+    "changed_slots": 7,
+    "max_slot_distance_difference": 0.0001531839370727539,
+    "max_saved_greedy_step_gap": 0.0,
+    "hit_change": 0
+  },
+  {
+    "cell": "qwen25_7b|IL2|9006|UNIFORM_CANDIDATE|1|False",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 0.0,
+    "hit_change": 0
+  },
+  {
+    "cell": "qwen25_7b|IL2|9006|LLM_TRUE_4_NN",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 5.960464477539063e-08,
+    "hit_change": 0
+  },
+  {
+    "cell": "qwen25_7b|IL2|9007|UNIFORM_CANDIDATE|2|False",
+    "same_set": false,
+    "set_difference": [
+      "DYNC1H1",
+      "POLR2B"
+    ],
+    "changed_slots": 1,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 5.960464477539063e-08,
+    "hit_change": 0
+  },
+  {
+    "cell": "qwen25_7b|IL2|9010|UNIFORM_CANDIDATE|3|False",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 0.0,
+    "hit_change": 0
+  },
+  {
+    "cell": "qwen25_7b|Sanchez21|9006|LLM_TRUE_1_NN",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 5.960464477539063e-08,
+    "hit_change": 0
+  },
+  {
+    "cell": "qwen25_7b|Sanchez21_down|9002|UNIFORM_CANDIDATE|3|False",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 0.0,
+    "hit_change": 0
+  },
+  {
+    "cell": "qwen25_7b|Sanchez21_down|9003|UNIFORM_CANDIDATE|2|False",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 1.1920928955078125e-07,
+    "hit_change": 0
+  },
+  {
+    "cell": "qwen25_7b|Steinhart_crispra_GD2_D22|9001|UNIFORM_CANDIDATE|2|False",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 5.960464477539063e-08,
+    "hit_change": 0
+  },
+  {
+    "cell": "qwen25_7b|Steinhart_crispra_GD2_D22|9002|LLM_TRUE_2_NN",
+    "same_set": true,
+    "set_difference": [],
+    "changed_slots": 2,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 1.1920928955078125e-07,
+    "hit_change": 0
+  },
+  {
+    "cell": "qwen25_7b|Steinhart_crispra_GD2_D22|9004|UNIFORM_CANDIDATE|4|False",
+    "same_set": false,
+    "set_difference": [
+      "IARS",
+      "SNRNP27"
+    ],
+    "changed_slots": 1,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 5.960464477539063e-08,
+    "hit_change": 0
+  },
+  {
+    "cell": "qwen25_7b|Steinhart_crispra_GD2_D22|9008|UNIFORM_CANDIDATE|4|False",
+    "same_set": false,
+    "set_difference": [
+      "POLR2I",
+      "RPS6"
+    ],
+    "changed_slots": 1,
+    "max_slot_distance_difference": 1.1920928955078125e-07,
+    "max_saved_greedy_step_gap": 5.960464477539063e-08,
+    "hit_change": 0
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "n": 120,
+  "cells": 6,
+  "means": {
+    "assayformer": 48.99166666666667,
+    "uniform": 64.71666666666667,
+    "llm": 62.06666666666667
+  },
+  "unknown_vocabulary": 301,
+  "acquired_unknown": 0,
+  "contrasts": {
+    "assayformer_minus_uniform": {
+      "mean": -15.725000000000001,
+      "interval": [
+        -17.675104166666667,
+        -13.691666666666668
+      ],
+      "level": 0.975
+    },
+    "assayformer_minus_llm": {
+      "mean": -13.075000000000003,
+      "interval": [
+        -15.225000000000001,
+        -10.90822916666666
+      ],
+      "level": 0.975
+    }
+  }
+}

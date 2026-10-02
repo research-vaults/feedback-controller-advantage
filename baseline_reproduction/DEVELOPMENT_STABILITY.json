@@ -1,0 +1,62 @@
+{
+  "Carnevale22_Adenosine": {
+    "winner": "C17",
+    "winner_mean": 36.25,
+    "runner_up": "C18",
+    "runner_up_mean": 35.25,
+    "winner_margin": 1.0,
+    "conditional_resampling_selection_fractions": {
+      "C00": 0.0123,
+      "C01": 0.0,
+      "C02": 0.0,
+      "C03": 0.0,
+      "C04": 0.0,
+      "C05": 0.0119,
+      "C06": 0.0002,
+      "C07": 0.0,
+      "C08": 0.0679,
+      "C09": 0.0,
+      "C10": 0.0,
+      "C11": 0.0,
+      "C12": 0.0,
+      "C13": 0.0,
+      "C14": 0.0,
+      "C15": 0.0,
+      "C16": 0.0,
+      "C17": 0.669,
+      "C18": 0.1415,
+      "C19": 0.0972
+    },
+    "scope": "Descriptive 10000 within-model development resamples, seed190924; not independent confirmation or selection-adjusted test uncertainty."
+  },
+  "IL2": {
+    "winner": "C00",
+    "winner_mean": 49.25,
+    "runner_up": "C02",
+    "runner_up_mean": 48.75,
+    "winner_margin": 0.5,
+    "conditional_resampling_selection_fractions": {
+      "C00": 0.6082,
+      "C01": 0.0,
+      "C02": 0.3918,
+      "C03": 0.0,
+      "C04": 0.0,
+      "C05": 0.0,
+      "C06": 0.0,
+      "C07": 0.0,
+      "C08": 0.0,
+      "C09": 0.0,
+      "C10": 0.0,
+      "C11": 0.0,
+      "C12": 0.0,
+      "C13": 0.0,
+      "C14": 0.0,
+      "C15": 0.0,
+      "C16": 0.0,
+      "C17": 0.0,
+      "C18": 0.0,
+      "C19": 0.0
+    },
+    "scope": "Descriptive 10000 within-model development resamples, seed190924; not independent confirmation or selection-adjusted test uncertainty."
+  }
+}

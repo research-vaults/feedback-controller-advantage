@@ -1,0 +1,13 @@
+# Saved-candidate selection diagnostic — protocol before new calculations
+
+Retrospective extension of already inspected candidate evidence, not a prospective confirmatory study. No new LLM calls, candidate generation, selector tuning, scientific datasets or biological experiments. Original 560 records: 480 B640 states from 120 starts (2 models ×6 readouts ×10 starts ×4 rounds) and separate80 B160 states from20 starts. Preserve both budgets; do not pool them.
+
+Question: Does geometry fail to choose an available better batch, and does its excess loss on the mixed pool account for the difference between matched oracle and realized gains? Compare exactly the two offered pools on each saved mixed-policy history: (LLM,U1) and (U1,U2).
+
+For each pair, label strict first-better, strict second-better and tied hit counts. Recover geometry's mixed selection from the original CANDIDATES/EXECUTED record and distance-only score; validate against stored hits and regret. Infer selected two-uniform hit count from max(U1,U2)−stored_regret; when tied, identity is not identifiable from yield and remains unspecified. Label non-tied chosen-best versus missed-best; report ties separately.
+
+Primary descriptive objects: three-row mixed-candidate outcome/selection count matrix, regret in hits per decision for both pools, paired excess regret, exact statewise identity: selected_increment = oracle_increment − (mixed_regret−uniform_regret). Also report strict-choice accuracy conditional on unequal yields (state-weighted ratio), with its numerator and denominator, never as independent trials. For B640 and B160 separately compute exploratory95% stratified bootstrap intervals with20000 draws and seed20260924; resample whole starts within model/readout cell, retaining four rounds and both pools. Ratios are recomputed on each resample; record any zero denominators. No multiple-testing success claim; source/model strata are descriptive sensitivity.
+
+Possible outcomes: excess regret with positive interval supports a local measurable selection shortfall relative to the two-uniform pool. An interval crossing zero leaves that contrast unresolved. Either result remains conditional on saved states and cannot imply a new full-campaign gain or which feature/architecture would fix selection. A high success fraction can still lose more hits on costly mistakes; report rates and regret separately.
+
+Main promotion rule: add only a concise, directly reconstructable result linking available candidates to actual choice, preserving the full-campaign−0.11 uncertainty and future-label oracle boundary. Detailed stratification and raw integer matrix remain in supplement/reproduction. Do not claim that a newly named diagnostic increases novelty.

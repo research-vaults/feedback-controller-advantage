@@ -1,0 +1,4 @@
+{
+  "reason": "Float32 BLAS near-tie changes order within identical acquired sets: DHX37/RPL8 distances0.04351455 versus0.04351461. Preserve saved candidates and their recorded ordering; require exact acquired-set and hit equality, record every ordering discrepancy. New numerical suffixes use current backend, not claimed bit-identical historic trajectories. No sample or contrast changes.",
+  "code_sha256": "056e831423f7a44424e45694a2836b9122a37abd5de83004a0177911a7be9b6a"
+}

@@ -1,0 +1,8 @@
+{
+  "source_file": "BLOCK_VALUES.json",
+  "source_sha256": "589d3b1f26cbe864e7702cc5be3410a524e469847d051da867a2fb1e895b2695",
+  "selection": "budget == 640; terminal released-hit endpoint (metric 0), four stated policies",
+  "rows": 720,
+  "pairs": "same model/readout/start; each policy follows its own history",
+  "no_gene_identifiers_or_features": true
+}

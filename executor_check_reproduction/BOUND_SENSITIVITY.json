@@ -1,0 +1,356 @@
+{
+  "scope": "Retrospective sensitivity on fixed 20 planned starts; 10 per exposed source; no new inference calls",
+  "method": "Outer envelope of 98.333% percentile bootstrap intervals over logical trajectory bounds; NOT calibrated population coverage or confirmation",
+  "seed": 260926,
+  "draws": 20000,
+  "interval_level": 0.9833333333333333,
+  "contrasts": {
+    "instruction_random": {
+      "point_bounds": [
+        1.15,
+        39.55
+      ],
+      "bootstrap_outer_envelope": [
+        -4.4,
+        95.11708333333335
+      ],
+      "source_point_bounds": {
+        "Carnevale22_Adenosine": [
+          -6.0,
+          70.8
+        ],
+        "IL2": [
+          8.3,
+          8.3
+        ]
+      },
+      "per_start": {
+        "Carnevale22_Adenosine|24001": [
+          -6.0,
+          -6.0
+        ],
+        "Carnevale22_Adenosine|24002": [
+          0.0,
+          0.0
+        ],
+        "Carnevale22_Adenosine|24003": [
+          -1.0,
+          -1.0
+        ],
+        "Carnevale22_Adenosine|24004": [
+          -6.0,
+          -6.0
+        ],
+        "Carnevale22_Adenosine|24005": [
+          -2.0,
+          -2.0
+        ],
+        "Carnevale22_Adenosine|24006": [
+          -4.0,
+          -4.0
+        ],
+        "Carnevale22_Adenosine|24007": [
+          -29.0,
+          355.0
+        ],
+        "Carnevale22_Adenosine|24008": [
+          15.0,
+          15.0
+        ],
+        "Carnevale22_Adenosine|24009": [
+          -25.0,
+          359.0
+        ],
+        "Carnevale22_Adenosine|24010": [
+          -2.0,
+          -2.0
+        ],
+        "IL2|24001": [
+          15.0,
+          15.0
+        ],
+        "IL2|24002": [
+          6.0,
+          6.0
+        ],
+        "IL2|24003": [
+          21.0,
+          21.0
+        ],
+        "IL2|24004": [
+          6.0,
+          6.0
+        ],
+        "IL2|24005": [
+          -1.0,
+          -1.0
+        ],
+        "IL2|24006": [
+          6.0,
+          6.0
+        ],
+        "IL2|24007": [
+          -3.0,
+          -3.0
+        ],
+        "IL2|24008": [
+          15.0,
+          15.0
+        ],
+        "IL2|24009": [
+          8.0,
+          8.0
+        ],
+        "IL2|24010": [
+          10.0,
+          10.0
+        ]
+      }
+    },
+    "controller_truthful_nn": {
+      "point_bounds": [
+        -14.85,
+        10.75
+      ],
+      "bootstrap_outer_envelope": [
+        -35.0,
+        77.11708333333335
+      ],
+      "source_point_bounds": {
+        "Carnevale22_Adenosine": [
+          -2.2,
+          49.0
+        ],
+        "IL2": [
+          -27.5,
+          -27.5
+        ]
+      },
+      "per_start": {
+        "Carnevale22_Adenosine|24001": [
+          3.0,
+          3.0
+        ],
+        "Carnevale22_Adenosine|24002": [
+          10.0,
+          10.0
+        ],
+        "Carnevale22_Adenosine|24003": [
+          2.0,
+          2.0
+        ],
+        "Carnevale22_Adenosine|24004": [
+          3.0,
+          3.0
+        ],
+        "Carnevale22_Adenosine|24005": [
+          7.0,
+          7.0
+        ],
+        "Carnevale22_Adenosine|24006": [
+          4.0,
+          4.0
+        ],
+        "Carnevale22_Adenosine|24007": [
+          -58.0,
+          454.0
+        ],
+        "Carnevale22_Adenosine|24008": [
+          -5.0,
+          -5.0
+        ],
+        "Carnevale22_Adenosine|24009": [
+          0.0,
+          0.0
+        ],
+        "Carnevale22_Adenosine|24010": [
+          12.0,
+          12.0
+        ],
+        "IL2|24001": [
+          2.0,
+          2.0
+        ],
+        "IL2|24002": [
+          8.0,
+          8.0
+        ],
+        "IL2|24003": [
+          -14.0,
+          -14.0
+        ],
+        "IL2|24004": [
+          -127.0,
+          -127.0
+        ],
+        "IL2|24005": [
+          6.0,
+          6.0
+        ],
+        "IL2|24006": [
+          -43.0,
+          -43.0
+        ],
+        "IL2|24007": [
+          -90.0,
+          -90.0
+        ],
+        "IL2|24008": [
+          -2.0,
+          -2.0
+        ],
+        "IL2|24009": [
+          -3.0,
+          -3.0
+        ],
+        "IL2|24010": [
+          -12.0,
+          -12.0
+        ]
+      }
+    },
+    "opportunity_interaction_nn": {
+      "point_bounds": [
+        -19.9,
+        5.7
+      ],
+      "bootstrap_outer_envelope": [
+        -86.78416666666666,
+        27.8
+      ],
+      "source_point_bounds": {
+        "Carnevale22_Adenosine": [
+          -43.9,
+          7.3
+        ],
+        "IL2": [
+          4.1,
+          4.1
+        ]
+      },
+      "per_start": {
+        "Carnevale22_Adenosine|24001": [
+          -1.0,
+          -1.0
+        ],
+        "Carnevale22_Adenosine|24002": [
+          2.0,
+          2.0
+        ],
+        "Carnevale22_Adenosine|24003": [
+          0.0,
+          0.0
+        ],
+        "Carnevale22_Adenosine|24004": [
+          0.0,
+          0.0
+        ],
+        "Carnevale22_Adenosine|24005": [
+          3.0,
+          3.0
+        ],
+        "Carnevale22_Adenosine|24006": [
+          -2.0,
+          -2.0
+        ],
+        "Carnevale22_Adenosine|24007": [
+          -452.0,
+          60.0
+        ],
+        "Carnevale22_Adenosine|24008": [
+          2.0,
+          2.0
+        ],
+        "Carnevale22_Adenosine|24009": [
+          9.0,
+          9.0
+        ],
+        "Carnevale22_Adenosine|24010": [
+          0.0,
+          0.0
+        ],
+        "IL2|24001": [
+          -5.0,
+          -5.0
+        ],
+        "IL2|24002": [
+          -8.0,
+          -8.0
+        ],
+        "IL2|24003": [
+          -8.0,
+          -8.0
+        ],
+        "IL2|24004": [
+          120.0,
+          120.0
+        ],
+        "IL2|24005": [
+          -14.0,
+          -14.0
+        ],
+        "IL2|24006": [
+          -100.0,
+          -100.0
+        ],
+        "IL2|24007": [
+          54.0,
+          54.0
+        ],
+        "IL2|24008": [
+          -4.0,
+          -4.0
+        ],
+        "IL2|24009": [
+          4.0,
+          4.0
+        ],
+        "IL2|24010": [
+          2.0,
+          2.0
+        ]
+      }
+    }
+  },
+  "centre_completion": {
+    "LLM_NN_FREE": {
+      "decisions": 76,
+      "completed_centres_decisions": 0,
+      "completed_centre_slots": 0
+    },
+    "LLM_NN_OBSERVED": {
+      "decisions": 80,
+      "completed_centres_decisions": 0,
+      "completed_centre_slots": 0
+    },
+    "LLM_RANDOM_FIXED": {
+      "decisions": 80,
+      "completed_centres_decisions": 0,
+      "completed_centre_slots": 0
+    },
+    "LLM_RANDOM_TRUTH": {
+      "decisions": 74,
+      "completed_centres_decisions": 1,
+      "completed_centre_slots": 1
+    },
+    "UNIFORM_NN_FREE": {
+      "decisions": 80,
+      "completed_centres_decisions": 1,
+      "completed_centre_slots": 1
+    },
+    "UNIFORM_NN_OBSERVED": {
+      "decisions": 80,
+      "completed_centres_decisions": 1,
+      "completed_centre_slots": 1
+    },
+    "UNIFORM_RANDOM_FREE": {
+      "decisions": 80,
+      "completed_centres_decisions": 1,
+      "completed_centre_slots": 1
+    }
+  },
+  "uniform_nn_equal_decisions": 76,
+  "uniform_nn_total_paired_decisions": 80,
+  "input_sha256": "b8c644f02880d9e7ee2dda4a417ad3afa2628768ea4f4a187a7820757a8471af",
+  "implementation_checks": "Endpoint and three interior-completion containment checks pass for all3contrasts"
+}

@@ -1,0 +1,11 @@
+{
+  "at": "2026-09-21T00:27:08.002526",
+  "original_freeze": {
+    "protocol_sha256": "e60e58bad12350b78b25676c0dea389de17caf3d2feb145a8aac51f1a4972cb3",
+    "code_sha256": "f0344f807e2ab077b464f40e0f01b914e1147ed29b03fd18b395197b2326b4c1",
+    "at": 1789946597.299171,
+    "new_paid_cost_usd": 0
+  },
+  "corrected_code_sha256": "191bfe30e309582b5ce504b8fe0c57324702f2188fb2ef4f9fca6f70a402628c",
+  "reason": "Exact dict equality rejected cosine-distance roundoff (observed max1.78814e-7) and absolute-z roundoff5e-17. Genes, order, ranks, hits and selector decisions remain exact. Allow only distance absolute tolerance5e-7 and score/z1e-12. No estimand, seeds, samples or outcomes changed;160 complete branch pairs retained."
+}

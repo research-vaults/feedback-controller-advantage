@@ -1,0 +1,882 @@
+{
+  "Carnevale22_Adenosine|24001": {
+    "LLM_NN_FREE": {
+      "rounds": 4,
+      "lo": 68,
+      "hi": 68,
+      "final": 68
+    },
+    "LLM_RANDOM_FIXED": {
+      "rounds": 4,
+      "lo": 36,
+      "hi": 36,
+      "final": 36
+    },
+    "LLM_RANDOM_TRUTH": {
+      "rounds": 4,
+      "lo": 30,
+      "hi": 30,
+      "final": 30
+    },
+    "LLM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 67,
+      "hi": 67,
+      "final": 67
+    },
+    "UNIFORM_NN_FREE": {
+      "rounds": 4,
+      "lo": 65,
+      "hi": 65,
+      "final": 65
+    },
+    "UNIFORM_RANDOM_FREE": {
+      "rounds": 4,
+      "lo": 36,
+      "hi": 36,
+      "final": 36
+    },
+    "UNIFORM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 65,
+      "hi": 65,
+      "final": 65
+    }
+  },
+  "IL2|24001": {
+    "LLM_NN_FREE": {
+      "rounds": 4,
+      "lo": 159,
+      "hi": 159,
+      "final": 159
+    },
+    "LLM_RANDOM_FIXED": {
+      "rounds": 4,
+      "lo": 24,
+      "hi": 24,
+      "final": 24
+    },
+    "LLM_RANDOM_TRUTH": {
+      "rounds": 4,
+      "lo": 39,
+      "hi": 39,
+      "final": 39
+    },
+    "LLM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 154,
+      "hi": 154,
+      "final": 154
+    },
+    "UNIFORM_NN_FREE": {
+      "rounds": 4,
+      "lo": 157,
+      "hi": 157,
+      "final": 157
+    },
+    "UNIFORM_RANDOM_FREE": {
+      "rounds": 4,
+      "lo": 24,
+      "hi": 24,
+      "final": 24
+    },
+    "UNIFORM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 157,
+      "hi": 157,
+      "final": 157
+    }
+  },
+  "Carnevale22_Adenosine|24002": {
+    "LLM_NN_FREE": {
+      "rounds": 4,
+      "lo": 68,
+      "hi": 68,
+      "final": 68
+    },
+    "LLM_RANDOM_FIXED": {
+      "rounds": 4,
+      "lo": 25,
+      "hi": 25,
+      "final": 25
+    },
+    "LLM_RANDOM_TRUTH": {
+      "rounds": 4,
+      "lo": 25,
+      "hi": 25,
+      "final": 25
+    },
+    "LLM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 70,
+      "hi": 70,
+      "final": 70
+    },
+    "UNIFORM_NN_FREE": {
+      "rounds": 4,
+      "lo": 58,
+      "hi": 58,
+      "final": 58
+    },
+    "UNIFORM_RANDOM_FREE": {
+      "rounds": 4,
+      "lo": 25,
+      "hi": 25,
+      "final": 25
+    },
+    "UNIFORM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 58,
+      "hi": 58,
+      "final": 58
+    }
+  },
+  "IL2|24002": {
+    "LLM_NN_FREE": {
+      "rounds": 4,
+      "lo": 146,
+      "hi": 146,
+      "final": 146
+    },
+    "LLM_RANDOM_FIXED": {
+      "rounds": 4,
+      "lo": 33,
+      "hi": 33,
+      "final": 33
+    },
+    "LLM_RANDOM_TRUTH": {
+      "rounds": 4,
+      "lo": 39,
+      "hi": 39,
+      "final": 39
+    },
+    "LLM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 153,
+      "hi": 153,
+      "final": 153
+    },
+    "UNIFORM_NN_FREE": {
+      "rounds": 4,
+      "lo": 138,
+      "hi": 138,
+      "final": 138
+    },
+    "UNIFORM_RANDOM_FREE": {
+      "rounds": 4,
+      "lo": 23,
+      "hi": 23,
+      "final": 23
+    },
+    "UNIFORM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 153,
+      "hi": 153,
+      "final": 153
+    }
+  },
+  "Carnevale22_Adenosine|24003": {
+    "LLM_NN_FREE": {
+      "rounds": 4,
+      "lo": 68,
+      "hi": 68,
+      "final": 68
+    },
+    "LLM_RANDOM_FIXED": {
+      "rounds": 4,
+      "lo": 24,
+      "hi": 24,
+      "final": 24
+    },
+    "LLM_RANDOM_TRUTH": {
+      "rounds": 4,
+      "lo": 23,
+      "hi": 23,
+      "final": 23
+    },
+    "LLM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 68,
+      "hi": 68,
+      "final": 68
+    },
+    "UNIFORM_NN_FREE": {
+      "rounds": 4,
+      "lo": 66,
+      "hi": 66,
+      "final": 66
+    },
+    "UNIFORM_RANDOM_FREE": {
+      "rounds": 4,
+      "lo": 24,
+      "hi": 24,
+      "final": 24
+    },
+    "UNIFORM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 66,
+      "hi": 66,
+      "final": 66
+    }
+  },
+  "IL2|24003": {
+    "LLM_NN_FREE": {
+      "rounds": 4,
+      "lo": 135,
+      "hi": 135,
+      "final": 135
+    },
+    "LLM_RANDOM_FIXED": {
+      "rounds": 4,
+      "lo": 25,
+      "hi": 25,
+      "final": 25
+    },
+    "LLM_RANDOM_TRUTH": {
+      "rounds": 4,
+      "lo": 46,
+      "hi": 46,
+      "final": 46
+    },
+    "LLM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 127,
+      "hi": 127,
+      "final": 127
+    },
+    "UNIFORM_NN_FREE": {
+      "rounds": 4,
+      "lo": 149,
+      "hi": 149,
+      "final": 149
+    },
+    "UNIFORM_RANDOM_FREE": {
+      "rounds": 4,
+      "lo": 25,
+      "hi": 25,
+      "final": 25
+    },
+    "UNIFORM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 149,
+      "hi": 149,
+      "final": 149
+    }
+  },
+  "Carnevale22_Adenosine|24004": {
+    "LLM_NN_FREE": {
+      "rounds": 4,
+      "lo": 71,
+      "hi": 71,
+      "final": 71
+    },
+    "LLM_RANDOM_FIXED": {
+      "rounds": 4,
+      "lo": 37,
+      "hi": 37,
+      "final": 37
+    },
+    "LLM_RANDOM_TRUTH": {
+      "rounds": 4,
+      "lo": 31,
+      "hi": 31,
+      "final": 31
+    },
+    "LLM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 71,
+      "hi": 71,
+      "final": 71
+    },
+    "UNIFORM_NN_FREE": {
+      "rounds": 4,
+      "lo": 68,
+      "hi": 68,
+      "final": 68
+    },
+    "UNIFORM_RANDOM_FREE": {
+      "rounds": 4,
+      "lo": 37,
+      "hi": 37,
+      "final": 37
+    },
+    "UNIFORM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 68,
+      "hi": 68,
+      "final": 68
+    }
+  },
+  "IL2|24004": {
+    "LLM_NN_FREE": {
+      "rounds": 4,
+      "lo": 29,
+      "hi": 29,
+      "final": 29
+    },
+    "LLM_RANDOM_FIXED": {
+      "rounds": 4,
+      "lo": 29,
+      "hi": 29,
+      "final": 29
+    },
+    "LLM_RANDOM_TRUTH": {
+      "rounds": 4,
+      "lo": 35,
+      "hi": 35,
+      "final": 35
+    },
+    "LLM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 149,
+      "hi": 149,
+      "final": 149
+    },
+    "UNIFORM_NN_FREE": {
+      "rounds": 4,
+      "lo": 156,
+      "hi": 156,
+      "final": 156
+    },
+    "UNIFORM_RANDOM_FREE": {
+      "rounds": 4,
+      "lo": 27,
+      "hi": 27,
+      "final": 27
+    },
+    "UNIFORM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 156,
+      "hi": 156,
+      "final": 156
+    }
+  },
+  "Carnevale22_Adenosine|24005": {
+    "LLM_NN_FREE": {
+      "rounds": 4,
+      "lo": 67,
+      "hi": 67,
+      "final": 67
+    },
+    "LLM_RANDOM_FIXED": {
+      "rounds": 4,
+      "lo": 36,
+      "hi": 36,
+      "final": 36
+    },
+    "LLM_RANDOM_TRUTH": {
+      "rounds": 4,
+      "lo": 34,
+      "hi": 34,
+      "final": 34
+    },
+    "LLM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 70,
+      "hi": 70,
+      "final": 70
+    },
+    "UNIFORM_NN_FREE": {
+      "rounds": 4,
+      "lo": 60,
+      "hi": 60,
+      "final": 60
+    },
+    "UNIFORM_RANDOM_FREE": {
+      "rounds": 4,
+      "lo": 36,
+      "hi": 36,
+      "final": 36
+    },
+    "UNIFORM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 60,
+      "hi": 60,
+      "final": 60
+    }
+  },
+  "IL2|24005": {
+    "LLM_NN_FREE": {
+      "rounds": 4,
+      "lo": 154,
+      "hi": 154,
+      "final": 154
+    },
+    "LLM_RANDOM_FIXED": {
+      "rounds": 4,
+      "lo": 35,
+      "hi": 35,
+      "final": 35
+    },
+    "LLM_RANDOM_TRUTH": {
+      "rounds": 4,
+      "lo": 34,
+      "hi": 34,
+      "final": 34
+    },
+    "LLM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 140,
+      "hi": 140,
+      "final": 140
+    },
+    "UNIFORM_NN_FREE": {
+      "rounds": 4,
+      "lo": 148,
+      "hi": 148,
+      "final": 148
+    },
+    "UNIFORM_RANDOM_FREE": {
+      "rounds": 4,
+      "lo": 30,
+      "hi": 30,
+      "final": 30
+    },
+    "UNIFORM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 148,
+      "hi": 148,
+      "final": 148
+    }
+  },
+  "Carnevale22_Adenosine|24006": {
+    "LLM_NN_FREE": {
+      "rounds": 4,
+      "lo": 71,
+      "hi": 71,
+      "final": 71
+    },
+    "LLM_RANDOM_FIXED": {
+      "rounds": 4,
+      "lo": 34,
+      "hi": 34,
+      "final": 34
+    },
+    "LLM_RANDOM_TRUTH": {
+      "rounds": 4,
+      "lo": 30,
+      "hi": 30,
+      "final": 30
+    },
+    "LLM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 69,
+      "hi": 69,
+      "final": 69
+    },
+    "UNIFORM_NN_FREE": {
+      "rounds": 4,
+      "lo": 67,
+      "hi": 67,
+      "final": 67
+    },
+    "UNIFORM_RANDOM_FREE": {
+      "rounds": 4,
+      "lo": 34,
+      "hi": 34,
+      "final": 34
+    },
+    "UNIFORM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 67,
+      "hi": 67,
+      "final": 67
+    }
+  },
+  "IL2|24006": {
+    "LLM_NN_FREE": {
+      "rounds": 4,
+      "lo": 111,
+      "hi": 111,
+      "final": 111
+    },
+    "LLM_RANDOM_FIXED": {
+      "rounds": 4,
+      "lo": 27,
+      "hi": 27,
+      "final": 27
+    },
+    "LLM_RANDOM_TRUTH": {
+      "rounds": 4,
+      "lo": 33,
+      "hi": 33,
+      "final": 33
+    },
+    "LLM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 11,
+      "hi": 11,
+      "final": 11
+    },
+    "UNIFORM_NN_FREE": {
+      "rounds": 4,
+      "lo": 154,
+      "hi": 154,
+      "final": 154
+    },
+    "UNIFORM_RANDOM_FREE": {
+      "rounds": 4,
+      "lo": 19,
+      "hi": 19,
+      "final": 19
+    },
+    "UNIFORM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 154,
+      "hi": 154,
+      "final": 154
+    }
+  },
+  "Carnevale22_Adenosine|24007": {
+    "LLM_NN_FREE": {
+      "rounds": 0,
+      "lo": 9,
+      "hi": 521,
+      "final": null
+    },
+    "LLM_RANDOM_FIXED": {
+      "rounds": 4,
+      "lo": 42,
+      "hi": 42,
+      "final": 42
+    },
+    "LLM_RANDOM_TRUTH": {
+      "rounds": 1,
+      "lo": 13,
+      "hi": 397,
+      "final": null
+    },
+    "LLM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 69,
+      "hi": 69,
+      "final": 69
+    },
+    "UNIFORM_NN_FREE": {
+      "rounds": 4,
+      "lo": 67,
+      "hi": 67,
+      "final": 67
+    },
+    "UNIFORM_RANDOM_FREE": {
+      "rounds": 4,
+      "lo": 42,
+      "hi": 42,
+      "final": 42
+    },
+    "UNIFORM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 67,
+      "hi": 67,
+      "final": 67
+    }
+  },
+  "IL2|24007": {
+    "LLM_NN_FREE": {
+      "rounds": 4,
+      "lo": 37,
+      "hi": 37,
+      "final": 37
+    },
+    "LLM_RANDOM_FIXED": {
+      "rounds": 4,
+      "lo": 35,
+      "hi": 35,
+      "final": 35
+    },
+    "LLM_RANDOM_TRUTH": {
+      "rounds": 4,
+      "lo": 32,
+      "hi": 32,
+      "final": 32
+    },
+    "LLM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 91,
+      "hi": 91,
+      "final": 91
+    },
+    "UNIFORM_NN_FREE": {
+      "rounds": 4,
+      "lo": 127,
+      "hi": 127,
+      "final": 127
+    },
+    "UNIFORM_RANDOM_FREE": {
+      "rounds": 4,
+      "lo": 28,
+      "hi": 28,
+      "final": 28
+    },
+    "UNIFORM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 127,
+      "hi": 127,
+      "final": 127
+    }
+  },
+  "Carnevale22_Adenosine|24008": {
+    "LLM_NN_FREE": {
+      "rounds": 4,
+      "lo": 67,
+      "hi": 67,
+      "final": 67
+    },
+    "LLM_RANDOM_FIXED": {
+      "rounds": 4,
+      "lo": 22,
+      "hi": 22,
+      "final": 22
+    },
+    "LLM_RANDOM_TRUTH": {
+      "rounds": 4,
+      "lo": 37,
+      "hi": 37,
+      "final": 37
+    },
+    "LLM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 69,
+      "hi": 69,
+      "final": 69
+    },
+    "UNIFORM_NN_FREE": {
+      "rounds": 4,
+      "lo": 72,
+      "hi": 72,
+      "final": 72
+    },
+    "UNIFORM_RANDOM_FREE": {
+      "rounds": 4,
+      "lo": 22,
+      "hi": 22,
+      "final": 22
+    },
+    "UNIFORM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 72,
+      "hi": 72,
+      "final": 72
+    }
+  },
+  "IL2|24008": {
+    "LLM_NN_FREE": {
+      "rounds": 4,
+      "lo": 158,
+      "hi": 158,
+      "final": 158
+    },
+    "LLM_RANDOM_FIXED": {
+      "rounds": 4,
+      "lo": 21,
+      "hi": 21,
+      "final": 21
+    },
+    "LLM_RANDOM_TRUTH": {
+      "rounds": 4,
+      "lo": 36,
+      "hi": 36,
+      "final": 36
+    },
+    "LLM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 154,
+      "hi": 154,
+      "final": 154
+    },
+    "UNIFORM_NN_FREE": {
+      "rounds": 4,
+      "lo": 160,
+      "hi": 160,
+      "final": 160
+    },
+    "UNIFORM_RANDOM_FREE": {
+      "rounds": 4,
+      "lo": 19,
+      "hi": 19,
+      "final": 19
+    },
+    "UNIFORM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 160,
+      "hi": 160,
+      "final": 160
+    }
+  },
+  "Carnevale22_Adenosine|24009": {
+    "LLM_NN_FREE": {
+      "rounds": 4,
+      "lo": 64,
+      "hi": 64,
+      "final": 64
+    },
+    "LLM_RANDOM_FIXED": {
+      "rounds": 4,
+      "lo": 35,
+      "hi": 35,
+      "final": 35
+    },
+    "LLM_RANDOM_TRUTH": {
+      "rounds": 1,
+      "lo": 10,
+      "hi": 394,
+      "final": null
+    },
+    "LLM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 73,
+      "hi": 73,
+      "final": 73
+    },
+    "UNIFORM_NN_FREE": {
+      "rounds": 4,
+      "lo": 64,
+      "hi": 64,
+      "final": 64
+    },
+    "UNIFORM_RANDOM_FREE": {
+      "rounds": 4,
+      "lo": 35,
+      "hi": 35,
+      "final": 35
+    },
+    "UNIFORM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 64,
+      "hi": 64,
+      "final": 64
+    }
+  },
+  "IL2|24009": {
+    "LLM_NN_FREE": {
+      "rounds": 4,
+      "lo": 162,
+      "hi": 162,
+      "final": 162
+    },
+    "LLM_RANDOM_FIXED": {
+      "rounds": 4,
+      "lo": 27,
+      "hi": 27,
+      "final": 27
+    },
+    "LLM_RANDOM_TRUTH": {
+      "rounds": 4,
+      "lo": 35,
+      "hi": 35,
+      "final": 35
+    },
+    "LLM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 166,
+      "hi": 166,
+      "final": 166
+    },
+    "UNIFORM_NN_FREE": {
+      "rounds": 4,
+      "lo": 165,
+      "hi": 165,
+      "final": 165
+    },
+    "UNIFORM_RANDOM_FREE": {
+      "rounds": 4,
+      "lo": 27,
+      "hi": 27,
+      "final": 27
+    },
+    "UNIFORM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 165,
+      "hi": 165,
+      "final": 165
+    }
+  },
+  "Carnevale22_Adenosine|24010": {
+    "LLM_NN_FREE": {
+      "rounds": 4,
+      "lo": 70,
+      "hi": 70,
+      "final": 70
+    },
+    "LLM_RANDOM_FIXED": {
+      "rounds": 4,
+      "lo": 33,
+      "hi": 33,
+      "final": 33
+    },
+    "LLM_RANDOM_TRUTH": {
+      "rounds": 4,
+      "lo": 31,
+      "hi": 31,
+      "final": 31
+    },
+    "LLM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 70,
+      "hi": 70,
+      "final": 70
+    },
+    "UNIFORM_NN_FREE": {
+      "rounds": 4,
+      "lo": 58,
+      "hi": 58,
+      "final": 58
+    },
+    "UNIFORM_RANDOM_FREE": {
+      "rounds": 4,
+      "lo": 33,
+      "hi": 33,
+      "final": 33
+    },
+    "UNIFORM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 58,
+      "hi": 58,
+      "final": 58
+    }
+  },
+  "IL2|24010": {
+    "LLM_NN_FREE": {
+      "rounds": 4,
+      "lo": 143,
+      "hi": 143,
+      "final": 143
+    },
+    "LLM_RANDOM_FIXED": {
+      "rounds": 4,
+      "lo": 23,
+      "hi": 23,
+      "final": 23
+    },
+    "LLM_RANDOM_TRUTH": {
+      "rounds": 4,
+      "lo": 33,
+      "hi": 33,
+      "final": 33
+    },
+    "LLM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 145,
+      "hi": 145,
+      "final": 145
+    },
+    "UNIFORM_NN_FREE": {
+      "rounds": 4,
+      "lo": 155,
+      "hi": 155,
+      "final": 155
+    },
+    "UNIFORM_RANDOM_FREE": {
+      "rounds": 4,
+      "lo": 19,
+      "hi": 19,
+      "final": 19
+    },
+    "UNIFORM_NN_OBSERVED": {
+      "rounds": 4,
+      "lo": 155,
+      "hi": 155,
+      "final": 155
+    }
+  }
+}

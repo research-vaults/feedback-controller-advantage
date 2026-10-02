@@ -1,0 +1,59 @@
+{
+  "status": "INTERRUPTED_NOT_CONFIRMATORY",
+  "planned_starts": 20,
+  "complete_all_arm_starts": 18,
+  "complete_by_source": {
+    "Carnevale22_Adenosine": 8,
+    "IL2": 10
+  },
+  "terminal_campaigns": {
+    "LLM_NN_FREE": 19,
+    "LLM_RANDOM_FIXED": 20,
+    "LLM_RANDOM_TRUTH": 18,
+    "LLM_NN_OBSERVED": 20,
+    "UNIFORM_NN_FREE": 20,
+    "UNIFORM_RANDOM_FREE": 20,
+    "UNIFORM_NN_OBSERVED": 20
+  },
+  "audited_adaptive_rounds": 550,
+  "audited_llm_decisions": 310,
+  "recovered_llm_decisions": 1,
+  "physical_requests": 335,
+  "successful_responses": 320,
+  "errors": {
+    "HTTP_429": 1,
+    "KeyError": 1,
+    "HTTP_502": 13
+  },
+  "cost": {
+    "api_cap_usd": 5.0,
+    "charged_or_conservative_usd": 1.5863347499999993,
+    "inflight_usd": 0,
+    "requests": 335,
+    "total_authorized_usd": 10
+  },
+  "prespecified_contrast_bounds": {
+    "instruction_random": {
+      "fixed_planned_panel_bound": [
+        1.1500000000000001,
+        39.55
+      ],
+      "interpretation": "Logical missing-trajectory bounds, not confidence intervals; bounds do not account for resampling uncertainty."
+    },
+    "controller_truthful_nn": {
+      "fixed_planned_panel_bound": [
+        -14.85,
+        10.75
+      ],
+      "interpretation": "Logical missing-trajectory bounds, not confidence intervals; bounds do not account for resampling uncertainty."
+    },
+    "opportunity_interaction_nn": {
+      "fixed_planned_panel_bound": [
+        -19.9,
+        5.7
+      ],
+      "interpretation": "Logical missing-trajectory bounds, not confidence intervals; bounds do not account for resampling uncertainty."
+    }
+  },
+  "closure": "No primary inferential claim or complete-case confirmation; retain all failures. Original scientific result unchanged."
+}

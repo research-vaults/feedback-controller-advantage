@@ -1,0 +1,478 @@
+{
+  "Carnevale22_Adenosine": [
+    {
+      "call_key": "qwen25_7b|Carnevale22_Adenosine|5001|LLM_COMMON_0_NN|0",
+      "prompt_sha256": "aaf251e04deb362b251b9048e8abd4179add45f96ad42a492c9db1514d56c749",
+      "payload": {
+        "max_tokens": 384,
+        "messages": [
+          {
+            "content": "You are a biomedicine expert who will assist me on problems in drug discovery. I am planning to run a CRISPR screen to identify genes that identify genes that, upon being knocked out, would boost the efficacy of engineered T cells in the presence of an adenosine agonist that creates an immunosuppresive condition. I can only perturb exactly 128 genes at a time. For each predicted perturbation, I am able to measure out the the change in T cell proliferation which will be referred to as the score. I can only do 5 rounds of experimentation. After every round of experiment, I will provide you with feedback on your predictions, including the correctly identified genes called hits and the corresponding score. The predictions which are not hits will be included in other results.",
+            "role": "system"
+          },
+          {
+            "content": "This is round 1. We are beginning with our experiments.\nHere is a strategy to follow: Choose genes that are very different in their biological pathways to discover what pathways give you hits.\nPlease propose 5 different yet valid gene names as per the HGNC nomenclature you want to explore next. Note that I will choose unexplored genes closest to your predicted genes to form the predictions. Your response should exactly follow the format:\n**Reflection: Thoughts on previous results and next steps.\n**Research Plan: The full high-level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.\n**Solution:\n## <Gene 1>\n## <Gene 2>\n...\n## <Gene 5>\nEach gene in the solution should only be the gene name in the HGNC nomenclature. DO NOT ADD ANY COMMENTS IN THE SOLUTION OR AFTER THE SOLUTION.",
+            "role": "user"
+          }
+        ],
+        "model": "qwen/qwen-2.5-7b-instruct",
+        "provider": {
+          "allow_fallbacks": false,
+          "max_price": {
+            "completion": 0.2,
+            "prompt": 0.1
+          },
+          "only": [
+            "phala"
+          ]
+        },
+        "seed": 450433027,
+        "temperature": 0.2,
+        "usage": {
+          "include": true
+        }
+      }
+    },
+    {
+      "call_key": "qwen25_7b|Carnevale22_Adenosine|5001|LLM_TRUE_1_NN|0",
+      "prompt_sha256": "2e67e31ae7387c36344b58d90a0d2198ee9679fc23a27a4e924a5b272e026f00",
+      "payload": {
+        "max_tokens": 384,
+        "messages": [
+          {
+            "content": "You are a biomedicine expert who will assist me on problems in drug discovery. I am planning to run a CRISPR screen to identify genes that identify genes that, upon being knocked out, would boost the efficacy of engineered T cells in the presence of an adenosine agonist that creates an immunosuppresive condition. I can only perturb exactly 128 genes at a time. For each predicted perturbation, I am able to measure out the the change in T cell proliferation which will be referred to as the score. I can only do 5 rounds of experimentation. After every round of experiment, I will provide you with feedback on your predictions, including the correctly identified genes called hits and the corresponding score. The predictions which are not hits will be included in other results.",
+            "role": "system"
+          },
+          {
+            "content": "This is round 2.\nHere is the feedback on all your predictions till now:\n[HITS]\n           score\nname            \nNANOG    0.36248\nRPL23    0.55321\nPSMB3   -0.35193\nRPL37    0.37990\nRPS27A  -0.38031\nVCX3B   -0.36079\nAP1S2   -0.37582\nFOXD4L4  0.38508\nSERTAD1 -0.46558\n[OTHER RESULTS]\n              score\nname               \nABL1      -0.225380\nQRFP       0.023901\nGAB2      -0.150840\nSOS1      -0.051760\nSTAT5B     0.141060\nRCOR1     -0.016287\nCOA3      -0.228350\nMYBL2      0.083697\nE2F6      -0.041330\nNDUFA4     0.127530\nEEF1B2     0.171520\nMRPL19    -0.016974\nRAN        0.047173\nGBF1       0.100970\nTRAPPC8    0.005669\nSLU7      -0.061806\nCD8B      -0.107260\nSERBP1    -0.243420\nPSMA7      0.111216\nDDX41      0.232190\nPSMB6     -0.286750\nZMAT2      0.070776\nRPS28      0.029458\nCOX5B     -0.108420\nATP1B3     0.268210\nCDK4       0.115500\nCCND1      0.022236\nRPL18A    -0.281430\nNUP160    -0.107640\nARMC7      0.325990\nNOP56      0.120260\nUBA2       0.039059\nRPL18     -0.201070\nPSMC5     -0.038519\nMTOR       0.001792\nRPL19     -0.041572\nSPOUT1     0.181200\nSRSF7      0.125810\nEIF2S1     0.015555\nTNPO3     -0.264770\nNAA50     -0.220000\nSRSF2      0.153340\nHNRNPK    -0.107530\nSNRNP27    0.120700\nETF1      -0.106922\nCOPB1      0.087376\nRPL35      0.076414\nJAK2      -0.026270\nIFNB1      0.029653\nZNF611    -0.028518\nWFDC6     -0.011315\nEQTN       0.000548\nOR51L1     0.268490\nINSL4     -0.082160\nARMCX4     0.037301\nMAPK9     -0.143650\nDMRT2      0.270740\nPOTEE     -0.076793\nCCDC54    -0.113650\nMGST1     -0.009303\nZNF157     0.016653\nBIN3      -0.091880\nIGFL1     -0.029919\nAKAIN1    -0.055539\nGUCY2F     0.127180\nTBC1D19   -0.045261\nIFNA10     0.002201\nSTX17      0.219830\nNELL1      0.247390\nTRHR       0.130000\nATXN3L     0.007568\nPTEN      -0.276255\nPLEKHA1   -0.075613\nPLEKHH3   -0.045228\nATAD1     -0.313110\nCDKN2C     0.285110\nDAB2IP     0.044769\nARHGAP35   0.074230\nFAM3C     -0.046539\nTMPRSS11F  0.104900\nMEIG1     -0.112960\nC10ORF71   0.116850\nOR10Z1     0.101040\nSMCP      -0.096292\nZNF729    -0.075084\nTBC1D26    0.038511\nSYNDIG1   -0.022841\nSH2D1A     0.074557\nNKX3-2    -0.118670\nSLCO1B7    0.302740\nVAMP5      0.200010\nRFPL4AL1   0.082089\nKRBOX4    -0.191380\nTBC1D7    -0.046742\nSTEAP1     0.015121\nSTAT3      0.164050\nBATF3     -0.181660\nCCL8      -0.037523\nTMEM244   -0.011354\nELK4      -0.150040\nLMAN1      0.106240\nCHEK2      0.058347\nIFT52     -0.073623\nFBXO27     0.127650\nRNASE6     0.088345\nIKZF1     -0.141620\nTOM1L2    -0.006894\nHMSD       0.024181\nARSG       0.145400\nZNF334     0.039005\nAPOBEC4   -0.259160\nBPIFA2     0.087821\nCGA       -0.119520\nPRKD1      0.266450\nODAM      -0.301820\nSFXN3      0.210480\nCNBD1      0.204630\nGLRX       0.143770\nSPATS2     0.112270\nHere is a strategy to follow: Update your priors appropriately and choose genes that gave you hits. Also, be sure to explore by including some genes that could give hits.\nPlease propose 5 different yet valid gene names as per the HGNC nomenclature you want to explore next. Note that I will choose unexplored genes closest to your predicted genes to form the predictions. Your response should exactly follow the format:\n**Reflection: Thoughts on previous results and next steps.\n**Research Plan: The full high-level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.\n**Solution:\n## <Gene 1>\n## <Gene 2>\n...\n## <Gene 5>\nEach gene in the solution should only be the gene name in the HGNC nomenclature. DO NOT ADD ANY COMMENTS IN THE SOLUTION OR AFTER THE SOLUTION.",
+            "role": "user"
+          }
+        ],
+        "model": "qwen/qwen-2.5-7b-instruct",
+        "provider": {
+          "allow_fallbacks": false,
+          "max_price": {
+            "completion": 0.2,
+            "prompt": 0.1
+          },
+          "only": [
+            "phala"
+          ]
+        },
+        "seed": 3183688992,
+        "temperature": 0.2,
+        "usage": {
+          "include": true
+        }
+      }
+    }
+  ],
+  "Sanchez21": [
+    {
+      "call_key": "qwen25_7b|Sanchez21|5001|LLM_COMMON_0_NN|0",
+      "prompt_sha256": "555a33e41cab82e41dd85a43744e83db185cb12321cbe396f5e763af32cb6cf4",
+      "payload": {
+        "max_tokens": 384,
+        "messages": [
+          {
+            "content": "You are a biomedicine expert who will assist me on problems in drug discovery. I am planning to run a CRISPR screen to identify genes that identify genes that, when knocked out, either increase or decrease expression of endogenous tau protein levels in neurons. I can only perturb exactly 128 genes at a time. For each predicted perturbation, I am able to measure out the the change in tau protein level compared to the non-targeting control, using a total tau antibody which will be referred to as the score. I can only do 5 rounds of experimentation. After every round of experiment, I will provide you with feedback on your predictions, including the correctly identified genes called hits and the corresponding score. The predictions which are not hits will be included in other results.",
+            "role": "system"
+          },
+          {
+            "content": "This is round 1. We are beginning with our experiments.\nHere is a strategy to follow: Choose genes that are very different in their biological pathways to discover what pathways give you hits.\nPlease propose 5 different yet valid gene names as per the HGNC nomenclature you want to explore next. Note that I will choose unexplored genes closest to your predicted genes to form the predictions. Your response should exactly follow the format:\n**Reflection: Thoughts on previous results and next steps.\n**Research Plan: The full high-level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.\n**Solution:\n## <Gene 1>\n## <Gene 2>\n...\n## <Gene 5>\nEach gene in the solution should only be the gene name in the HGNC nomenclature. DO NOT ADD ANY COMMENTS IN THE SOLUTION OR AFTER THE SOLUTION.",
+            "role": "user"
+          }
+        ],
+        "model": "qwen/qwen-2.5-7b-instruct",
+        "provider": {
+          "allow_fallbacks": false,
+          "max_price": {
+            "completion": 0.2,
+            "prompt": 0.1
+          },
+          "only": [
+            "phala"
+          ]
+        },
+        "seed": 191195833,
+        "temperature": 0.2,
+        "usage": {
+          "include": true
+        }
+      }
+    },
+    {
+      "call_key": "qwen25_7b|Sanchez21|5001|LLM_TRUE_1_NN|0",
+      "prompt_sha256": "a489b2229fa791020b764284fda923420b6dacfa8b4f754b9ec46389a3ab1219",
+      "payload": {
+        "max_tokens": 384,
+        "messages": [
+          {
+            "content": "You are a biomedicine expert who will assist me on problems in drug discovery. I am planning to run a CRISPR screen to identify genes that identify genes that, when knocked out, either increase or decrease expression of endogenous tau protein levels in neurons. I can only perturb exactly 128 genes at a time. For each predicted perturbation, I am able to measure out the the change in tau protein level compared to the non-targeting control, using a total tau antibody which will be referred to as the score. I can only do 5 rounds of experimentation. After every round of experiment, I will provide you with feedback on your predictions, including the correctly identified genes called hits and the corresponding score. The predictions which are not hits will be included in other results.",
+            "role": "system"
+          },
+          {
+            "content": "This is round 2.\nHere is the feedback on all your predictions till now:\n[HITS]\n             score\nname              \nTRMT112  -0.074573\nSNAPC5   -3.056055\nTSR1     -3.764974\nARHGAP35 -0.093171\nTMEM246  -0.095862\nPSMA6    -3.009310\nSF1      -3.311706\n[OTHER RESULTS]\n              score\nname               \nCDK1      -0.310350\nTBC1D3B   -0.771802\nANKLE2    -0.781621\nESPL1     -1.169680\nKPNB1     -0.631637\nPAFAH1B1  -1.441227\nSNRNP200  -1.739227\nLSM2      -0.982286\nRUVBL1    -1.137995\nCCT3      -0.376758\nCDC45     -1.627185\nPRPF19    -0.702337\nSNRPF     -1.490104\nANAPC11   -0.366327\nSNRPD1    -0.740296\nPSMB3     -0.557459\nPSMA1     -1.321479\nRBM22     -0.328863\nEIF2S1    -0.947846\nCDC23     -0.137148\nDHX37     -0.691930\nPOLR3A    -0.815008\nNEDD1     -0.999734\nRPS20     -1.065640\nPSMD7     -1.132478\nSARS      -1.730273\nPFKP      -0.633047\nC8ORF48   -0.375591\nMEIG1     -0.551863\nITIH2     -0.884629\nWSCD1     -0.876794\nPER1      -0.507352\nADRA1A    -0.302509\nDNAJC27   -0.810518\nPFKFB3    -1.557671\nITPRIPL2  -1.127677\nNPAS2     -0.709886\nCREM      -0.407890\nMDFI      -0.571609\nZNF35     -0.497228\nPNMA3     -0.607958\nAKR1C2    -0.203238\nTCF15     -0.701574\nTMEM244   -1.861395\nHILPDA    -0.699475\nLMX1B     -0.800400\nKLRC1     -0.385702\nBOD1L2    -2.138851\nLEFTY2    -0.545023\nRBPMS2    -0.240461\nTBC1D26   -0.817942\nCD200     -0.495419\nMYC       -0.369962\nCDK7      -1.071193\nRPL12     -0.356437\nHSPE1     -0.277921\nFARSB     -0.515547\nNIP7      -2.418576\nNOL10     -0.417736\nDDB1      -0.363002\nBUB3      -0.428047\nRPS11     -1.719484\nDBR1      -0.292116\nPOLR1C    -1.671767\nFAU       -0.661321\nNCBP2     -0.262762\nPRPF38B   -0.927248\nDDX49     -0.349535\nDDX56     -1.969036\nRSL24D1   -1.610677\nSNRPE     -0.831570\nWDR18     -1.198067\nPELP1     -0.650326\nWDR82     -1.266096\nRPL4      -1.258452\nPTEN      -0.878052\nPLEKHA1   -1.616586\nPLEKHH3   -0.940751\nATAD1     -1.653836\nPOTEE     -0.527952\nCDKN2C    -0.875815\nDAB2IP    -0.477317\nZNF611    -1.016313\nMAPK9     -0.118054\nFAM3C     -0.525916\nOR51L1    -1.204175\nTMPRSS11F -0.958850\nEQTN      -0.667638\nOR10Z1    -0.362006\nSMCP      -0.816764\nIFNB1     -1.496186\nZNF729    -1.187120\nZNF157    -1.262008\nCCDC54    -0.432676\nSYNDIG1   -1.246872\nSH2D1A    -0.364193\nARMCX4    -1.120110\nNKX3-2    -1.123523\nAURKA     -0.556119\nPRPF6     -1.394779\nPOLE      -0.568371\nVCP       -0.391087\nCSE1L     -0.214812\nEIF3CL    -0.954157\nUQCRH     -1.209860\nSNRPG     -0.818215\nPSMA2     -0.430068\nKARS      -0.558410\nRPL18     -0.828723\nSNRPD2    -0.794231\nPSMA5     -0.451078\nUBA1      -0.708377\nPSMD14    -1.152572\nAARS      -0.328046\nRAE1      -1.544571\nNUP85     -0.530380\nXAB2      -0.514761\nPRELID1   -0.699208\nSF3A1     -1.563941\nHSPA9     -1.228602\nGPN1      -1.574010\nHere is a strategy to follow: Update your priors appropriately and choose genes that gave you hits. Also, be sure to explore by including some genes that could give hits.\nPlease propose 5 different yet valid gene names as per the HGNC nomenclature you want to explore next. Note that I will choose unexplored genes closest to your predicted genes to form the predictions. Your response should exactly follow the format:\n**Reflection: Thoughts on previous results and next steps.\n**Research Plan: The full high-level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.\n**Solution:\n## <Gene 1>\n## <Gene 2>\n...\n## <Gene 5>\nEach gene in the solution should only be the gene name in the HGNC nomenclature. DO NOT ADD ANY COMMENTS IN THE SOLUTION OR AFTER THE SOLUTION.",
+            "role": "user"
+          }
+        ],
+        "model": "qwen/qwen-2.5-7b-instruct",
+        "provider": {
+          "allow_fallbacks": false,
+          "max_price": {
+            "completion": 0.2,
+            "prompt": 0.1
+          },
+          "only": [
+            "phala"
+          ]
+        },
+        "seed": 2818509068,
+        "temperature": 0.2,
+        "usage": {
+          "include": true
+        }
+      }
+    }
+  ],
+  "IL2": [
+    {
+      "call_key": "qwen25_7b|IL2|5001|LLM_COMMON_0_NN|0",
+      "prompt_sha256": "68cf2d9b92f9a450034b046d8cd1a00b1307371c07711d9b8438810705f26f28",
+      "payload": {
+        "max_tokens": 384,
+        "messages": [
+          {
+            "content": "You are a biomedicine expert who will assist me on problems in drug discovery. I am planning to run a CRISPR screen to identify genes that regulate the production of Interleukin-2 (IL-2). I can only perturb exactly 128 genes at a time. For each predicted perturbation, I am able to measure out the the log fold change in Interleukin-2 (IL-2) normalized read counts which will be referred to as the score. I can only do 5 rounds of experimentation. After every round of experiment, I will provide you with feedback on your predictions, including the correctly identified genes called hits and the corresponding score. The predictions which are not hits will be included in other results.",
+            "role": "system"
+          },
+          {
+            "content": "This is round 1. We are beginning with our experiments.\nHere is a strategy to follow: Choose genes that are very different in their biological pathways to discover what pathways give you hits.\nPlease propose 5 different yet valid gene names as per the HGNC nomenclature you want to explore next. Note that I will choose unexplored genes closest to your predicted genes to form the predictions. Your response should exactly follow the format:\n**Reflection: Thoughts on previous results and next steps.\n**Research Plan: The full high-level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.\n**Solution:\n## <Gene 1>\n## <Gene 2>\n...\n## <Gene 5>\nEach gene in the solution should only be the gene name in the HGNC nomenclature. DO NOT ADD ANY COMMENTS IN THE SOLUTION OR AFTER THE SOLUTION.",
+            "role": "user"
+          }
+        ],
+        "model": "qwen/qwen-2.5-7b-instruct",
+        "provider": {
+          "allow_fallbacks": false,
+          "max_price": {
+            "completion": 0.2,
+            "prompt": 0.1
+          },
+          "only": [
+            "phala"
+          ]
+        },
+        "seed": 1035117288,
+        "temperature": 0.2,
+        "usage": {
+          "include": true
+        }
+      }
+    },
+    {
+      "call_key": "qwen25_7b|IL2|5001|LLM_TRUE_1_NN|0",
+      "prompt_sha256": "fd5e34f6417a170138643110d98d829dc73c042d25b0dc22b367e95ad6aacf12",
+      "payload": {
+        "max_tokens": 384,
+        "messages": [
+          {
+            "content": "You are a biomedicine expert who will assist me on problems in drug discovery. I am planning to run a CRISPR screen to identify genes that regulate the production of Interleukin-2 (IL-2). I can only perturb exactly 128 genes at a time. For each predicted perturbation, I am able to measure out the the log fold change in Interleukin-2 (IL-2) normalized read counts which will be referred to as the score. I can only do 5 rounds of experimentation. After every round of experiment, I will provide you with feedback on your predictions, including the correctly identified genes called hits and the corresponding score. The predictions which are not hits will be included in other results.",
+            "role": "system"
+          },
+          {
+            "content": "This is round 2.\nHere is the feedback on all your predictions till now:\n[HITS]\n          score\nname           \nCD101  -0.34356\nPPP1R8  0.61514\nSH2D1A -0.33865\nXRCC5  -0.36740\nIL2RA   0.57251\nETF1   -0.44534\nCDC23   0.75313\nPSMA1   0.38757\nRPS27A  0.47663\nAARS    0.36999\nFAU     0.49086\nPOLR2D  0.56226\nRPS20   0.43328\n[OTHER RESULTS]\n              score\nname               \nJAK1      -0.053599\nIL6ST      0.080155\nSNRPA      0.251800\nMRPL37     0.142720\nCDAN1      0.340250\nMFN2      -0.033236\nASNA1     -0.141750\nGBP3      -0.056793\nTIMM13     0.017761\nMRPS16     0.199630\nMINDY1    -0.172860\nPHB2       0.136010\nROMO1      0.150490\nVARS2      0.040625\nMRPL43    -0.178700\nYKT6      -0.039186\nPCSK9      0.062702\nMRPL14     0.078848\nPPIE       0.303030\nYTHDC1     0.014029\nCHCHD4     0.166090\nCWC25      0.032886\nNBPF3      0.044354\nMRPL39     0.332970\nPTPN2     -0.187860\nPOTEE     -0.085269\nZNF611     0.026282\nMAPK9      0.104180\nGUCY2F     0.026109\nARMCX4    -0.140630\nZNF729    -0.099789\nIGFL1      0.062860\nCCDC54     0.047730\nIFNB1     -0.133240\nTTC23     -0.150880\nTBC1D19    0.031818\nOR51L1    -0.170810\nNELL1      0.031538\nZNF582    -0.121870\nMGST1     -0.083221\nEQTN       0.157980\nMEIG1      0.074820\nBIN3      -0.102510\nMAGED2    -0.033671\nAP1S2      0.064642\nATAD1     -0.050652\nGPRASP1   -0.204520\nCCDC42    -0.168370\nATXN3L    -0.111040\nCTLA4      0.309260\nLURAP1     0.013934\nCRYGC     -0.158530\nNKX2-5    -0.026379\nCRYGA     -0.065543\nNOTO       0.176380\nLSM11      0.127540\nNDOR1      0.074181\nGTF2H3    -0.119260\nEEF1B2    -0.226090\nVDAC1      0.028779\nGEMIN4    -0.181770\nDCTN4      0.049152\nUPF3A     -0.080921\nC2ORF69   -0.181660\nMRPL50     0.037797\nCNPY2      0.063941\nPSMB6     -0.058974\nLLPH       0.016922\nUBQLN4     0.286370\nCHCHD1     0.000601\nCNOT9      0.108930\nCDCA5      0.189560\nRSRC2      0.099552\nWDR33      0.124170\nC10ORF113 -0.074404\nZNF157    -0.110890\nSTX17      0.068659\nSYNDIG1    0.174380\nFOXD4L4   -0.088048\nOR52N4    -0.017603\nVAMP5     -0.130310\nHMBOX1    -0.171990\nKRBOX4     0.047350\nPPEF1     -0.003668\nAKAIN1    -0.184700\nRAB41     -0.067621\nSPRR1B    -0.048385\nCACNG7    -0.147200\nIFNA10    -0.179620\nFHL5      -0.129380\nPNMA3     -0.076961\nC10ORF71   0.139400\nEVC2       0.030865\nGOLT1A     0.065742\nNLK        0.130980\nITPRIPL2  -0.052524\nIVL        0.108680\nTTC29     -0.071056\nSTAT5A     0.004139\nINTS11     0.259570\nDDB1       0.232940\nRSL24D1    0.114220\nWDR43      0.241090\nSNRPD1     0.338680\nTBC1D3B    0.128350\nSRSF2     -0.240000\nPSMB3     -0.005372\nDHX37      0.285400\nPSMA3      0.047754\nRRM1       0.323150\nMED11      0.045219\nPOLR3A     0.079949\nTXNL4A    -0.250480\nUQCRH     -0.086033\nCDC27      0.169800\nHere is a strategy to follow: Update your priors appropriately and choose genes that gave you hits. Also, be sure to explore by including some genes that could give hits.\nPlease propose 5 different yet valid gene names as per the HGNC nomenclature you want to explore next. Note that I will choose unexplored genes closest to your predicted genes to form the predictions. Your response should exactly follow the format:\n**Reflection: Thoughts on previous results and next steps.\n**Research Plan: The full high-level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.\n**Solution:\n## <Gene 1>\n## <Gene 2>\n...\n## <Gene 5>\nEach gene in the solution should only be the gene name in the HGNC nomenclature. DO NOT ADD ANY COMMENTS IN THE SOLUTION OR AFTER THE SOLUTION.",
+            "role": "user"
+          }
+        ],
+        "model": "qwen/qwen-2.5-7b-instruct",
+        "provider": {
+          "allow_fallbacks": false,
+          "max_price": {
+            "completion": 0.2,
+            "prompt": 0.1
+          },
+          "only": [
+            "phala"
+          ]
+        },
+        "seed": 3406370408,
+        "temperature": 0.2,
+        "usage": {
+          "include": true
+        }
+      }
+    }
+  ],
+  "IFNG": [
+    {
+      "call_key": "qwen25_7b|IFNG|5001|LLM_COMMON_0_NN|0",
+      "prompt_sha256": "66d70bb55c82287d60b57a6a96d12e0b2ebb8d02db8712832da73ecdc669a35f",
+      "payload": {
+        "max_tokens": 384,
+        "messages": [
+          {
+            "content": "You are a biomedicine expert who will assist me on problems in drug discovery. I am planning to run a CRISPR screen to identify genes that regulate the production of Interferon-gamma (IFNG). I can only perturb exactly 128 genes at a time. For each predicted perturbation, I am able to measure out the the log fold change in Interferon-gamma (IFNG) normalized read counts which will be referred to as the score. I can only do 5 rounds of experimentation. After every round of experiment, I will provide you with feedback on your predictions, including the correctly identified genes called hits and the corresponding score. The predictions which are not hits will be included in other results.",
+            "role": "system"
+          },
+          {
+            "content": "This is round 1. We are beginning with our experiments.\nHere is a strategy to follow: Choose genes that are very different in their biological pathways to discover what pathways give you hits.\nPlease propose 5 different yet valid gene names as per the HGNC nomenclature you want to explore next. Note that I will choose unexplored genes closest to your predicted genes to form the predictions. Your response should exactly follow the format:\n**Reflection: Thoughts on previous results and next steps.\n**Research Plan: The full high-level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.\n**Solution:\n## <Gene 1>\n## <Gene 2>\n...\n## <Gene 5>\nEach gene in the solution should only be the gene name in the HGNC nomenclature. DO NOT ADD ANY COMMENTS IN THE SOLUTION OR AFTER THE SOLUTION.",
+            "role": "user"
+          }
+        ],
+        "model": "qwen/qwen-2.5-7b-instruct",
+        "provider": {
+          "allow_fallbacks": false,
+          "max_price": {
+            "completion": 0.2,
+            "prompt": 0.1
+          },
+          "only": [
+            "phala"
+          ]
+        },
+        "seed": 3464685150,
+        "temperature": 0.2,
+        "usage": {
+          "include": true
+        }
+      }
+    },
+    {
+      "call_key": "qwen25_7b|IFNG|5001|LLM_TRUE_1_NN|0",
+      "prompt_sha256": "5ab967cd1471637f610678594619e4e58af7992b06751cd23de43f9301549f27",
+      "payload": {
+        "max_tokens": 384,
+        "messages": [
+          {
+            "content": "You are a biomedicine expert who will assist me on problems in drug discovery. I am planning to run a CRISPR screen to identify genes that regulate the production of Interferon-gamma (IFNG). I can only perturb exactly 128 genes at a time. For each predicted perturbation, I am able to measure out the the log fold change in Interferon-gamma (IFNG) normalized read counts which will be referred to as the score. I can only do 5 rounds of experimentation. After every round of experiment, I will provide you with feedback on your predictions, including the correctly identified genes called hits and the corresponding score. The predictions which are not hits will be included in other results.",
+            "role": "system"
+          },
+          {
+            "content": "This is round 2.\nHere is the feedback on all your predictions till now:\n[HITS]\n             score\nname              \nNELL1     0.401790\nMEIG1    -0.462860\nNOL12    -0.396302\nSEC61G    0.477020\nSCFD1    -0.511960\nJAK1     -1.389050\nPHB2     -0.474975\nPPP1R8    0.498720\nPPIE      0.400300\nEDF1      0.472055\nARHGAP45  0.440355\nPOU2AF1   0.489230\nHELT     -0.448130\nSEL1L    -0.867640\n[OTHER RESULTS]\n             score\nname              \nSTAT1    -0.023106\nZNF611    0.282510\nPOTEE    -0.087225\nATXN3L    0.356180\nIFNA10   -0.097709\nOR10Z1    0.201194\nIFNE      0.151355\nFAM83B    0.082410\nLRRC7    -0.088420\nMAGED2    0.154725\nACSM2B   -0.173910\nFAM3C     0.012719\nMGST1     0.026777\nWFDC6     0.216338\nLAMP2    -0.126110\nSTX17     0.198955\nVAMP5    -0.226835\nARMCX4   -0.252061\nEBLN2     0.011688\nNPY2R    -0.107850\nGUCY2F   -0.075052\nZNF2     -0.062262\nIFNB1     0.023320\nSSMEM1   -0.025650\nIRF1     -0.029467\nMKRN1     0.196947\nALG14    -0.297255\nNMD3      0.140887\nDDX24     0.332335\nNOP10     0.129281\nEXOSC5   -0.049922\nBOP1      0.248385\nNCL      -0.021486\nPFDN6    -0.204635\nVDAC1    -0.018730\nESF1      0.127815\nTMA16     0.037195\nEXOSC9   -0.039469\nEXOSC8   -0.091378\nORC4      0.107568\nBUB1     -0.169859\nHLA-C    -0.159725\nEXOSC2    0.096794\nUTP25     0.227735\nURB1      0.256935\nNIFK      0.044315\nDCTN5     0.080305\nIL6ST     0.048858\nSNRPA     0.022813\nCD101     0.152605\nMRPL37    0.103569\nCDAN1     0.046810\nMFN2      0.012030\nGBP3     -0.049435\nATP5PF    0.103590\nTIMM13    0.167900\nMRPS16    0.225585\nMINDY1   -0.152170\nROMO1     0.001560\nMRPL43    0.196563\nYKT6     -0.017383\nPCSK9     0.339525\nMRPL14    0.119123\nYTHDC1   -0.007000\nCHCHD4    0.010922\nCWC25     0.269720\nNBPF3    -0.040450\nMRPL39    0.096265\nMRPS14    0.031636\nTBK1      0.013595\nZNF30     0.053823\nIGFL1     0.126201\nSH2D4A    0.018211\nZNF664    0.080880\nZNF669    0.033253\nTBC1D19  -0.330860\nAKAIN1    0.220689\nDEFB123   0.078675\nZNF880    0.021900\nZNF211   -0.074551\nPRKD1    -0.106144\nODAM      0.313625\nCOL4A5    0.002101\nDEFB124  -0.017393\nGLYATL2  -0.085205\nARSG     -0.168765\nATAD1    -0.180991\nZNF334   -0.040525\nBIN3     -0.095469\nGOLT1A    0.077744\nVSIG4     0.036635\nCCL20     0.042131\nSTEAP1    0.065667\nNLRP14   -0.217930\nIRF2     -0.094631\nNFKB1     0.125557\nZNF592    0.086500\nC12ORF4   0.055226\nRASGRF1  -0.174440\nENPP6    -0.081945\nSP110    -0.127924\nLAMP3     0.138722\nAFF1      0.263405\nADD1      0.352565\nSYK      -0.019658\nPRKD3    -0.167308\nLDLRAP1   0.115663\nTRIM49D1  0.329100\nLRTM2    -0.298878\nPLCL2     0.082259\nZMYND19   0.140453\nANKRD12   0.076685\nGCLM     -0.342384\nMEF2A    -0.268570\nHere is a strategy to follow: Update your priors appropriately and choose genes that gave you hits. Also, be sure to explore by including some genes that could give hits.\nPlease propose 5 different yet valid gene names as per the HGNC nomenclature you want to explore next. Note that I will choose unexplored genes closest to your predicted genes to form the predictions. Your response should exactly follow the format:\n**Reflection: Thoughts on previous results and next steps.\n**Research Plan: The full high-level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.\n**Solution:\n## <Gene 1>\n## <Gene 2>\n...\n## <Gene 5>\nEach gene in the solution should only be the gene name in the HGNC nomenclature. DO NOT ADD ANY COMMENTS IN THE SOLUTION OR AFTER THE SOLUTION.",
+            "role": "user"
+          }
+        ],
+        "model": "qwen/qwen-2.5-7b-instruct",
+        "provider": {
+          "allow_fallbacks": false,
+          "max_price": {
+            "completion": 0.2,
+            "prompt": 0.1
+          },
+          "only": [
+            "phala"
+          ]
+        },
+        "seed": 3008095465,
+        "temperature": 0.2,
+        "usage": {
+          "include": true
+        }
+      }
+    }
+  ],
+  "Sanchez21_down": [
+    {
+      "call_key": "qwen25_7b|Sanchez21_down|5001|LLM_COMMON_0_NN|0",
+      "prompt_sha256": "08638d6dbde8fa60665ce52d2072ed958f25933edd0144b4505cbe07f4f4675b",
+      "payload": {
+        "max_tokens": 384,
+        "messages": [
+          {
+            "content": "You are a biomedicine expert who will assist me on problems in drug discovery. I am planning to run a CRISPR screen to identify genes that identify genes that, when knocked out, decrease expression of endogenous tau protein levels in neurons. I can only perturb exactly 128 genes at a time. For each predicted perturbation, I am able to measure out the the change in tau protein level compared to the non-targeting control, using a total tau antibody which will be referred to as the score. I can only do 5 rounds of experimentation. After every round of experiment, I will provide you with feedback on your predictions, including the correctly identified genes called hits and the corresponding score. The predictions which are not hits will be included in other results.",
+            "role": "system"
+          },
+          {
+            "content": "This is round 1. We are beginning with our experiments.\nHere is a strategy to follow: Choose genes that are very different in their biological pathways to discover what pathways give you hits.\nPlease propose 5 different yet valid gene names as per the HGNC nomenclature you want to explore next. Note that I will choose unexplored genes closest to your predicted genes to form the predictions. Your response should exactly follow the format:\n**Reflection: Thoughts on previous results and next steps.\n**Research Plan: The full high-level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.\n**Solution:\n## <Gene 1>\n## <Gene 2>\n...\n## <Gene 5>\nEach gene in the solution should only be the gene name in the HGNC nomenclature. DO NOT ADD ANY COMMENTS IN THE SOLUTION OR AFTER THE SOLUTION.",
+            "role": "user"
+          }
+        ],
+        "model": "qwen/qwen-2.5-7b-instruct",
+        "provider": {
+          "allow_fallbacks": false,
+          "max_price": {
+            "completion": 0.2,
+            "prompt": 0.1
+          },
+          "only": [
+            "phala"
+          ]
+        },
+        "seed": 107204153,
+        "temperature": 0.2,
+        "usage": {
+          "include": true
+        }
+      }
+    },
+    {
+      "call_key": "qwen25_7b|Sanchez21_down|5001|LLM_TRUE_1_NN|0",
+      "prompt_sha256": "d1f28e9c2a581aed020df7274e6cc3b39cd34d8e7ee5fd6ee94cf5f850ae9f09",
+      "payload": {
+        "max_tokens": 384,
+        "messages": [
+          {
+            "content": "You are a biomedicine expert who will assist me on problems in drug discovery. I am planning to run a CRISPR screen to identify genes that identify genes that, when knocked out, decrease expression of endogenous tau protein levels in neurons. I can only perturb exactly 128 genes at a time. For each predicted perturbation, I am able to measure out the the change in tau protein level compared to the non-targeting control, using a total tau antibody which will be referred to as the score. I can only do 5 rounds of experimentation. After every round of experiment, I will provide you with feedback on your predictions, including the correctly identified genes called hits and the corresponding score. The predictions which are not hits will be included in other results.",
+            "role": "system"
+          },
+          {
+            "content": "This is round 2.\nHere is the feedback on all your predictions till now:\n[HITS]\n            score\nname             \nDDX56   -3.056838\nPFDN2   -2.600092\nSETD5   -3.214323\nANKRD11 -3.621778\nHNRNPLL -3.089246\nIRF2BP2 -4.325617\nMAPT    -7.482792\nPAM16   -3.389300\nCSNK2B  -6.009319\nRPS2    -3.032949\nHDAC9   -3.026138\n[OTHER RESULTS]\n              score\nname               \nAIMP2     -0.442227\nYARS      -0.150994\nCCT3      -0.830664\nAARS      -0.516702\nCIAO1     -0.785121\nPAFAH1B1  -1.143252\nRPL24     -1.396017\nLYRM4     -0.295340\nGTF2A2    -0.942572\nDYNLRB1   -0.833722\nTNPO3     -0.704331\nPOLR1C    -1.225332\nDDX55     -0.671977\nCDC123    -1.160395\nNMD3      -0.941463\nMCM2      -1.441287\nRUVBL1    -1.902128\nDHX37     -0.954317\nPOLR3B    -1.950964\nPDRG1     -0.361837\nRPL5      -0.248199\nSF1       -0.468646\nALG14     -0.297326\nTRNT1     -1.864924\nCDK5      -0.716504\nFIBP      -0.376562\nFAM193B   -0.371457\nPPP2R5C   -0.313640\nPRDM14    -1.642757\nUSP19     -0.237356\nVCPIP1    -0.797831\nAARD      -0.654848\nC8ORF76   -0.201281\nPER2      -0.972066\nFRG1      -1.697160\nLCMT1     -0.690656\nPPP4R2    -0.697943\nTIPRL     -0.782951\nWDR86     -0.409306\nUSP37     -0.270952\nZNF862    -0.625918\nNTF3      -1.522551\nTERF1     -0.274078\nNAPRT     -1.042908\nARHGEF5   -1.037728\nCDC42     -0.901624\nNKX2-5    -0.445647\nHUWE1     -0.455681\nGSK3B     -1.573116\nGSK3A     -1.167065\nDDIT4     -0.226181\nTSC2      -0.127392\nTSC1      -0.124990\nDZIP3     -0.213990\nABTB1     -1.266081\nRETNLB    -0.683585\nPPM1B     -1.455535\nCCDC14    -0.351085\nFERMT1    -0.444698\nARHGAP31  -0.134322\nGRXCR1    -0.673310\nADGRG7    -0.461839\nRB1CC1    -0.038731\nPPP6R1    -1.030694\nFOXO3     -1.015407\nFKRP      -0.264804\nVSTM2B    -1.135163\nESRRB     -1.743633\nNPRL2     -0.693770\nTSSK2     -0.505851\nTMEM39A   -0.132845\nKEAP1     -0.932899\nPFDN6     -0.378004\nINTS3     -1.043287\nGTF2H2C   -1.378490\nGTF2H4    -0.464594\nLSM2      -2.038427\nRPSA      -1.302010\nMRPL45    -1.531523\nVARS      -1.054391\nPUF60     -0.476957\nPRPF8     -1.328689\nCLK2      -1.053406\nRPP21     -1.473401\nRPS18     -0.484907\nCHCHD4    -1.012717\nNPM1      -1.236351\nCARS      -0.453540\nPPP1R10   -1.143925\nPSMB3     -0.303028\nTUBGCP5   -0.285629\nZNHIT3    -0.277755\nTIMM22    -0.802589\nSIRT1     -0.994662\nSPPL3     -0.038413\nCISD1     -0.544455\nBRD3      -1.701052\nSERTAD1   -0.761446\nNCOA2     -0.074912\nIFNG      -0.577234\nIFNK      -2.067524\nINO80D    -0.656862\nCYP39A1   -0.273356\nDNAH6     -1.111754\nSPATA31E1 -0.872288\nSLC25A21  -1.320460\nGPX5      -0.286222\nZNF565    -0.781986\nPOLI      -0.501007\nMLLT10    -0.042215\nCAPZA3    -0.089249\nZNF485    -1.049246\nARHGAP35  -0.123738\nCCDC129   -0.752035\nANKRD26   -0.516677\nEBLN2     -0.444008\nAGTPBP1   -0.401838\nHere is a strategy to follow: Update your priors appropriately and choose genes that gave you hits. Also, be sure to explore by including some genes that could give hits.\nPlease propose 5 different yet valid gene names as per the HGNC nomenclature you want to explore next. Note that I will choose unexplored genes closest to your predicted genes to form the predictions. Your response should exactly follow the format:\n**Reflection: Thoughts on previous results and next steps.\n**Research Plan: The full high-level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.\n**Solution:\n## <Gene 1>\n## <Gene 2>\n...\n## <Gene 5>\nEach gene in the solution should only be the gene name in the HGNC nomenclature. DO NOT ADD ANY COMMENTS IN THE SOLUTION OR AFTER THE SOLUTION.",
+            "role": "user"
+          }
+        ],
+        "model": "qwen/qwen-2.5-7b-instruct",
+        "provider": {
+          "allow_fallbacks": false,
+          "max_price": {
+            "completion": 0.2,
+            "prompt": 0.1
+          },
+          "only": [
+            "phala"
+          ]
+        },
+        "seed": 3216007802,
+        "temperature": 0.2,
+        "usage": {
+          "include": true
+        }
+      }
+    }
+  ],
+  "Scharenberg22": [
+    {
+      "call_key": "qwen25_7b|Scharenberg22|5001|LLM_COMMON_0_NN|0",
+      "prompt_sha256": "fccf6d158f92fecaced59d4c86b1b4ddb4d4267c55b4aef08546d37923a28348",
+      "payload": {
+        "max_tokens": 384,
+        "messages": [
+          {
+            "content": "You are a biomedicine expert who will assist me on problems in drug discovery. I am planning to run a CRISPR screen to identify genes that identify genes mediating lysosomal choline recycling using an endolysosome-focused CRISPR-Cas9 screen. I can only perturb exactly 32 genes at a time. For each predicted perturbation, I am able to measure out the enrichment or depletion of targeting sgRNAs (indicated by a high score) in the culture medium lacking free choline which will be referred to as the score. I can only do 5 rounds of experimentation. After every round of experiment, I will provide you with feedback on your predictions, including the correctly identified genes called hits and the corresponding score. The predictions which are not hits will be included in other results.",
+            "role": "system"
+          },
+          {
+            "content": "This is round 1. We are beginning with our experiments.\nHere is a strategy to follow: Choose genes that are very different in their biological pathways to discover what pathways give you hits.\nPlease propose 5 different yet valid gene names as per the HGNC nomenclature you want to explore next. Note that I will choose unexplored genes closest to your predicted genes to form the predictions. Your response should exactly follow the format:\n**Reflection: Thoughts on previous results and next steps.\n**Research Plan: The full high-level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.\n**Solution:\n## <Gene 1>\n## <Gene 2>\n...\n## <Gene 5>\nEach gene in the solution should only be the gene name in the HGNC nomenclature. DO NOT ADD ANY COMMENTS IN THE SOLUTION OR AFTER THE SOLUTION.",
+            "role": "user"
+          }
+        ],
+        "model": "qwen/qwen-2.5-7b-instruct",
+        "provider": {
+          "allow_fallbacks": false,
+          "max_price": {
+            "completion": 0.2,
+            "prompt": 0.1
+          },
+          "only": [
+            "phala"
+          ]
+        },
+        "seed": 640850923,
+        "temperature": 0.2,
+        "usage": {
+          "include": true
+        }
+      }
+    },
+    {
+      "call_key": "qwen25_7b|Scharenberg22|5001|LLM_TRUE_1_NN|0",
+      "prompt_sha256": "7d5f72e7cf8391bbc170cae2810101149437c2739023982787f96d95028fc257",
+      "payload": {
+        "max_tokens": 384,
+        "messages": [
+          {
+            "content": "You are a biomedicine expert who will assist me on problems in drug discovery. I am planning to run a CRISPR screen to identify genes that identify genes mediating lysosomal choline recycling using an endolysosome-focused CRISPR-Cas9 screen. I can only perturb exactly 32 genes at a time. For each predicted perturbation, I am able to measure out the enrichment or depletion of targeting sgRNAs (indicated by a high score) in the culture medium lacking free choline which will be referred to as the score. I can only do 5 rounds of experimentation. After every round of experiment, I will provide you with feedback on your predictions, including the correctly identified genes called hits and the corresponding score. The predictions which are not hits will be included in other results.",
+            "role": "system"
+          },
+          {
+            "content": "This is round 2.\nHere is the feedback on all your predictions till now:\n[HITS]\n         score\nname          \nATP6V0B  121.0\nRPE      194.0\n[OTHER RESULTS]\n            score\nname             \nSLC2A1    20.5000\nATP6V0C   83.1000\nSEC13     15.3000\nMTOR      51.3000\nLUC7L3     3.2900\nLYST       0.1910\nC1ORF35   15.8000\nCTSH       0.0000\nTMEM63A    2.0200\nARL8B      0.1260\nLAMTOR3   12.9000\nTBC1D5    73.8000\nLAMP2     11.6000\nAP1S2      1.8500\nMAPK9      4.1800\nFAM3C      1.6200\nSTX17      6.5100\nGOLT1A     0.1080\nATP6V0A2   0.0278\nRPS3A     58.0000\nNUTF2     25.9000\nIFITM3     4.6600\nMYB        0.6060\nEIF2S1    45.7000\nSLC26A11   1.0200\nPSMA1     29.1000\nGAPDH     39.8000\nCOPS3     36.2000\nBIRC5     60.7000\nIARS      33.1000\nHere is a strategy to follow: Update your priors appropriately and choose genes that gave you hits. Also, be sure to explore by including some genes that could give hits.\nPlease propose 5 different yet valid gene names as per the HGNC nomenclature you want to explore next. Note that I will choose unexplored genes closest to your predicted genes to form the predictions. Your response should exactly follow the format:\n**Reflection: Thoughts on previous results and next steps.\n**Research Plan: The full high-level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.\n**Solution:\n## <Gene 1>\n## <Gene 2>\n...\n## <Gene 5>\nEach gene in the solution should only be the gene name in the HGNC nomenclature. DO NOT ADD ANY COMMENTS IN THE SOLUTION OR AFTER THE SOLUTION.",
+            "role": "user"
+          }
+        ],
+        "model": "qwen/qwen-2.5-7b-instruct",
+        "provider": {
+          "allow_fallbacks": false,
+          "max_price": {
+            "completion": 0.2,
+            "prompt": 0.1
+          },
+          "only": [
+            "phala"
+          ]
+        },
+        "seed": 3662146010,
+        "temperature": 0.2,
+        "usage": {
+          "include": true
+        }
+      }
+    }
+  ],
+  "Steinhart_crispra_GD2_D22": [
+    {
+      "call_key": "qwen25_7b|Steinhart_crispra_GD2_D22|5001|LLM_COMMON_0_NN|0",
+      "prompt_sha256": "cb3f0cf0a0446d47d1f71de7753ac9e3064413915e92bd59235ba377bf8afff3",
+      "payload": {
+        "max_tokens": 384,
+        "messages": [
+          {
+            "content": "You are a biomedicine expert who will assist me on problems in drug discovery. I am planning to run a CRISPR screen to identify genes that upon activation allow cells to resist T-cell exhaustion, under the HA GD2 CAR (chimeric-antigenic receptor) condition. I can only perturb exactly 128 genes at a time. For each predicted perturbation, I am able to measure out the the log fold change in normalized sgRNA read counts compared to the non-targeting control, 22 days after perturbation which will be referred to as the score. I can only do 5 rounds of experimentation. After every round of experiment, I will provide you with feedback on your predictions, including the correctly identified genes called hits and the corresponding score. The predictions which are not hits will be included in other results.",
+            "role": "system"
+          },
+          {
+            "content": "This is round 1. We are beginning with our experiments.\nHere is a strategy to follow: Choose genes that are very different in their biological pathways to discover what pathways give you hits.\nPlease propose 5 different yet valid gene names as per the HGNC nomenclature you want to explore next. Note that I will choose unexplored genes closest to your predicted genes to form the predictions. Your response should exactly follow the format:\n**Reflection: Thoughts on previous results and next steps.\n**Research Plan: The full high-level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.\n**Solution:\n## <Gene 1>\n## <Gene 2>\n...\n## <Gene 5>\nEach gene in the solution should only be the gene name in the HGNC nomenclature. DO NOT ADD ANY COMMENTS IN THE SOLUTION OR AFTER THE SOLUTION.",
+            "role": "user"
+          }
+        ],
+        "model": "qwen/qwen-2.5-7b-instruct",
+        "provider": {
+          "allow_fallbacks": false,
+          "max_price": {
+            "completion": 0.2,
+            "prompt": 0.1
+          },
+          "only": [
+            "phala"
+          ]
+        },
+        "seed": 1228163548,
+        "temperature": 0.2,
+        "usage": {
+          "include": true
+        }
+      }
+    },
+    {
+      "call_key": "qwen25_7b|Steinhart_crispra_GD2_D22|5001|LLM_TRUE_1_NN|0",
+      "prompt_sha256": "987eb9644d0dc987bce5fe6cb953d28744b48cf1069afb7d1660bff7aee2263b",
+      "payload": {
+        "max_tokens": 384,
+        "messages": [
+          {
+            "content": "You are a biomedicine expert who will assist me on problems in drug discovery. I am planning to run a CRISPR screen to identify genes that upon activation allow cells to resist T-cell exhaustion, under the HA GD2 CAR (chimeric-antigenic receptor) condition. I can only perturb exactly 128 genes at a time. For each predicted perturbation, I am able to measure out the the log fold change in normalized sgRNA read counts compared to the non-targeting control, 22 days after perturbation which will be referred to as the score. I can only do 5 rounds of experimentation. After every round of experiment, I will provide you with feedback on your predictions, including the correctly identified genes called hits and the corresponding score. The predictions which are not hits will be included in other results.",
+            "role": "system"
+          },
+          {
+            "content": "This is round 2.\nHere is the feedback on all your predictions till now:\n[HITS]\n            score\nname             \nCDC123  15.553556\nCLASRP   5.467957\n[OTHER RESULTS]\n             score\nname              \nAIMP2    -0.554718\nYARS     -0.030430\nAARS     -0.616635\nPAFAH1B1 -0.295023\nRPL24    -0.266379\nLYRM4    -0.337488\nDDX56     0.185112\nGTF2A2    0.734729\nPFDN2    -0.089966\nDYNLRB1   0.476001\nTNPO3    -0.301122\nPOLR1C    0.342345\nNIFK     -0.187484\nDDX55    -0.406705\nNMD3     -0.590455\nMCM2     -0.315611\nRUVBL1   -0.371344\nDHX37    -0.508292\nPOLR3B    0.765388\nPDRG1    -0.168928\nRPL5     -0.041157\nSF1       0.819265\nALG14     1.047632\nTRNT1    -0.089607\nDTL       0.856760\nCDK8      0.074658\nCCNC     -0.206893\nDBF4      0.357836\nCAP1      0.413012\nMYBL2    -0.455577\nSNAP23    0.094336\nCCDC130   0.320220\nUBE2N    -0.505001\nASNA1     0.009625\nRBM10    -0.292775\nPRKRIP1   0.204055\nTEN1     -0.365421\nMETTL14   0.118302\nMETTL1    0.258403\nGLMN      0.271408\nARIH1    -0.401038\nTHOC5     0.314656\nCFL1     -0.403183\nMAD2L2   -0.092628\nUBA3     -0.571510\nTRIAP1   -0.290595\nCAPZB    -0.503514\nVARS2    -0.021023\nSTRIP1   -0.329332\nSARS2    -0.212587\nEPHB2    -0.507597\nHTR1D     0.825879\nENC1      0.593693\nCALHM2   -0.378472\nSLFN11   -0.380282\nPADI1    -0.418602\nHSPG2    -0.194179\nBTBD16   -0.105206\nCD247    -0.205319\nDRAXIN   -0.009031\nCILP      0.386634\nSERPINB9  0.257462\nSLC22A1  -0.389775\nNFAM1     0.362662\nKCNJ15   -0.283621\nCFHR2    -0.161444\nCOL16A1  -0.500535\nPOLR3GL  -0.376959\nDMGDH    -0.334009\nRGS16     0.151768\nCHST14    0.040030\nCH25H     0.767476\nMFSD5     0.858017\nCHRNA3    0.072426\nOR5H14    0.495605\nTMCC1     0.345855\nPTGER4   -0.066237\nRAX2     -0.125982\nRASD2    -0.054265\nCARD6     0.139577\nFANCF    -0.148950\nCLTB     -0.057919\nMTMR3    -0.184942\nTMEM223   0.167678\nTRIM9    -0.415398\nC5ORF34   0.308267\nZDHHC7   -0.603335\nABCG1     0.186607\nFCHO1    -0.342630\nROPN1L    0.201040\nSDC1     -0.382029\nRNF14    -0.287153\nSNAPC4   -0.260325\nUSE1     -0.316747\nEIF1AX   -0.049015\nTHUMPD1   0.426171\nCNTNAP1  -0.415696\nIFT140    0.065471\nSMAGP     0.020097\nFAM229A  -0.126889\nRPL6     -0.466910\nAIMP1     0.551552\nIL12RB2   0.388664\nXRCC5    -0.180715\nATXN10   -0.394037\nPAXBP1   -0.121477\nRARS      0.127874\nATR      -0.274058\nZNF720   -0.116409\nQARS     -0.327055\nRFC4     -0.483205\nDARS      0.154606\nUBE2I    -0.139667\nTTK      -0.668602\nPSMC6    -0.641533\nPSMA4    -0.139840\nNOP56    -0.399531\nCCDC59    0.191269\nCCT5     -0.441326\nMCM7     -0.234654\nNAA50    -0.496712\nLENG8    -0.158365\nPSMC4    -0.225689\nPNN       0.047127\nMED4      0.065470\nLSM5      0.018535\nHere is a strategy to follow: Update your priors appropriately and choose genes that gave you hits. Also, be sure to explore by including some genes that could give hits.\nPlease propose 5 different yet valid gene names as per the HGNC nomenclature you want to explore next. Note that I will choose unexplored genes closest to your predicted genes to form the predictions. Your response should exactly follow the format:\n**Reflection: Thoughts on previous results and next steps.\n**Research Plan: The full high-level research plan, with current status and reasoning behind each proposed approach. It should be at most 5 sentences.\n**Solution:\n## <Gene 1>\n## <Gene 2>\n...\n## <Gene 5>\nEach gene in the solution should only be the gene name in the HGNC nomenclature. DO NOT ADD ANY COMMENTS IN THE SOLUTION OR AFTER THE SOLUTION.",
+            "role": "user"
+          }
+        ],
+        "model": "qwen/qwen-2.5-7b-instruct",
+        "provider": {
+          "allow_fallbacks": false,
+          "max_price": {
+            "completion": 0.2,
+            "prompt": 0.1
+          },
+          "only": [
+            "phala"
+          ]
+        },
+        "seed": 1484385763,
+        "temperature": 0.2,
+        "usage": {
+          "include": true
+        }
+      }
+    }
+  ]
+}

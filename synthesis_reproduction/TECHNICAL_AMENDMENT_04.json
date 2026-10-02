@@ -1,0 +1,4 @@
+{
+  "reason": "Near-tie changes cascade through exclusions into later centre quotas, so comparing positions in diverged batches is not a valid roundoff bound. Verify every saved greedy choice against the available pool after its own saved prefix, gap<=5e-7, while checking exact truths/budgets/eligibility. Retain original logged candidate and all-current-backend sensitivity; report set/hit changes, not bitwise replay success.",
+  "code_sha256": "53dbff9b6e76fae2fb6046c028bf1f82ad839eb177da78fd45602dd1154ad475"
+}

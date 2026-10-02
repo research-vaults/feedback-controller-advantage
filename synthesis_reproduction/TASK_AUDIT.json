@@ -1,0 +1,176 @@
+{
+  "status": "PASS_IMPLEMENTATION_MAPPING",
+  "biological_authority": "Released arrays; no new source-level reannotation or direction reconstruction",
+  "tasks": {
+    "Carnevale22_Adenosine": {
+      "task": "identify genes that, upon being knocked out, would boost the efficacy of engineered T cells in the presence of an adenosine agonist that creates an immunosuppresive condition",
+      "measurement": "the change in T cell proliferation",
+      "pool_n": 17136,
+      "hits": 858,
+      "source_files": {
+        "Substrates/Repos/BioDiscoveryAgent/datasets/task_prompts/Carnevale22_Adenosine.json": "69928ad0a2b1ef6e8e25b47a508f9148f4671869703b3cc69b3f9f4d39a2c7f3",
+        "Substrates/Repos/BioDiscoveryAgent/datasets/ground_truth_Carnevale22_Adenosine.csv": "07c8bf9c03daf1a13d02945d146c73d85233dfee945921df5265d9297169375d",
+        "Substrates/Repos/BioDiscoveryAgent/datasets/topmovers_Carnevale22_Adenosine.npy": "c2967f092f18c5892dd5dd791c3597ba05063da864685f6b5fe2575441b02b5a"
+      },
+      "hit_score_minmax": [
+        -1.3601,
+        0.79198
+      ],
+      "task_payload_requests": 3622,
+      "prompt_hash_checks": 3622,
+      "validated_batches": 600,
+      "biological_direction": "Use literal task; processed score sign is not independently certified as biological effect direction",
+      "assay_variant": "Source task as released"
+    },
+    "Sanchez21": {
+      "task": "identify genes that, when knocked out, either increase or decrease expression of endogenous tau protein levels in neurons",
+      "measurement": "the change in tau protein level compared to the non-targeting control, using a total tau antibody",
+      "pool_n": 17204,
+      "hits": 859,
+      "source_files": {
+        "Substrates/Repos/BioDiscoveryAgent/datasets/task_prompts/Sanchez21.json": "e9a5fcd93190eb4a15de8b0c3bb7e54d1ac01eb01f3acdad622d605f4d80300a",
+        "Substrates/Repos/BioDiscoveryAgent/datasets/ground_truth_Sanchez21.csv": "e86b3cf2bcadce16d57621acd86fa3834153a4130e48e2a8a4e016964c197a41",
+        "Substrates/Repos/BioDiscoveryAgent/datasets/topmovers_Sanchez21.npy": "30c7808c44a6a6d8c20f629d9a45b08eb9ba6c62744e8becd4fcd7a3d18bc13a"
+      },
+      "hit_score_minmax": [
+        -9.000665461,
+        -0.001217409
+      ],
+      "task_payload_requests": 3301,
+      "prompt_hash_checks": 3301,
+      "validated_batches": 600,
+      "biological_direction": "Use literal task; processed score sign is not independently certified as biological effect direction",
+      "assay_variant": "Source task as released"
+    },
+    "IL2": {
+      "task": "identify genes that regulate the production of Interleukin-2 (IL-2)",
+      "measurement": "the log fold change in Interleukin-2 (IL-2) normalized read counts",
+      "pool_n": 17758,
+      "hits": 634,
+      "source_files": {
+        "Substrates/Repos/BioDiscoveryAgent/datasets/task_prompts/IL2.json": "275068796ce5cf2379a6f215c95a614d7586025e6d4d0f3689b65e5f687e91a4",
+        "Substrates/Repos/BioDiscoveryAgent/datasets/ground_truth_IL2.csv": "40b27104ea01f9e38d42822a1021cee00529dca34fcf2c9cca7bd4bd79622503",
+        "Substrates/Repos/BioDiscoveryAgent/datasets/topmovers_IL2.npy": "f9f55cdc3f8efed82abaaeaaf770824f0b87d8298391a7b40e39286d3ab83ed1"
+      },
+      "hit_score_minmax": [
+        -2.916,
+        1.5746
+      ],
+      "task_payload_requests": 3205,
+      "prompt_hash_checks": 3205,
+      "validated_batches": 600,
+      "biological_direction": "Use literal task; processed score sign is not independently certified as biological effect direction",
+      "assay_variant": "Unresolved precise CRISPRa/i mixture"
+    },
+    "IFNG": {
+      "task": "identify genes that regulate the production of Interferon-gamma (IFNG)",
+      "measurement": "the log fold change in Interferon-gamma (IFNG) normalized read counts",
+      "pool_n": 17009,
+      "hits": 861,
+      "source_files": {
+        "Substrates/Repos/BioDiscoveryAgent/datasets/task_prompts/IFNG.json": "16665e63d40f0bfb194c64b0c83907944459e93a77adc05341804599c43abe08",
+        "Substrates/Repos/BioDiscoveryAgent/datasets/ground_truth_IFNG.csv": "89c363b196976bd5d4574c0edb3447e1f93c3075ccff94f031066d2aa4cdb333",
+        "Substrates/Repos/BioDiscoveryAgent/datasets/topmovers_IFNG.npy": "dce64c81e702c8f8888f925432041921dd205ed880a72898916a7e39eeddaa35"
+      },
+      "hit_score_minmax": [
+        -3.91885,
+        1.69905
+      ],
+      "task_payload_requests": 3193,
+      "prompt_hash_checks": 3193,
+      "validated_batches": 600,
+      "biological_direction": "Use literal task; processed score sign is not independently certified as biological effect direction",
+      "assay_variant": "Unresolved precise CRISPRa/i mixture"
+    },
+    "Sanchez21_down": {
+      "task": "identify genes that, when knocked out, decrease expression of endogenous tau protein levels in neurons",
+      "measurement": "the change in tau protein level compared to the non-targeting control, using a total tau antibody",
+      "pool_n": 17204,
+      "hits": 883,
+      "source_files": {
+        "Substrates/Repos/BioDiscoveryAgent/datasets/task_prompts/Sanchez21_down.json": "f669d0b0f03182c6571571a31637c9f53f5d2e5fbd62607d2be178b8547895e8",
+        "Substrates/Repos/BioDiscoveryAgent/datasets/ground_truth_Sanchez21_down.csv": "901fa303cd6002464f6e32d75f7883e677b541b8586fedc381254895a72de7cc",
+        "Substrates/Repos/BioDiscoveryAgent/datasets/topmovers_Sanchez21_down.npy": "43010fdc72aacc797e20b432414e0632c6dd0410624c81046cba35dc90a9d755"
+      },
+      "hit_score_minmax": [
+        -19.45508127,
+        -2.099300133
+      ],
+      "task_payload_requests": 3244,
+      "prompt_hash_checks": 3244,
+      "validated_batches": 600,
+      "biological_direction": "Use literal task; processed score sign is not independently certified as biological effect direction",
+      "assay_variant": "Source task as released"
+    },
+    "Scharenberg22": {
+      "task": "identify genes mediating lysosomal choline recycling using an endolysosome-focused CRISPR-Cas9 screen",
+      "measurement": "enrichment or depletion of targeting sgRNAs (indicated by a high score) in the culture medium lacking free choline",
+      "pool_n": 1013,
+      "hits": 48,
+      "source_files": {
+        "Substrates/Repos/BioDiscoveryAgent/datasets/task_prompts/Scharenberg22.json": "99530927eb2eee61c079d92265edd144e045a647a047eb933360f3e9005258bf",
+        "Substrates/Repos/BioDiscoveryAgent/datasets/ground_truth_Scharenberg22.csv": "8af56bc1b87f446a1c5fb87f9a48d96a28d32baff228f2cbe2fea24559d08255",
+        "Substrates/Repos/BioDiscoveryAgent/datasets/topmovers_Scharenberg22.npy": "2d303eceb30f102c1c1b11fb616311648c072328df496febfb684b00cd3f0692"
+      },
+      "hit_score_minmax": [
+        94.1,
+        464.0
+      ],
+      "task_payload_requests": 5628,
+      "prompt_hash_checks": 5628,
+      "validated_batches": 600,
+      "biological_direction": "Use literal task; processed score sign is not independently certified as biological effect direction",
+      "assay_variant": "Source task as released"
+    },
+    "Steinhart_crispra_GD2_D22": {
+      "task": "identify genes that upon activation allow cells to resist T-cell exhaustion, under the HA GD2 CAR (chimeric-antigenic receptor) condition",
+      "measurement": "the log fold change in normalized sgRNA read counts compared to the non-targeting control, 22 days after perturbation",
+      "pool_n": 17608,
+      "hits": 139,
+      "source_files": {
+        "Substrates/Repos/BioDiscoveryAgent/datasets/task_prompts/Steinhart_crispra_GD2_D22.json": "aa42d9ba1428ffa5b3244161b0054ce7e0c4ff3024b6d47b0a1dd0602121a0f1",
+        "Substrates/Repos/BioDiscoveryAgent/datasets/ground_truth_Steinhart_crispra_GD2_D22.csv": "16ddc7bc76cfe4683c6cf235be549b64d0e402ca831cc673806590161919274a",
+        "Substrates/Repos/BioDiscoveryAgent/datasets/topmovers_Steinhart_crispra_GD2_D22.npy": "4e6b376d35503fe675f3a7a8072532cd80ddd92947252391170bb3ca6214d99d"
+      },
+      "hit_score_minmax": [
+        1.9494871143195465,
+        104.26443017879292
+      ],
+      "task_payload_requests": 3146,
+      "prompt_hash_checks": 3146,
+      "validated_batches": 600,
+      "biological_direction": "Use literal task; processed score sign is not independently certified as biological effect direction",
+      "assay_variant": "Source task as released"
+    }
+  },
+  "blocks": 840,
+  "recovery": {
+    "true_nn_exposed_campaigns": 162,
+    "B640_campaigns": 720,
+    "initial_incomplete": 3,
+    "complete_mask": 476
+  },
+  "bindings": {
+    "Substrates/Repos/BioDiscoveryAgent/datasets/task_prompts/Carnevale22_Adenosine.json": "69928ad0a2b1ef6e8e25b47a508f9148f4671869703b3cc69b3f9f4d39a2c7f3",
+    "Substrates/Repos/BioDiscoveryAgent/datasets/ground_truth_Carnevale22_Adenosine.csv": "07c8bf9c03daf1a13d02945d146c73d85233dfee945921df5265d9297169375d",
+    "Substrates/Repos/BioDiscoveryAgent/datasets/topmovers_Carnevale22_Adenosine.npy": "c2967f092f18c5892dd5dd791c3597ba05063da864685f6b5fe2575441b02b5a",
+    "Substrates/Repos/BioDiscoveryAgent/datasets/task_prompts/Sanchez21.json": "e9a5fcd93190eb4a15de8b0c3bb7e54d1ac01eb01f3acdad622d605f4d80300a",
+    "Substrates/Repos/BioDiscoveryAgent/datasets/ground_truth_Sanchez21.csv": "e86b3cf2bcadce16d57621acd86fa3834153a4130e48e2a8a4e016964c197a41",
+    "Substrates/Repos/BioDiscoveryAgent/datasets/topmovers_Sanchez21.npy": "30c7808c44a6a6d8c20f629d9a45b08eb9ba6c62744e8becd4fcd7a3d18bc13a",
+    "Substrates/Repos/BioDiscoveryAgent/datasets/task_prompts/IL2.json": "275068796ce5cf2379a6f215c95a614d7586025e6d4d0f3689b65e5f687e91a4",
+    "Substrates/Repos/BioDiscoveryAgent/datasets/ground_truth_IL2.csv": "40b27104ea01f9e38d42822a1021cee00529dca34fcf2c9cca7bd4bd79622503",
+    "Substrates/Repos/BioDiscoveryAgent/datasets/topmovers_IL2.npy": "f9f55cdc3f8efed82abaaeaaf770824f0b87d8298391a7b40e39286d3ab83ed1",
+    "Substrates/Repos/BioDiscoveryAgent/datasets/task_prompts/IFNG.json": "16665e63d40f0bfb194c64b0c83907944459e93a77adc05341804599c43abe08",
+    "Substrates/Repos/BioDiscoveryAgent/datasets/ground_truth_IFNG.csv": "89c363b196976bd5d4574c0edb3447e1f93c3075ccff94f031066d2aa4cdb333",
+    "Substrates/Repos/BioDiscoveryAgent/datasets/topmovers_IFNG.npy": "dce64c81e702c8f8888f925432041921dd205ed880a72898916a7e39eeddaa35",
+    "Substrates/Repos/BioDiscoveryAgent/datasets/task_prompts/Sanchez21_down.json": "f669d0b0f03182c6571571a31637c9f53f5d2e5fbd62607d2be178b8547895e8",
+    "Substrates/Repos/BioDiscoveryAgent/datasets/ground_truth_Sanchez21_down.csv": "901fa303cd6002464f6e32d75f7883e677b541b8586fedc381254895a72de7cc",
+    "Substrates/Repos/BioDiscoveryAgent/datasets/topmovers_Sanchez21_down.npy": "43010fdc72aacc797e20b432414e0632c6dd0410624c81046cba35dc90a9d755",
+    "Substrates/Repos/BioDiscoveryAgent/datasets/task_prompts/Scharenberg22.json": "99530927eb2eee61c079d92265edd144e045a647a047eb933360f3e9005258bf",
+    "Substrates/Repos/BioDiscoveryAgent/datasets/ground_truth_Scharenberg22.csv": "8af56bc1b87f446a1c5fb87f9a48d96a28d32baff228f2cbe2fea24559d08255",
+    "Substrates/Repos/BioDiscoveryAgent/datasets/topmovers_Scharenberg22.npy": "2d303eceb30f102c1c1b11fb616311648c072328df496febfb684b00cd3f0692",
+    "Substrates/Repos/BioDiscoveryAgent/datasets/task_prompts/Steinhart_crispra_GD2_D22.json": "aa42d9ba1428ffa5b3244161b0054ce7e0c4ff3024b6d47b0a1dd0602121a0f1",
+    "Substrates/Repos/BioDiscoveryAgent/datasets/ground_truth_Steinhart_crispra_GD2_D22.csv": "16ddc7bc76cfe4683c6cf235be549b64d0e402ca831cc673806590161919274a",
+    "Substrates/Repos/BioDiscoveryAgent/datasets/topmovers_Steinhart_crispra_GD2_D22.npy": "4e6b376d35503fe675f3a7a8072532cd80ddd92947252391170bb3ca6214d99d"
+  }
+}

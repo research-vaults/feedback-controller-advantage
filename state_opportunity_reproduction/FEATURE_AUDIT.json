@@ -1,0 +1,22 @@
+{
+  "states": 720,
+  "sources": [
+    "CAR-T",
+    "Carnevale",
+    "Sanchez",
+    "Schmidt"
+  ],
+  "readouts": 6,
+  "deployments": 6,
+  "first_batch_tests": 128,
+  "outcome_batch_tests": 128,
+  "paired_batch_records_checked": 1440,
+  "direct_rank_recomputations": 6,
+  "future_outcome_mutation_invariant_states": 720,
+  "features_sha256": "6cd23901bca14eba957600baee4698fdc6d6ceebf110bcff66958094b2a5c014",
+  "protocol_sha256": "43c5c1a051cc023aca3e4e52d6f1d03aac83dfce9f60faa9d6ab9f79bacda22d",
+  "labels_used_in_features": "ONLY_RELEASED_HITS_IN_RECORDED_INITIAL_128",
+  "source_exposure": "ALL_DEVELOPMENT",
+  "numpy_version": "2.4.6",
+  "api_calls": 0
+}

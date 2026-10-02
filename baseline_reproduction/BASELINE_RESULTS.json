@@ -1,0 +1,85 @@
+{
+  "cell_means": {
+    "ministral8b|Carnevale22_Adenosine": {
+      "llm": 55.65,
+      "original": 35.45,
+      "retuned": 35.5,
+      "uniform": 63.1
+    },
+    "ministral8b|IL2": {
+      "llm": 130.65,
+      "original": 59.45,
+      "retuned": 59.45,
+      "uniform": 176.05
+    },
+    "qwen25_7b|Carnevale22_Adenosine": {
+      "llm": 66.25,
+      "original": 32.6,
+      "retuned": 33.8,
+      "uniform": 64.55
+    },
+    "qwen25_7b|IL2": {
+      "llm": 130.65,
+      "original": 52.25,
+      "retuned": 52.25,
+      "uniform": 164.25
+    }
+  },
+  "cells": 4,
+  "contrasts": {
+    "llm_minus_retuned": {
+      "interval": [
+        44.64572916666667,
+        56.400000000000006
+      ],
+      "level": 0.9833333333333333,
+      "mean": 50.55
+    },
+    "retuned_minus_original": {
+      "interval": [
+        -0.8125,
+        1.4667708333333394
+      ],
+      "level": 0.9833333333333333,
+      "mean": 0.3125
+    },
+    "uniform_minus_retuned": {
+      "interval": [
+        68.1125,
+        75.0375
+      ],
+      "level": 0.9833333333333333,
+      "mean": 71.7375
+    }
+  },
+  "development_n": 16,
+  "development_trajectories": 320,
+  "means": {
+    "llm": 95.8,
+    "original": 44.9375,
+    "retuned": 45.25,
+    "uniform": 116.9875
+  },
+  "n": 80,
+  "paid_calls": 0,
+  "scope": "Retrospective, two fixed sources/models; intervals condition on development selection",
+  "selected": {
+    "Carnevale22_Adenosine": {
+      "beta": 2.0,
+      "id": "C17",
+      "kind": "LINEAR_UCB",
+      "length": null,
+      "noise": 10.0,
+      "target": "hit"
+    },
+    "IL2": {
+      "beta": 1.0,
+      "id": "C00",
+      "kind": "GP_UCB",
+      "length": 0.25,
+      "noise": 0.01,
+      "target": "hit"
+    }
+  },
+  "test_trajectories": 80
+}

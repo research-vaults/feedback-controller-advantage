@@ -1,0 +1,7 @@
+{
+  "at": "2026-09-24T22:00:49.676577+01:00",
+  "protocol_sha256": "e57921c9a9258ae872af5579d5331bd3b06f1c4fd63bac4c8ec0f53a291ff53b",
+  "input_rows_sha256": "4fc62263a59dee924fdd9941e038f60beefc27449c4232c306dacefba01f3834",
+  "input_summary_sha256": "9d4396e2dd0ed3c48dd0c90e23351aed26ea368b51c76d0ae6a0b84b2c402a56",
+  "prior_information": "Prior aggregate oracle, selected and regret means/intervals already read; new rates and excess-regret interval not yet computed"
+}
